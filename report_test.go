@@ -88,7 +88,7 @@ func TestWriteTable(t *testing.T) {
 	var doc Report
 	doc.Newdoc("demo.doc")
 	table := [][]interface{}{{"aaa", "bbb"}, {"a", "b"}, {"xxx", "yyyy"}}
-	err := doc.WriteTable(table)
+	err := doc.WriteTable(table, []interface{}{"Hello", "World"})
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -102,7 +102,7 @@ func TestWriteImage(t *testing.T) {
 	image1 := &Image{"1.png", "offlineWS-102-risk.png", 140.00, 160.00, 21600, 21600}
 	image2 := &Image{"2.png", "offlineWS-102-url.png", 140.00, 160.00, 21600, 21600}
 	images := []*Image{image1, image2}
-	if err := doc.WriteImage(images); err != nil {
+	if err := doc.WriteImage(images, false, ""); err != nil {
 		t.Errorf(err.Error())
 	} else {
 		t.Log("TestWriteImage Succeed")

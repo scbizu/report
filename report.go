@@ -141,11 +141,21 @@ func (doc *Report) WriteBR() error {
 }
 
 //WriteTable  ==表格的格式
-func (doc *Report) WriteTable(table [][]interface{}) error {
+func (doc *Report) WriteTable(tableBody [][]interface{}, tableHead []interface{}) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
+
+	if tableHead != nil {
+		XMLTable.WriteString(XMLTableTR)
+		for _, rowdata := range tableHead {
+			data := fmt.Sprintf(XMLHeadTableTD, rowdata)
+			XMLTable.WriteString(data)
+		}
+		XMLTable.WriteString(XMLTableEndTR)
+	}
+
 	//Generate format
-	for _, v := range table {
+	for _, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
 
 		for _ = range v {
@@ -154,10 +164,10 @@ func (doc *Report) WriteTable(table [][]interface{}) error {
 		XMLTable.WriteString(XMLTableEndTR)
 	}
 	XMLTable.WriteString(XMLTableFooter)
-
 	//serialization
 	var rows []interface{}
-	for _, row := range table {
+
+	for _, row := range tableBody {
 		for _, rowdata := range row {
 			rows = append(rows, rowdata)
 		}
@@ -165,6 +175,7 @@ func (doc *Report) WriteTable(table [][]interface{}) error {
 
 	//data fill in
 	tabledata := fmt.Sprintf(XMLTable.String(), rows...)
+
 	_, err := doc.Doc.WriteString(tabledata)
 	if err != nil {
 		return err
@@ -173,7 +184,7 @@ func (doc *Report) WriteTable(table [][]interface{}) error {
 }
 
 //WriteImage == 写入图片
-func (doc *Report) WriteImage(imagesData []*Image) error {
+func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) error {
 	xmlimage := bytes.Buffer{}
 
 	xmlimage.WriteString(XMLIMGTitle)
@@ -205,7 +216,10 @@ func (doc *Report) WriteImage(imagesData []*Image) error {
 			return err
 		}
 	}
-
+	if withtext {
+		inlineText := fmt.Sprintf(XMLInlineText, text)
+		xmlimage.WriteString(inlineText)
+	}
 	xmlimage.WriteString(XMLIMGtail)
 	doc.Doc.WriteString(xmlimage.String())
 	return nil

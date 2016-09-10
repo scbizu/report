@@ -555,7 +555,15 @@ const (
     </w:r>
   </w:p>
 	`
-
+	//XMLInlineText == 不换行的正文
+	XMLInlineText = `
+	<w:pPr>
+		<w:pStyle w:val="a2"/>
+	</w:pPr>
+	<w:r>
+		<w:t>%s</w:t>
+	</w:r>
+	`
 	//XMLTableHead ...
 	XMLTableHead = `
 		<w:tbl>
@@ -595,6 +603,25 @@ const (
   </w:p>
 </w:tc>
   `
+	//XMLHeadTableTD ...
+	XMLHeadTableTD = `
+	<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="2840" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+		<w:pPr>
+			<w:tabs>
+				<w:tab w:val="center" w:pos="1312"/>
+			</w:tabs>
+		</w:pPr>
+		<w:r>
+			<w:t>%s</w:t>
+		</w:r>
+	</w:p>
+</w:tc>
+	`
 	//XMLTableEndTR ...
 	XMLTableEndTR = `
 				</w:tr>
