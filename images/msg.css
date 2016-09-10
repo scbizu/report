@@ -1,0 +1,133 @@
+.error,.cmn_form_err {
+	font-size: 12px;
+	line-height: 20px;
+	color: #FF0000;
+	background-image: url(/images/warning.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	padding-left: 20px;
+}
+#error_1{
+	background-color: eaeaea;
+}
+
+#cmn_error{
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: 44px;
+	padding-left: 35%;
+	background-color: #EEEEEE;
+	border: 1px dashed #CCCCCC;
+}
+div.cmn_error{
+	background-image: url(images/error.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 5px 0px 0px 18px;
+	color:red;
+}
+div.cmn_error_1{
+	font-size: 12px;
+	float:left;
+	padding-left: 4px;
+	width:80%;
+	padding-top: 18px;
+}
+#cmn_warning{
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: 44px;
+	padding-left: 35%;
+	background-color: #EEEEEE;
+	border: 1px dashed #CCCCCC;
+}
+#cmn_warning1{
+	position: relative;
+	margin: 8px;
+	background-color: #EEEEEE;
+	border: 1px dashed #CCCCCC;
+	padding: 8px;
+	text-align:center;
+}
+div.cmn_warning{
+	background-image: url(images/warning.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 5px 0px 0px 18px;
+	color:red;
+}
+div.cmn_warning_1{
+	font-size: 12px;
+	float:left;
+	padding-left: 4px;
+	width:80%;
+	padding-top: 18px;
+}
+
+#cmn_info{
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: 44px;
+	padding-left: 35%;
+	background-color: #EEEEEE;
+	border: 1px dashed #CCCCCC;
+}
+div.cmn_info{
+	background-image: url(images/tip1.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 16px 0px 10px 44px;
+}
+div.cmn_info_1{
+	font-size: 12px;
+	float:left;
+	padding-left: 4px;
+	width:80%;
+	padding-top: 18px;
+}
+
+/*说明部分样式*/
+table.cmn_explain {
+	font-size:12px;
+	color:#000000;
+	width:100%;
+	border: 1px solid #c1c2e0;
+}
+table.cmn_explain img {
+	vertical-align:middle;
+	padding:0 0 3px 0 ;
+}
+table.cmn_explain tr td,table.cmn_explain tbody tr td {
+	padding:5px 0 5px 5px;
+}
+table.cmn_explain tr.even th {
+	word-break : keep-all ;
+	font-weight:normal;
+	background:#dadada;
+	text-align:right;
+	padding:5px 0 0 0;
+	vertical-align:top;
+}
+table.cmn_explain tr.even {
+	background:#e9e9e9;
+	color:#484848;
+}
+table.cmn_explain tr.odd {
+	background:#f3f3f3;
+    color:#484848;
+}
+
+/*注释文字样式*/
+.text_comment {
+	font-size:12px;
+	color:#999999;
+}

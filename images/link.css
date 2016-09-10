@@ -1,0 +1,30 @@
+a:link {
+	font-size: 12px;
+	color: #042953;
+	text-decoration:none;
+}
+a:visited {
+	font-size: 12px;
+	color: #042953;
+	text-decoration:none;
+}
+a:hover {
+	font-size: 12px;
+	text-decoration: none;
+	color:#FF6600;
+}
+a.msg:link {
+	font-size: 12px;
+	color: #1783b0;
+	text-decoration:none;
+}
+a.msg:visited {
+	font-size: 12px;
+	color: #1783b0;
+	text-decoration:none;
+}
+a.msg:hover {
+	font-size: 12px;
+	text-decoration: none;
+	color:#FF6600;
+}

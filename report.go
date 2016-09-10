@@ -8,8 +8,6 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
-
-	"github.com/fatih/color"
 )
 
 //Report implement the os.File
@@ -44,11 +42,11 @@ func (doc *Report) Newdoc(filename string) error {
 
 //WriteHead init the header
 func (doc *Report) WriteHead() error {
-	count, err := doc.Doc.WriteString(XMLHead)
+	_, err := doc.Doc.WriteString(XMLHead)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteHead wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	// color.Blue("[LOG]:WriteHead wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
@@ -79,55 +77,66 @@ func (doc *Report) WriteEndHead(sethdr bool, setftr bool, hdr string) error {
 //WriteTitle == 居中大标题
 func (doc *Report) WriteTitle(text string) error {
 	Title := fmt.Sprintf(XMLTitle, text)
-	count, err := doc.Doc.WriteString(Title)
+	_, err := doc.Doc.WriteString(Title)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//	color.Blue("[LOG]:WriteTitle Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
 //WriteTitle1 == 标题1的格式
 func (doc *Report) WriteTitle1(text string) error {
 	Title1 := fmt.Sprintf(XMLTitle1, text)
-	count, err := doc.Doc.WriteString(Title1)
+	_, err := doc.Doc.WriteString(Title1)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
 //WriteTitle2 == 标题2的格式
 func (doc *Report) WriteTitle2(text string) error {
 	Title2 := fmt.Sprintf(XMLTitle2, text)
-	count, err := doc.Doc.WriteString(Title2)
+	_, err := doc.Doc.WriteString(Title2)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle2 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//color.Blue("[LOG]:WriteTitle2 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	return nil
+}
+
+//WriteTitle2WithGrayBg == 灰色panel背景的标题2
+func (doc *Report) WriteTitle2WithGrayBg(text string) error {
+	Title2Gray := fmt.Sprintf(XMLTitle2WithGrayBg, text)
+	_, err := doc.Doc.WriteString(Title2Gray)
+	if err != nil {
+		return err
+	}
+	//color.Blue("[LOG]:WriteTitle2WithGrayBg Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
 //WriteTitle3 == 标题3的格式
 func (doc *Report) WriteTitle3(text string) error {
 	Title3 := fmt.Sprintf(XMLTitle3, text)
-	count, err := doc.Doc.WriteString(Title3)
+	_, err := doc.Doc.WriteString(Title3)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle3 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//color.Blue("[LOG]:WriteTitle3 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
 //WriteText == 正文的格式
 func (doc *Report) WriteText(text string) error {
 	Text := fmt.Sprintf(XMLText, text)
-	count, err := doc.Doc.WriteString(Text)
+	_, err := doc.Doc.WriteString(Text)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteText Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//color.Blue("[LOG]:WriteText Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
@@ -141,15 +150,19 @@ func (doc *Report) WriteBR() error {
 }
 
 //WriteTable  ==表格的格式
-func (doc *Report) WriteTable(tableBody [][]interface{}, tableHead []interface{}) error {
+func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interface{}) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
 
 	if tableHead != nil {
 		XMLTable.WriteString(XMLTableTR)
 		for _, rowdata := range tableHead {
-			data := fmt.Sprintf(XMLHeadTableTD, rowdata)
-			XMLTable.WriteString(data)
+			XMLTable.WriteString(XMLHeadTableTDBegin)
+			for _, rowEle := range rowdata {
+				data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
+				XMLTable.WriteString(data)
+			}
+			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
 		XMLTable.WriteString(XMLTableEndTR)
 	}
@@ -158,8 +171,12 @@ func (doc *Report) WriteTable(tableBody [][]interface{}, tableHead []interface{}
 	for _, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
 
-		for _ = range v {
-			XMLTable.WriteString(XMLTableTD)
+		for _, vv := range v {
+			XMLTable.WriteString(XMLHeadTableTDBegin)
+			for _ = range vv {
+				XMLTable.WriteString(XMLHeadtableTDText)
+			}
+			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
 		XMLTable.WriteString(XMLTableEndTR)
 	}
@@ -169,7 +186,9 @@ func (doc *Report) WriteTable(tableBody [][]interface{}, tableHead []interface{}
 
 	for _, row := range tableBody {
 		for _, rowdata := range row {
-			rows = append(rows, rowdata)
+			for _, rowEle := range rowdata {
+				rows = append(rows, rowEle)
+			}
 		}
 	}
 
@@ -228,23 +247,28 @@ func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) e
 //writehdr ==页眉格式  wrap fucntion
 func (doc *Report) writehdr(text string) error {
 	hdr := fmt.Sprintf(XMLhdr, text)
-	count, err := doc.Doc.WriteString(hdr)
+	_, err := doc.Doc.WriteString(hdr)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	//color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
 //writeftr == 页脚  wrap function
 func (doc *Report) writeftr() error {
 
-	count, err := doc.Doc.WriteString(XMLftr)
+	_, err := doc.Doc.WriteString(XMLftr)
 	if err != nil {
 		return err
 	}
-	color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	// color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
+}
+
+// TODO: 判断是否是资源  是的话 引入  否  按字符串处理
+func isResource(str string) bool {
+	return true
 }
 
 //CloseReport close file handle

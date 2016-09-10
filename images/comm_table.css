@@ -1,0 +1,100 @@
+body,td,th {
+	font-size: 12px;
+}
+table.report_table {
+	font-size:12px;
+	width:100%;
+}
+table.report_table tr th {
+	padding-left:3px;
+}
+table.report_table tbody tr {
+	height:18px;
+}
+table.report_table tbody tr.odd {
+	background:#ffffff;
+    color:#484848;
+}
+table.report_table tbody tr.even {
+	background:#e9e9e9;
+	color:#484848;
+}
+table.report_table tbody tr.child {
+	background:#EFEFEF;
+    color:#484848;
+}
+table.report_table tbody tr td{
+	padding-top:4px;
+	padding-left:12px;
+	padding-right:8px;
+}
+.report_table_title{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	background-color: #bababa;
+	padding-left:1px;
+	padding-top:2px;
+}
+.report_heading_title{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	padding-left:1px;
+	padding-top:2px;
+}.title{
+	font-size: 14px;
+}
+.report_title{
+	font-size: 12px;
+	font-weight: bold;
+	color: #464646;
+	text-align: left;
+	background-color: #ffffff;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.tdover {font-size:12px;background:#FFFFFF;}
+.recordInfo {
+	font-size:12px;
+	height:20px;
+}
+.recordInfoBold {
+	font-size:12px;
+	font-weight:bold;
+}
+.text_comment {
+	font-size:12px;
+	color:#999999;
+}
+#indexLevel1{
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 0px;
+}
+#indexLevel2{
+	padding-left: 10px;
+}
+.report_heading{
+	font-size: 16px;
+	font-weight: bolder;
+	padding-top: 12px;
+	padding-left:3px;
+	padding-bottom:10px;
+}
+.report_table1 {
+	height:20px;
+	background:#d9d9d9;
+	font-size: 12px;
+	color: #4A4A48;
+	text-align: left;
+	font-weight: bold;
+}
+.remark{
+    color: #999999;
+}

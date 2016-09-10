@@ -1,0 +1,74 @@
+form {
+	margin:0;
+}
+input.cmn_form{
+	font-size: 12px;
+	color: #484848;
+	background:#fff;
+	border: 1px solid #c0c1b3;
+}
+.cmn_form .text{
+	border:1px solid #c0c1b3;
+}
+.cmn_form .cmn_btn {
+	font-size: 12px;
+	color: #18395b;
+	background-color: #c1c2b4;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #5f80a2;
+	border-bottom-color: #5f80a2;
+	height:20px;
+	cursor:pointer;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.cmn_button {
+	font-size: 12px;
+	color: #18395b;
+	background-color: #c1c2b4;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #5f80a2;
+	border-bottom-color: #5f80a2;
+	height:20px;
+	cursor:pointer;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.cmn_button2 {
+	font-size: 12px;
+	color: #18395b;
+	background-color: #c1c2b4;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #5f80a2;
+	border-bottom-color: #5f80a2;
+	height:20px;
+	cursor:pointer;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	letter-spacing:1ex;
+}
+.cmn_btn_align {	/*表单底部按钮位置*/
+	text-align:right;
+	padding:0 1px 0 0;
+}

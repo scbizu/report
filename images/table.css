@@ -1,0 +1,187 @@
+table.cmn_table {
+	font-size:12px;
+	font-family:"宋体";
+	background:#e1e1e1;
+	border-spacing:1px;
+	width:100%;
+	border: 1px solid #FFFFFF;
+}
+/*	background:#e1e1e1;*/
+table.cmn_table thead tr.first_title,table.cmn_table tr.first_title{
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #bababa;
+	text-align: left;
+	height:20px;
+	padding:2px 10px 2px 3px;
+}
+table.cmn_table thead tr.second_title th,table.cmn_table tr.second_title th {
+	height:20px;
+	background:#dedede;
+	font-size: 12px;
+	color: #2d2d2b;
+	text-align: left;
+    font-weight:normal;
+}
+table.cmn_table thead tr th,table.cmn_table tr th {
+	text-align: left;
+    font-weight:normal;
+	color: #2d2d2b;
+	font-size: 12px;
+	padding-left:6px;
+}
+table.cmn_table thead tr.third_title,table.cmn_table tr.third_title {
+	height:20px;
+	background:#E0E0E0;
+	font-size: 12px;
+	color: #2d2d2b;
+	text-align: left;
+}
+table.cmn_table thead tr td,table.cmn_table tr td {
+	padding-left:3px;
+}
+table.cmn_table tbody tr.odd {
+	background:#f3f3f3;
+    color:#484848;
+}
+table.cmn_table tbody tr.even {
+	background:#fff;
+	color:#484848;
+}
+table.cmn_table tbody tr.child {
+	background:#EFEFEF;
+    color:#484848;
+}
+table.cmn_table tbody tr.sublist {
+	background:#F9F9F9;
+	color:#484848;
+}
+table.cmn_table tbody tr.son {
+	background:#fff;
+    color:#484848;
+}
+table.cmn_table tbody tr.tdover {
+	font-size:12px;
+	background:#eef9fd;
+}
+table.cmn_table tbody tr {
+	height:18px;
+}
+table.cmn_table tbody tr td{
+	padding-left:6px;
+}
+
+.recordInfo {
+	font-size:12px;
+	height:20px;
+}
+.recordInfoBold {
+	font-size:12px;
+	font-weight:bold;
+}
+.table_boder {
+	border: 1px solid #c1c2e0;
+}
+
+table.cmn_table_form {
+	font-size: 12px;
+	font-family:"宋体";
+	color: #484848;
+	border: 1px solid #e1e1e1;
+	width:100%;
+}
+table.cmn_table_form thead tr.first_title,table.cmn_table_form tr.first_title{
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #bababa;
+	text-align: left;
+	height:20px;
+	padding:2px 10px 2px 3px;
+}
+table.cmn_table_form tr.second_title {
+	height:20px;
+	background:#d9d9d9;
+	font-size: 12px;
+	color: #2d2d2b;
+	text-align: left;
+}
+table.cmn_table_form tr.third_title {
+	height:20px;
+	background:#e7e7e7;
+	font-size: 12px;
+	color: #2d2d2b;
+	text-align: center;
+}
+table.cmn_table_form tr.fourthly_title {
+	height:20px;
+	background:#cecdcd;
+	font-size: 12px;
+	color: #2d2d2b;
+}
+table.cmn_table_form thead tr td {
+	padding-left:3px;
+}
+table.cmn_table_form tbody tr.odd {
+	background:#f3f3f3;
+    color:#484848;
+}
+table.cmn_table_form tbody tr.even {
+	background:#e9e9e9;
+	color:#484848;
+}
+table.cmn_table_form tbody tr.child {
+	background:#EFEFEF;
+    color:#484848;
+}
+table.cmn_table_form tbody tr.tdover {
+	font-size:12px;
+	background:#eef9fd;
+}
+table.cmn_table_form tbody tr {
+	height:18px;
+}
+table.cmn_table_form tbody tr td{
+	padding-left:3px;
+}
+table.cmn_table_form tbody tr th{
+	width:50px;
+	font-weight:normal;
+	word-break:keep-all;
+	word-wrap:keep-all;
+	text-align:left;
+	padding:0 0 0 3px;
+}
+table.cmn_table tbody tr.even:hover,table.cmn_table tbody tr.odd:hover,table.cmn_table_form tbody tr.even:hover,table.cmn_table_form tbody tr.odd:hover {
+	background:#eef9fd;
+}
+.remark{
+    color: #999999;
+}
+hr {
+	height:1px;
+	border:0;
+	border-bottom: 1px solid #cccccc;
+}
+tr.bottom_line td,tr.bottom_line th {BORDER-BOTTOM: #bababa 1px solid;background:#fff;padding:5px 0 3px 0;}
+tr.bottom_line th {width:15%;}
+
+table.cmn_table tr td.checkwidth {	/*复选框宽度*/
+	width:24px
+}
+.cmn_table_border {
+	font-size: 12px;
+	color: #484848;
+	background:#fff;
+	border: 1px solid #c0c1b3;
+}
+
+table.cmn_table_bar{width:100%;border:0px}
+.cmn_table_bar a img{border:0px}
+.cmn_table_bar td.count{width:130px}
+.cmn_table_bar td.page{width:120px}
+.cmn_table_bar td.goto{width:140px}
+.cmn_table_bar td.page-size{text-align:right;}
+
+

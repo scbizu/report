@@ -1,0 +1,135 @@
+html,body,div,ul,li,h1,h2,h3,h4,h5,h6,input,select,textarea {margin:0;padding:0;font-size:12px;font-family:Verdana,Arial,Helvetica,sans-serif,"宋体";}
+body { 
+    font-family: Arial, Helvetica, sans-serif,宋体; font-size:12px;
+	background-color:white;
+    behavior: url(/js/csshover.htc);
+    padding:0;
+	margin:8px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+img {
+    border: 0px;
+	vertical-align:middle;
+}
+/*提示信息 add by wxh*/
+#statusInformation{width:150px;background:#DBFAFD;height:4px;padding:3px 0;border:1px solid #357990;right:8px;color:#000; position:absolute; top:8px; z-index:100; height:16px;padding:2px 4px;}
+#responseMessage{background:#FAD163 none repeat scroll 0%; color:#000; position:absolute; left:400px; top:2px; z-index:150; height:16px;padding:2px 4px;}
+.errorMessage{color: #FF0000;font-weight: bold;/*border:1px dashed; */}
+/* top / sub bar */
+#nmenu,#snmenu { margin-bottom:0px;margin-right:0px!important;margin-right:-1px; line-height:12px;border-left:1px #C1C2E0 solid;border-collapse:collapse;}
+#snmenu {border-left:0;}
+#nmenu div.selected,#snmenu div.selected,#snmenu div.selected {
+    border-bottom:0px white solid;
+    border-top:1px #c1c2e0 solid;
+    border-right:1px #c1c2e0 solid;
+	background:white;
+    padding:3px 21px 4px 21px;
+	font-weight:bold;
+    float:left;
+    cursor:default;border-collapse:collapse;
+}
+#snmenu div.selected {border-left:1px #c1c2e0 solid;}
+#nmenu div.selected a,#snmenu div.selected a { cursor:default }
+#nmenu div.unselected {
+    border-top:1px #C1C2E0 solid;
+    border-right:1px #C1C2E0 solid;
+    border-bottom:1px #C1C2E0 solid;
+    float:left;
+    padding:4px 21px 2px 21px;
+    font-weight:bold;
+    background:#dfdfdf;
+    cursor: default;border-collapse:collapse;
+}
+#snmenu div.unselected {
+    border-bottom:1px #c1c2e0 solid;
+    float:left;
+    padding:3px 21px 4px 21px;
+    font-weight:bold;
+    background:#dfdfdf;
+    cursor: pointer;border-collapse:collapse;
+}
+#nmenu div.bline,#snmenu div.bline { padding:4px 3px 3px 0px;border-bottom:1px #c1c2e0 solid;color:white;margin-right:0px; }
+#snmenu div.selected,#snmenu div.unselected {letter-spacing:1ex;}
+
+#help_text { border-collapse:collapse; border-spacing:1px; width:100%;}
+#help_text tr th { width:100px;vertical-align:text-top}
+/* border-notop-class of tab class */
+table.border-notop-class {border-left:1px #c1c2e0 solid;border-right:1px #c1c2e0 solid;border-bottom:1px #c1c2e0 solid;clear:both;width:100%;padding-right:2px;}
+/* process bar */
+div.green {
+    border: 1px black solid; 
+    height:12px; 
+    width:100px;
+    float:left;
+    background:url(images/task/green.gif) no-repeat;
+    margin:0px;padding:0;
+	overflow:hidden;
+}
+div.blue {
+    border: 1px black solid; 
+    line-height:10px; 
+    width:100px;
+    float:left;
+    background:url(images/task/blue.gif) no-repeat;display:block; 
+    margin:0px;padding:0;
+	overflow:hidden;
+
+}
+div.red {
+    border: 1px black solid; 
+    line-height:10px; 
+    width:100px;
+    float:left;
+    background:url(images/task/red.gif) no-repeat;display:block; 
+    margin:0px;padding:0;
+	overflow:hidden;
+
+}
+div.grey {
+    border: 1px black solid; 
+    line-height:10px; 
+    width:100px;
+    float:left;
+    background:url(images/task/grey.gif) no-repeat;display:block; 
+    margin:0px;padding:0;
+	overflow:hidden;
+}
+a.vul-vh,td.vul-vh { color:#e42b00!important }
+a.vul-vm,td.vul-vm { color:#9f6100!important }
+a.vul-vl,td.vul-vl { color:#737373!important }
+
+/* icon style for <img> */
+.icon {background:url(images/icon.gif) no-repeat;width:16px;height:16px;vertical-align:middle;}
+.icon.bjaq {background-position:0 -16px;}
+.icon.bjwx {background-position:-16px -16px;}
+.icon.fcaq {background-position:-32px -16px;}
+.icon.fcwx {background-position:-48px -16px;}
+.icon.bjaq_2 {background-position:0 0;}
+.icon.bjwx_2 {background-position:-16px 0;}
+.icon.fcaq_2 {background-position:-32px 0;}
+.icon.fcwx_2 {background-position:-48px 0;}
+.icon.vh {background-position:-64 -16px;}
+.icon.vl {background-position:-80px -16px;}
+.icon.vm {background-position:-96px -16px;}
+.icon.vh_2 {background-position:-64 0;}
+.icon.vl_2 {background-position:-80px 0;}
+.icon.vm_2 {background-position:-96px 0;}
+
+/* icon style for <b> */
+.ico {height:16px;font-size:16px;width:16px;padding:0 0 0 0;background-repeat:no-repeat;margin-right:0;overflow:hidden;}
+.ico.tplus {background-image:url(images/tree/Tplus.png);height:20px;font-size:20px;width:19px;}
+.ico.tminus {background-image:url(images/tree/Tminus.png);height:20px;font-size:20px;width:19px;}
+.ico.t {background-image:url(images/tree/T.png);height:20px;font-size:20px;width:19px;}
+.ico.lplus {background-image:url(images/tree/Lplus.png);height:16px;font-size:16px;width:19px;}
+.ico.lminus {background-image:url(images/tree/Lminus.png);height:16px;font-size:16px;width:19px;}
+.ico.l {background-image:url(images/tree/L.png);height:20px;font-size:20px;width:19px;}
+.ico.i {background-image:url(images/tree/I.png);height:20px;font-size:20px;width:19px;}
+.ico.ip {background-image:url(images/tree/ip.gif);}
+.ico.ip_assigned {background-image:url(images/tree/ip_assigned.gif);}
+.ico.node {background-image:url(images/tree/node.gif);}
+
+/* button style for <a> or other */
+a.cmn_btn {border-top:1px solid white;border-left:1px solid white;border-right:1px solid #5F80A3;border-bottom:1px solid #5F80A3;background:#C1C2B4;text-decoration:none;color:#19375B;height:20px;line-height:20px;text-align:center;padding:3px 10px 1px 10px!important;padding:1px 10px 0 10px;margin:2px 0;}
+
+.calendar {background:url(images/tree/calendar.gif) white no-repeat 89px 0!important;padding-left:2px;width:108px;}

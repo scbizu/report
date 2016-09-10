@@ -87,8 +87,8 @@ func TestWriteText(t *testing.T) {
 func TestWriteTable(t *testing.T) {
 	var doc Report
 	doc.Newdoc("demo.doc")
-	table := [][]interface{}{{"aaa", "bbb"}, {"a", "b"}, {"xxx", "yyyy"}}
-	err := doc.WriteTable(table, []interface{}{"Hello", "World"})
+	table := [][][]interface{}{{{"aaa"}, {"bbb"}}, {{"a"}, {"b"}}, {{"xxx"}, {"yyyy"}}}
+	err := doc.WriteTable(table, [][]interface{}{{"Hello"}, {"World"}})
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {

@@ -1,0 +1,62 @@
+table.cmn_tab {
+	width:100%;
+	background:url(images/line.jpg);
+}
+table.cmn_tab tr td {
+	height:22px;
+	text-align:center;
+}
+table.cmn_tab tr th {
+	text-align:right;
+	font-weight:normal;
+}
+table.cmn_tab tr td.tab_selected {
+	width:80px;
+	font-size: 12px;
+	font-family:"宋体";
+	color: #1b3a71;
+	text-decoration: none;
+	font-weight:bold;
+	margin-left:20px;
+	margin-right:20px;
+	border-top:solid 1px #c1c2e0;
+	border-left:solid 1px #c1c2e0;
+	border-right:solid 1px #c1c2e0;
+	border-bottom:none;
+	background-color:#FFFFFF;
+	cursor:pointer;
+}
+table.cmn_tab tr td.tab_unselected {
+	width:80px;
+	font-size: 12px;
+	font-family:"宋体";
+	color: #1b3a71;
+	text-decoration: none;
+	font-weight:bold;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#e0e0e0;
+	border-bottom:solid 1px #c1c2e0;
+	cursor:pointer;
+}
+table.cmn_tab tr td.tab_disabled {
+	width:80px;
+	font-size: 12px;
+	font-family:"宋体";
+	color: #999999;
+	text-decoration: none;
+	font-weight:bold;
+	cursor:default;
+}
+table.cmn_tab tr td{
+	padding-top:4px;
+	padding-left:6px;
+	padding-right:6px;
+}
+.tab_border {
+	border-left: 1px solid #c1c2e0;
+	border-right: 1px solid #c1c2e0;
+	border-bottom: 1px solid #c1c2e0;
+	width:100%;
+}
+/*th add by wxh*/

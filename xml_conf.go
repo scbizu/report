@@ -537,6 +537,18 @@ const (
     </w:r>
   </w:p>
 	`
+	//XMLTitle2WithGrayBg == 灰色背景的标题2
+	XMLTitle2WithGrayBg = `
+	<w:p>
+    <w:pPr>
+      <w:pStyle w:val="a3"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+    </w:pPr>
+    <w:r>
+      <w:t>%s</w:t>
+    </w:r>
+  </w:p>
+	`
 	//XMLTitle3 == 标题3
 	XMLTitle3 = `
 	<w:p>
@@ -569,17 +581,14 @@ const (
 	XMLTableHead = `
 		<w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="0" w:type="auto"/>
+					<w:tblW w:w="9138" w:type="dxa"/>
+
 					<w:tblBorders>
 						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
 					</w:tblBorders>
-					<w:tblLook w:val="04A0"/>
+
 				</w:tblPr>
-				<w:tblGrid>
-					<w:gridCol w:w="2840"/>
-					<w:gridCol w:w="2841"/>
-					<w:gridCol w:w="2841"/>
-				</w:tblGrid>
+
         `
 	//XMLTableTR ...
 	XMLTableTR = `
@@ -589,7 +598,7 @@ const (
 	XMLTableTD = `
   <w:tc>
   <w:tcPr>
-    <w:tcW w:w="2840" w:type="dxa"/>
+    <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
   <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
@@ -604,11 +613,11 @@ const (
   </w:p>
 </w:tc>
   `
-	//XMLHeadTableTD ...
-	XMLHeadTableTD = `
+	//XMLHeadTableTDBegin ...
+	XMLHeadTableTDBegin = `
 	<w:tc>
 	<w:tcPr>
-		<w:tcW w:w="2840" w:type="dxa"/>
+		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
@@ -617,9 +626,16 @@ const (
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		`
+	//XMLHeadtableTDText ..
+	XMLHeadtableTDText = `
 		<w:r>
 			<w:t>%s</w:t>
 		</w:r>
+		`
+
+	//XMLHeadTableTDEnd ...
+	XMLHeadTableTDEnd = `
 	</w:p>
 </w:tc>
 	`
