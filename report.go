@@ -153,28 +153,47 @@ func (doc *Report) WriteBR() error {
 func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interface{}) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
-
+	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		XMLTable.WriteString(XMLTableTR)
 		for _, rowdata := range tableHead {
 			XMLTable.WriteString(XMLHeadTableTDBegin)
 			for _, rowEle := range rowdata {
-				data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
-				XMLTable.WriteString(data)
+				if isResource(rowEle.(string)) {
+					//rowEle is a resource
+					str, err := writeImageToBuffer(rowEle.(string))
+					if err != nil {
+						return err
+					}
+					XMLTable.WriteString(str)
+					//由于图片需要连着字 所以这里不换行
+				} else {
+					//not
+					data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
+					XMLTable.WriteString(data)
+					//换行
+					XMLTable.WriteString(XMLBr)
+				}
+
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
 		XMLTable.WriteString(XMLTableEndTR)
 	}
 
-	//Generate format
+	//Generate formation
 	for _, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
 
 		for _, vv := range v {
-			XMLTable.WriteString(XMLHeadTableTDBegin)
-			for _ = range vv {
-				XMLTable.WriteString(XMLHeadtableTDText)
+			XMLTable.WriteString(XMLTableTD)
+			for _, vvv := range vv {
+				if isResource(vvv.(string)) {
+					XMLTable.WriteString(XMLIcon)
+				} else {
+					XMLTable.WriteString(XMLHeadtableTDText)
+					XMLTable.WriteString(XMLBr)
+				}
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
@@ -187,7 +206,18 @@ func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interfa
 	for _, row := range tableBody {
 		for _, rowdata := range row {
 			for _, rowEle := range rowdata {
-				rows = append(rows, rowEle)
+				if isResource(rowEle.(string)) {
+					//图片
+					imageSrc := rowEle.(string)
+					bindata, err := getImagedata(imageSrc)
+					URI := "wordml://" + imageSrc
+					if err != nil {
+						return err
+					}
+					rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+				} else {
+					rows = append(rows, rowEle)
+				}
 			}
 		}
 	}
@@ -215,18 +245,10 @@ func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) e
 		height := imagedata.Height
 		width := imagedata.Width
 
-		file, err := os.Open(imageSrc)
+		bindata, err := getImagedata(imageSrc)
 		if err != nil {
 			return err
 		}
-		defer file.Close()
-		//Get bindata , encode via Base64
-		finfo, _ := file.Stat()
-		size := finfo.Size()
-		buf := make([]byte, size)
-		encoder := bufio.NewReader(file)
-		encoder.Read(buf)
-		bindata := base64.StdEncoding.EncodeToString(buf)
 		URI := "wordml://" + URIDist
 		imageSec := fmt.Sprintf(XMLImage, URI, bindata, filepath.Base(imageSrc), strconv.FormatFloat(height, 'f', -1, 64),
 			strconv.FormatFloat(width, 'f', -1, 64), strconv.Itoa(coordsizeY), strconv.Itoa(coordsizeX), URI, filepath.Base(imageSrc))
@@ -242,6 +264,40 @@ func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) e
 	xmlimage.WriteString(XMLIMGtail)
 	doc.Doc.WriteString(xmlimage.String())
 	return nil
+}
+
+//writeImageToBuffer write image xml to buffer and return.
+func writeImageToBuffer(src string) (string, error) {
+	ResImage := bytes.Buffer{}
+	xmlimage := bytes.Buffer{}
+	xmlimage.WriteString(XMLIMGTitle)
+	imageSrc := src
+	URI := "wordml://" + imageSrc
+
+	bindata, err := getImagedata(imageSrc)
+	if err != nil {
+		return "", err
+	}
+	imageSec := fmt.Sprintf(XMLIcon, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+	ResImage.WriteString(imageSec)
+	return ResImage.String(), nil
+}
+
+//get bindata
+func getImagedata(src string) (string, error) {
+	file, err := os.Open(src)
+	if err != nil {
+		return "", err
+	}
+	defer file.Close()
+	//Get bindata , encode via Base64
+	finfo, _ := file.Stat()
+	size := finfo.Size()
+	buf := make([]byte, size)
+	encoder := bufio.NewReader(file)
+	encoder.Read(buf)
+	bindata := base64.StdEncoding.EncodeToString(buf)
+	return bindata, nil
 }
 
 //writehdr ==页眉格式  wrap fucntion
@@ -266,8 +322,14 @@ func (doc *Report) writeftr() error {
 	return nil
 }
 
-// TODO: 判断是否是资源  是的话 引入  否  按字符串处理
+// if the str is a resource file
+// BUG: other resorce can not be imported
 func isResource(str string) bool {
+	file, err := os.Open(str)
+	if err != nil {
+		return false
+	}
+	defer file.Close()
 	return true
 }
 

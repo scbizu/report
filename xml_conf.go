@@ -4,11 +4,12 @@ const (
 
 	//XMLHead ...
 	XMLHead = `
-  <?xml version="1.0" encoding="utf-8"?>
-  <?mso-application progid="Word.Document"?>
+	<?xml version="1.0" encoding="utf-8"?>
+	<?mso-application progid="Word.Document"?>
 
-  <w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
-	<w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+
+<w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+<w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
     <o:DocumentProperties>
       <o:Author>易焇</o:Author>
       <o:LastAuthor>scnace</o:LastAuthor>
@@ -607,11 +608,7 @@ const (
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>%s</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   `
 	//XMLHeadTableTDBegin ...
 	XMLHeadTableTDBegin = `
@@ -767,6 +764,23 @@ const (
 						</v:shape>
 			</w:pict>
 	</w:r>
+`
+	//XMLIcon always is used for table data
+	XMLIcon = `
+<w:r>
+		<w:pict>
+				<w:binData w:name="%s">%s</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="%s" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="%s" o:title="%s"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
 `
 	//XMLIMGtail ...
 	XMLIMGtail = `</w:p>`

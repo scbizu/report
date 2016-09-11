@@ -2,8 +2,8 @@
   <?xml version="1.0" encoding="utf-8"?>
   <?mso-application progid="Word.Document"?>
 
-  <w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
-	<w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+<w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+<w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
     <o:DocumentProperties>
       <o:Author>易焇</o:Author>
       <o:LastAuthor>scnace</o:LastAuthor>
@@ -563,12 +563,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>任务名称</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>任务名称</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -580,12 +585,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>  {{task_name}}</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>  {{task_name}}</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -601,12 +611,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>扫描模板</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>扫描模板</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -618,12 +633,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>	{{policy_name}}</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>	{{policy_name}}</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -639,12 +659,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>Web风险</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>Web风险</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -656,12 +681,32 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>  风险值:6.9</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/netrisk_dangerous.gif">R0lGODlhKAAoAPebAOVFAOFDANlAAO9KAN1BAOxJAOlHAP9UAL80AM46AP9XAPZOAPhPAPNMAMo5ALsyAP9bAMY3APtRAP1SALgxAP9fAMI1AP9jALUvALIuAP9nAK8tAP9qAK0sAP9tAKsrAP9wAMt/Zv/9/P/jzP/48//7+d2qmfHc1f9cDMBePOzPxr5HHv/DlvGaddGGbP+eYMViP96MbP+0iv+IM/749vnk2/vOuv/An++beP/Suv/Rsf+1e/hvMPjbz/NOA/Xi29ZDBsp1V9dTHv+BHv/Hmf+GJ/SylumnjdGKcv+PSPe6n/Tb0vO0mf79/P/Yuvnu6v+CJP/Lpfru6v6uh//Zuv/59veyk8NRJ/+wcsdWLf/fxtdyS/DZ0vrs5/9pA+ONbLM/GPthGP9ZA8s+Bv349vSifujGuv/v57AvA9idivPFsd1qPP+veP36+f9qIe7Syf+fac2AZvfn4f/cwNmFZv+/k/nHsfmIVNaYhL5CFf6Zaf/cw8M3A/9/JP97GM5sSPvz8MBTLfTXzLo+EvyuiuzQxu/Tyfv18/Th28ZtTv/t5LVEHv/17f7y7fTAq/3o3u+oisU/DP+IQvtVBv3Fq/+ZXf/38+Gfh/RZEtI8ANU+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJsALAAAAAAoACgAAAj/ADcJHEiwoMGDCBMq3ERixBwiVEYwWkjxoJYdRUBo3AhiCBYnFSlGgeKhpMmTJv2wEBHS4J4ZHGLKnEkzZh8dLQfW8aKhp8+fQIGyYVmxxIsLSJMqXcoUaRISFStVmEq1qtWrVSWVWCgDgtevYMOKFQtHYQ4xCtKqXcu2rdsbCC25OUC3rt27ePMeQKHo4JQJgAMLDlxwsGHAegxWCSOhsePHjgtCntx40pmClBho3syZc8HOoDcTKnhngenTqFEXTM36NA+CIjA1mE27du2CtnPT9tFo4KMBwIMLH15wuHHhNgbaKcC8ufPnBZ9Ld25loBID2LNr315wu3ftZQYa/wFAvrz58wXPqzffYiCTAPDjy59fcL59+TgGOiLAv7///wX9J6B/kAzUgwAIJqjgggUt6KCCagxEAxCaVGjhhRhmqGGGNRC0RiYghijiiCSWOKIQBR2RwIostthiQS7GyOIXBXUxhgM45qhjjgXt6GOOghgUQwREFmlkkQUdqSSRWxwkRSQWRCnllFEWROWVFvCxBEKXIODll2CGKeaYCNCRUBN/PKDmmmy26aabWZChECBXUGDnnXjmqSeeechB0Q8rYCDooIQWaqiggxgS0hMwZODoo5BGKmkgiOTUhgtobKDpppx2umkQh+Q00AmJdGDqqaimmsIbohpUCBKLfBwg66yzghGHGa0qxIUJaYTgKx4mqJDrsMQWG1JAADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="netrisk_dangerous.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/netrisk_dangerous.gif" o:title="netrisk_dangerous.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+
+		<w:r>
+			<w:t>  风险值:6.9</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -677,12 +722,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>域名统计</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>域名统计</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -694,12 +744,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>  已扫描域名数：1 </w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>  已扫描域名数：1 </w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -715,12 +770,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t></w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t></w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -732,12 +792,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t> 非常危险域名：0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t> 非常危险域名：0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -753,12 +818,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>信息统计</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>信息统计</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -770,12 +840,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t> 已扫描的文件：213</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t> 已扫描的文件：213</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -791,12 +866,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t></w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t></w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -808,12 +888,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>  有漏洞的文件：72</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>  有漏洞的文件：72</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -829,12 +914,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t></w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t></w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -846,12 +936,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t> 已扫描的链接：216</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t> 已扫描的链接：216</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -867,12 +962,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>时间统计</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>时间统计</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -884,12 +984,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>  开始：2011-11-09 15:51:00</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>  开始：2011-11-09 15:51:00</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -905,12 +1010,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t></w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t></w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -922,12 +1032,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t> 结束：2011-11-09 18:08:35</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t> 结束：2011-11-09 18:08:35</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -943,12 +1058,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t></w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t></w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -960,12 +1080,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t> 耗时：2 小时17 分35 秒</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t> 耗时：2 小时17 分35 秒</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
   </w:tbl>
@@ -1003,9 +1128,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>URL</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1020,9 +1149,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>漏洞数量</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1041,12 +1174,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1058,12 +1196,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>13</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>13</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1079,12 +1222,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1096,12 +1244,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>8</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>8</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1117,12 +1270,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1134,12 +1292,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1155,12 +1318,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1172,12 +1340,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1193,12 +1366,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/imgchange.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1210,12 +1388,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>6</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>6</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
   </w:tbl>
@@ -1253,9 +1436,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>URL</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1270,9 +1457,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>访问时间</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1291,12 +1482,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1308,12 +1504,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>13</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>13</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1329,12 +1530,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1346,12 +1552,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>8</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>8</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1367,12 +1578,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1384,12 +1600,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1405,12 +1626,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1422,12 +1648,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1443,12 +1674,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>http://www.xjbtw.com/imgchange.asp</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1460,12 +1696,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>6</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>6</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
   </w:tbl>
@@ -1545,9 +1786,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>目标</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1562,9 +1807,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>紧急</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1579,9 +1828,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>高风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1596,9 +1849,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>中风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1613,9 +1870,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>低风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1630,9 +1891,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>信息</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1647,9 +1912,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>风险值</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1668,12 +1937,32 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>192.168.168.250</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+
+		<w:r>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1685,12 +1974,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1702,12 +1996,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1719,12 +2018,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1736,12 +2040,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1753,12 +2062,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>10</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>10</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1770,12 +2084,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>10</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>10</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1791,12 +2110,32 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>192.168.168.250</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+
+		<w:r>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1808,12 +2147,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1825,12 +2169,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1842,12 +2191,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1859,12 +2213,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>7</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>7</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1876,12 +2235,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>10</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>10</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -1893,12 +2257,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>10</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>10</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
   </w:tbl>
@@ -1956,9 +2325,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>分类名</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1973,9 +2346,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>高风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -1990,9 +2367,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>中风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -2007,9 +2388,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>低风险</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -2024,9 +2409,13 @@
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
 		</w:pPr>
+		
 		<w:r>
 			<w:t>总计</w:t>
 		</w:r>
+		
+      <w:p/>
+
 	</w:p>
 </w:tc>
 	
@@ -2045,12 +2434,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>逻辑攻击类型:功能滥用</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>逻辑攻击类型:功能滥用</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2062,12 +2456,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2079,12 +2478,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2096,12 +2500,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2113,12 +2522,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2134,12 +2548,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>命令执行类型:SQL注入</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>命令执行类型:SQL注入</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2151,12 +2570,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2168,12 +2592,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2185,12 +2614,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2202,12 +2636,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2223,12 +2662,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>信息泄露类型:资源位置可预测</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>信息泄露类型:资源位置可预测</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2240,12 +2684,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2257,12 +2706,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2274,12 +2728,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>3</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>3</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2291,12 +2750,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>3</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>3</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2312,12 +2776,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>信息泄露类型:信息泄露</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>信息泄露类型:信息泄露</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2329,12 +2798,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2346,12 +2820,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2363,12 +2842,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>3</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>3</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2380,12 +2864,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>3</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>3</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
 	<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2401,12 +2890,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>其他</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>其他</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2418,12 +2912,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2435,12 +2934,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2452,12 +2956,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>0</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>0</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
   <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
@@ -2469,12 +2978,17 @@
         <w:tab w:val="center" w:pos="1312"/>
       </w:tabs>
     </w:pPr>
-    <w:r>
-      <w:t>1</w:t>
-    </w:r>
-  </w:p>
-</w:tc>
+
   
+		<w:r>
+			<w:t>1</w:t>
+		</w:r>
+		
+      <w:p/>
+
+	</w:p>
+</w:tc>
+	
 				</w:tr>
 
   </w:tbl>
