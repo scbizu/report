@@ -22,8 +22,8 @@ func main() {
 	doc.WriteTitle3("                          ———Web应用扫描")
 	doc.WriteTitle2WithGrayBg("1.综述")
 	table := [][][]interface{}{
-		{{"任务名称"}, {"  {{task_name}}"}},
-		{{"扫描模板"}, {"	{{policy_name}}"}},
+		{{"任务名称"}, {"{{task_name}}"}},
+		{{"扫描模板"}, {"{{policy_name}}"}},
 		{{"Web风险"}, {"../images/netrisk_dangerous.gif", "  风险值:6.9"}},
 		{{"域名统计"}, {"  已扫描域名数：1 "}},
 		{{""}, {" 非常危险域名：0"}},
