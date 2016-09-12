@@ -471,7 +471,7 @@ const (
 	//XMLTableHead ...
 	XMLTableHead = `<w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
 					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
@@ -491,20 +491,23 @@ const (
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
 `
+	//XMLTableTD2 ...
+	XMLTableTD2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr>`
 	//XMLHeadTableTDBegin ...
 	XMLHeadTableTDBegin = `<w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+`
+	//XMLHeadTableTDBegin2 ...
+	XMLHeadTableTDBegin2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -519,7 +522,6 @@ const (
 
 	//XMLHeadTableTDEnd ...
 	XMLHeadTableTDEnd = `
-	</w:p>
 </w:tc>
 `
 	//XMLTableEndTR ...

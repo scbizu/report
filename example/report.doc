@@ -395,6 +395,7 @@
 	    <wx:sect><w:p>
 <w:pPr>
 		<w:pStyle w:val="1"/>
+		<w:jc w:val="center"/>
 	</w:pPr>
 	<w:r>
 			<w:pict>
@@ -433,9 +434,14 @@
   </w:p>
 <w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -444,36 +450,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>任务名称</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t>  {{task_name}}</w:t>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
+			<w:t>{{task_name}}</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -481,36 +485,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>扫描模板</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t>	{{policy_name}}</w:t>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
+			<w:t>{{policy_name}}</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -518,31 +520,29 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>Web风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 		<w:pict>
 				<w:binData w:name="wordml://../images/netrisk_dangerous.gif">R0lGODlhKAAoAPebAOVFAOFDANlAAO9KAN1BAOxJAOlHAP9UAL80AM46AP9XAPZOAPhPAPNMAMo5ALsyAP9bAMY3APtRAP1SALgxAP9fAMI1AP9jALUvALIuAP9nAK8tAP9qAK0sAP9tAKsrAP9wAMt/Zv/9/P/jzP/48//7+d2qmfHc1f9cDMBePOzPxr5HHv/DlvGaddGGbP+eYMViP96MbP+0iv+IM/749vnk2/vOuv/An++beP/Suv/Rsf+1e/hvMPjbz/NOA/Xi29ZDBsp1V9dTHv+BHv/Hmf+GJ/SylumnjdGKcv+PSPe6n/Tb0vO0mf79/P/Yuvnu6v+CJP/Lpfru6v6uh//Zuv/59veyk8NRJ/+wcsdWLf/fxtdyS/DZ0vrs5/9pA+ONbLM/GPthGP9ZA8s+Bv349vSifujGuv/v57AvA9idivPFsd1qPP+veP36+f9qIe7Syf+fac2AZvfn4f/cwNmFZv+/k/nHsfmIVNaYhL5CFf6Zaf/cw8M3A/9/JP97GM5sSPvz8MBTLfTXzLo+EvyuiuzQxu/Tyfv18/Th28ZtTv/t5LVEHv/17f7y7fTAq/3o3u+oisU/DP+IQvtVBv3Fq/+ZXf/38+Gfh/RZEtI8ANU+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJsALAAAAAAoACgAAAj/ADcJHEiwoMGDCBMq3ERixBwiVEYwWkjxoJYdRUBo3AhiCBYnFSlGgeKhpMmTJv2wEBHS4J4ZHGLKnEkzZh8dLQfW8aKhp8+fQIGyYVmxxIsLSJMqXcoUaRISFStVmEq1qtWrVSWVWCgDgtevYMOKFQtHYQ4xCtKqXcu2rdsbCC25OUC3rt27ePMeQKHo4JQJgAMLDlxwsGHAegxWCSOhsePHjgtCntx40pmClBho3syZc8HOoDcTKnhngenTqFEXTM36NA+CIjA1mE27du2CtnPT9tFo4KMBwIMLH15wuHHhNgbaKcC8ufPnBZ9Ld25loBID2LNr315wu3ftZQYa/wFAvrz58wXPqzffYiCTAPDjy59fcL59+TgGOiLAv7///wX9J6B/kAzUgwAIJqjgggUt6KCCagxEAxCaVGjhhRhmqGGGNRC0RiYghijiiCSWOKIQBR2RwIostthiQS7GyOIXBXUxhgM45qhjjgXt6GOOghgUQwREFmlkkQUdqSSRWxwkRSQWRCnllFEWROWVFvCxBEKXIODll2CGKeaYCNCRUBN/PKDmmmy26aabWZChECBXUGDnnXjmqSeeechB0Q8rYCDooIQWaqiggxgS0hMwZODoo5BGKmkgiOTUhgtobKDpppx2umkQh+Q00AmJdGDqqaimmsIbohpUCBKLfBwg66yzghGHGa0qxIUJaYTgKx4mqJDrsMQWG1JAADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="netrisk_dangerous.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
@@ -556,12 +556,18 @@
 					</v:shape>
 		</w:pict>
 </w:r>
-<w:r>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>  风险值:6.9</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -569,73 +575,44 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>域名统计</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>  已扫描域名数：1 </w:t>
 		</w:r>
 <w:p/>
-
-	</w:p>
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t></w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t> 非常危险域名：0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -643,73 +620,54 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>信息统计</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t> 已扫描的文件：213</w:t>
 		</w:r>
 <w:p/>
-
-	</w:p>
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t></w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>  有漏洞的文件：72</w:t>
 		</w:r>
 <w:p/>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
+			<w:t>已扫描的链接：216</w:t>
+		</w:r>
+<w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -717,147 +675,54 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t></w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t> 已扫描的链接：216</w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>时间统计</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>  开始：2011-11-09 15:51:00</w:t>
 		</w:r>
 <w:p/>
-
-	</w:p>
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t></w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t> 结束：2011-11-09 18:08:35</w:t>
 		</w:r>
 <w:p/>
-
-	</w:p>
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
-			<w:t></w:t>
-		</w:r>
-<w:p/>
-
-	</w:p>
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+</w:p>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t> 耗时：2 小时17 分35 秒</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr></w:tbl><w:p>
     <w:pPr>
@@ -869,9 +734,14 @@
   </w:p>
 <w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -880,7 +750,7 @@
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -890,15 +760,15 @@
 			<w:t>URL</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -908,8 +778,8 @@
 			<w:t>漏洞数量</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -917,36 +787,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>13</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -954,36 +822,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>8</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -991,36 +857,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1028,36 +892,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1065,36 +927,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>6</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr></w:tbl><w:p>
     <w:pPr>
@@ -1106,9 +966,14 @@
   </w:p>
 <w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1117,7 +982,7 @@
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1127,15 +992,15 @@
 			<w:t>URL</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1145,8 +1010,8 @@
 			<w:t>访问时间</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1154,36 +1019,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>13</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1191,36 +1054,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>8</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1228,36 +1089,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1265,36 +1124,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1302,36 +1159,34 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>6</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr></w:tbl><w:p>
     <w:pPr>
@@ -1383,9 +1238,14 @@
   </w:p>
 <w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1394,7 +1254,7 @@
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1404,15 +1264,15 @@
 			<w:t>目标</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1422,15 +1282,15 @@
 			<w:t>紧急</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1440,15 +1300,15 @@
 			<w:t>高风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1458,15 +1318,15 @@
 			<w:t>中风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1476,15 +1336,15 @@
 			<w:t>低风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1494,15 +1354,15 @@
 			<w:t>信息</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1512,8 +1372,8 @@
 			<w:t>风险值</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1521,13 +1381,12 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 		<w:pict>
 				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
@@ -1545,116 +1404,110 @@
 			<w:t>192.168.168.250</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>10</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>10</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1662,13 +1515,12 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 		<w:pict>
 				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
@@ -1686,116 +1538,110 @@
 			<w:t>192.168.168.250</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>7</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>10</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>10</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr></w:tbl><w:p/>
 <w:p>
@@ -1826,9 +1672,14 @@
 <w:p/>
 <w:tbl>
 				<w:tblPr>
-					<w:tblW w:w="9138" w:type="dxa"/>
+					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1837,7 +1688,7 @@
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1847,15 +1698,15 @@
 			<w:t>分类名</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1865,15 +1716,15 @@
 			<w:t>高风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1883,15 +1734,15 @@
 			<w:t>中风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1901,15 +1752,15 @@
 			<w:t>低风险</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="3046" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-	<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
 		<w:pPr>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
@@ -1919,8 +1770,8 @@
 			<w:t>总计</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -1928,90 +1779,85 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>逻辑攻击类型:功能滥用</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -2019,90 +1865,85 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>命令执行类型:SQL注入</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -2110,90 +1951,85 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>信息泄露类型:资源位置可预测</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>3</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>3</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -2201,90 +2037,85 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>信息泄露类型:信息泄露</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>3</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>3</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
@@ -2292,90 +2123,85 @@
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>其他</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>0</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 <w:tc>
   <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
   </w:tcPr>
-  <w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-    <w:pPr>
-      <w:tabs>
-        <w:tab w:val="center" w:pos="1312"/>
-      </w:tabs>
-    </w:pPr>
-<w:r>
+<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+     <w:pPr>
+       <w:tabs>
+         <w:tab w:val="center" w:pos="1312"/>
+       </w:tabs>
+     </w:pPr><w:r>
 			<w:t>1</w:t>
 		</w:r>
 <w:p/>
+</w:p>
 
-	</w:p>
 </w:tc>
 </w:tr></w:tbl><w:sectPr><w:ftr w:type="odd">
 	<w:p>

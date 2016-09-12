@@ -150,7 +150,7 @@ func (doc *Report) WriteBR() error {
 }
 
 //WriteTable  ==表格的格式
-func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interface{}) error {
+func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
 	//handle TableHead :Split with TableBody
@@ -158,7 +158,13 @@ func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interfa
 		XMLTable.WriteString(XMLTableTR)
 		for _, rowdata := range tableHead {
 			XMLTable.WriteString(XMLHeadTableTDBegin)
+			if inline {
+				XMLTable.WriteString(XMLHeadTableTDBegin2)
+			}
 			for _, rowEle := range rowdata {
+				if !inline {
+					XMLTable.WriteString(XMLHeadTableTDBegin2)
+				}
 				if isResource(rowEle.(string)) {
 					//rowEle is a resource
 					str, err := writeImageToBuffer(rowEle.(string))
@@ -174,7 +180,12 @@ func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interfa
 					//换行
 					XMLTable.WriteString(XMLBr)
 				}
-
+				if !inline {
+					XMLTable.WriteString(XMLIMGtail)
+				}
+			}
+			if inline {
+				XMLTable.WriteString(XMLIMGtail)
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
@@ -187,13 +198,25 @@ func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interfa
 
 		for _, vv := range v {
 			XMLTable.WriteString(XMLTableTD)
+			if inline {
+				XMLTable.WriteString(XMLTableTD2)
+			}
 			for _, vvv := range vv {
+				if !inline {
+					XMLTable.WriteString(XMLTableTD2)
+				}
 				if isResource(vvv.(string)) {
 					XMLTable.WriteString(XMLIcon)
 				} else {
 					XMLTable.WriteString(XMLHeadtableTDText)
 					XMLTable.WriteString(XMLBr)
 				}
+				if !inline {
+					XMLTable.WriteString(XMLIMGtail)
+				}
+			}
+			if inline {
+				XMLTable.WriteString(XMLIMGtail)
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
