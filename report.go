@@ -235,8 +235,14 @@ func (doc *Report) WriteTable(tableBody [][][]interface{}, tableHead [][]interfa
 //WriteImage == 写入图片
 func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) error {
 	xmlimage := bytes.Buffer{}
+	//write fontStyle
 
 	xmlimage.WriteString(XMLIMGTitle)
+	if withtext {
+		//偷个懒  指定为1
+		fontStyle := fmt.Sprintf(XMLFontStyle, "1")
+		xmlimage.WriteString(fontStyle)
+	}
 	for _, imagedata := range imagesData {
 		imageSrc := imagedata.ImageSrc
 		URIDist := imagedata.URIDist

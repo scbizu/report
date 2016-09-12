@@ -473,7 +473,12 @@ const (
 				<w:tblPr>
 					<w:tblW w:w="9138" w:type="dxa"/>
 					<w:tblBorders>
-						<w:top w:val="thick-thin-medium-gap" w:sz="24" wx:bdrwidth="120" w:space="0" w:color="A5A5A5"/>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
 					</w:tblBorders>
 				</w:tblPr>
 `
