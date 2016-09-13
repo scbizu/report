@@ -397,7 +397,8 @@ const (
 	    </wsp:rsids>
 	  </w:docPr>
 	  <w:body>
-	    <wx:sect>`
+	    <wx:sect>
+`
 	//XMLTitle == 居中标题1
 	XMLTitle = `<w:p>
 		<w:pPr>
@@ -494,11 +495,29 @@ const (
 `
 	//XMLTableTD2 ...
 	XMLTableTD2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr>`
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	`
 	//XMLHeadTableTDBegin ...
 	XMLHeadTableTDBegin = `<w:tc>
 	<w:tcPr>
@@ -508,11 +527,28 @@ const (
 `
 	//XMLHeadTableTDBegin2 ...
 	XMLHeadTableTDBegin2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 `
 	//XMLHeadtableTDText ..
 	XMLHeadtableTDText = `<w:r>
@@ -525,11 +561,14 @@ const (
 </w:tc>
 `
 	//XMLTableEndTR ...
-	XMLTableEndTR = `</w:tr>`
+	XMLTableEndTR = `</w:tr>
+`
 	//XMLTableFooter ...
-	XMLTableFooter = `</w:tbl>`
+	XMLTableFooter = `</w:tbl>
+`
 	//XMLSectBegin ...
-	XMLSectBegin = `<w:sectPr>`
+	XMLSectBegin = `<w:sectPr>
+`
 	//XMLSectEnd ..
 	XMLSectEnd = `<w:pgSz w:w="11906" w:h="16838"/>
 	<w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>

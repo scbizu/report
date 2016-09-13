@@ -27,7 +27,7 @@ type Image struct {
 
 //Newdoc init the MS doc file ,don't forget to close.
 func (doc *Report) Newdoc(filename string) error {
-	file, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
+	file, err := os.OpenFile(filename, os.O_WRONLY, os.ModeAppend)
 	if err != nil {
 		file, err = os.Create(filename)
 		if err != nil {
