@@ -214,9 +214,9 @@ func (doc *Report) WriteTable(table *Table) error {
 				if !inline {
 					XMLTable.WriteString(XMLHeadTableTDBegin2)
 				}
-				if isResource(rowEle.(string)) {
+				if image, ok := rowEle.(*Image); ok {
 					//rowEle is a resource
-					str, err := writeImageToBuffer(rowEle.(string))
+					str, err := writeImageToBuffer(image)
 					if err != nil {
 						return err
 					}
@@ -266,8 +266,14 @@ func (doc *Report) WriteTable(table *Table) error {
 					XMLTable.WriteString(XMLMagicFooter)
 					//image or text
 				} else {
-					if isResource(vvv.(string)) {
+					if icon, ko := vvv.(*Image); ko {
+						if icon.Hyperlink != "" {
+							XMLTable.WriteString(XMLImageLinkTitle)
+						}
 						XMLTable.WriteString(XMLIcon)
+						if icon.Hyperlink != "" {
+							XMLTable.WriteString(XMLImageLinkEnd)
+						}
 					} else {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
@@ -291,15 +297,20 @@ func (doc *Report) WriteTable(table *Table) error {
 		for _, rowdata := range row {
 			for _, rowEle := range rowdata {
 				if _, ok := rowEle.([][][]interface{}); !ok {
-					if isResource(rowEle.(string)) {
+					if icon, ok := rowEle.(*Image); ok {
 						//图片
-						imageSrc := rowEle.(string)
+						imageSrc := icon.ImageSrc
 						bindata, err := getImagedata(imageSrc)
-						URI := "wordml://" + imageSrc
+						URI := "wordml://" + icon.URIDist
 						if err != nil {
 							return err
 						}
-						rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+
+						if icon.Hyperlink != "" {
+							rows = append(rows, icon.Hyperlink, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+						} else {
+							rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+						}
 					} else {
 						rows = append(rows, rowEle)
 					}
@@ -336,7 +347,12 @@ func (doc *Report) WriteImage(withtext bool, text string, imagesData ...*Image) 
 		coordsizeY := imagedata.CoordsizeY
 		height := imagedata.Height
 		width := imagedata.Width
-
+		hyperlink := imagedata.Hyperlink
+		//embedding hyperlink
+		if hyperlink != "" {
+			imageLink := fmt.Sprintf(XMLImageLinkTitle, hyperlink)
+			xmlimage.WriteString(imageLink)
+		}
 		bindata, err := getImagedata(imageSrc)
 		if err != nil {
 			return err
@@ -344,9 +360,10 @@ func (doc *Report) WriteImage(withtext bool, text string, imagesData ...*Image) 
 		URI := "wordml://" + URIDist
 		imageSec := fmt.Sprintf(XMLImage, URI, bindata, filepath.Base(imageSrc), strconv.FormatFloat(height, 'f', -1, 64),
 			strconv.FormatFloat(width, 'f', -1, 64), strconv.Itoa(coordsizeY), strconv.Itoa(coordsizeX), URI, filepath.Base(imageSrc))
-		_, err = xmlimage.WriteString(imageSec)
-		if err != nil {
-			return err
+		xmlimage.WriteString(imageSec)
+		//hyper link
+		if hyperlink != "" {
+			xmlimage.WriteString(XMLImageLinkEnd)
 		}
 	}
 	if withtext {
@@ -359,12 +376,15 @@ func (doc *Report) WriteImage(withtext bool, text string, imagesData ...*Image) 
 }
 
 //writeImageToBuffer write image xml to buffer and return.
-func writeImageToBuffer(src string) (string, error) {
+func writeImageToBuffer(image *Image) (string, error) {
 	ResImage := bytes.Buffer{}
-	xmlimage := bytes.Buffer{}
-	xmlimage.WriteString(XMLIMGTitle)
-	imageSrc := src
-	URI := "wordml://" + imageSrc
+	// xmlimage := bytes.Buffer{}
+	// xmlimage.WriteString(XMLIMGTitle)
+	if image.Hyperlink != "" {
+		ResImage.WriteString(XMLImageLinkTitle)
+	}
+	imageSrc := image.ImageSrc
+	URI := "wordml://" + image.URIDist
 
 	bindata, err := getImagedata(imageSrc)
 	if err != nil {
@@ -372,6 +392,7 @@ func writeImageToBuffer(src string) (string, error) {
 	}
 	imageSec := fmt.Sprintf(XMLIcon, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
 	ResImage.WriteString(imageSec)
+	ResImage.WriteString(XMLImageLinkEnd)
 	return ResImage.String(), nil
 }
 
@@ -392,9 +413,9 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 				if !inline {
 					XMLTable.WriteString(XMLHeadTableTDBegin2)
 				}
-				if isResource(rowEle.(string)) {
+				if image, ok := rowEle.(*Image); ok {
 					//rowEle is a resource
-					str, err := writeImageToBuffer(rowEle.(string))
+					str, err := writeImageToBuffer(image)
 					if err != nil {
 						return "", err
 					}
@@ -531,7 +552,7 @@ func isResource(str string) bool {
 }
 
 //NewImage init a image with fixed CoordsizeX & CoordsizeY
-func NewImage(URIdist string, imageSrc string, height float64, width float64) *Image {
+func NewImage(URIdist string, imageSrc string, height float64, width float64, hyperlink string) *Image {
 	img := &Image{}
 	img.URIDist = URIdist
 	img.ImageSrc = imageSrc
@@ -539,6 +560,7 @@ func NewImage(URIdist string, imageSrc string, height float64, width float64) *I
 	img.Width = width
 	img.CoordsizeX = 21600
 	img.CoordsizeY = 21600
+	img.Hyperlink = hyperlink
 	return img
 }
 
