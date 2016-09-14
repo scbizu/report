@@ -451,6 +451,17 @@ const (
     </w:r>
   </w:p>
 `
+	//XMLTitle3WithGrayBg == 灰色背景的标题3
+	XMLTitle3WithGrayBg = `<w:p>
+	<w:pPr>
+		<w:pStyle w:val="3"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:pPr>
+	<w:r>
+		<w:t>%s</w:t>
+	</w:r>
+</w:p>
+`
 	//XMLText == 正文
 	XMLText = `<w:p>
     <w:r>
@@ -475,13 +486,27 @@ const (
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
+`
+	//XMLTableInTableHead == 表中表的样式头
+	XMLTableInTableHead = `<w:tbl>
+			<w:tblPr>
+				<w:tblW w:w="8380" w:type="dxa"/>
+				<w:tblBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="nil"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tblBorders>
+			</w:tblPr>
 `
 	//XMLTableTR ...
 	XMLTableTR = `<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -489,12 +514,21 @@ const (
 	//XMLTableTD ...
 	XMLTableTD = `<w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="%s" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="%s"/>
   </w:tcPr>
 `
+	//XMLTableInTableTD ...
+	XMLTableInTableTD = `<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+`
+
 	//XMLTableTD2 ...
-	XMLTableTD2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+	XMLTableTD2 = `<w:p>
 	<w:pPr>
 		<w:keepNext w:val="off"/>
 		<w:keepLines w:val="off"/>
@@ -521,12 +555,19 @@ const (
 	//XMLHeadTableTDBegin ...
 	XMLHeadTableTDBegin = `<w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="%s" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 `
+	//XMLHeadTableInTableTDBegin ...
+	XMLHeadTableInTableTDBegin = `<w:tc>
+<w:tcPr>
+	<w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+</w:tcPr>
+`
 	//XMLHeadTableTDBegin2 ...
-	XMLHeadTableTDBegin2 = `<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
+	XMLHeadTableTDBegin2 = `<w:p>
 	<w:pPr>
 		<w:keepNext w:val="off"/>
 		<w:keepLines w:val="off"/>
@@ -563,6 +604,35 @@ const (
 	//XMLTableEndTR ...
 	XMLTableEndTR = `</w:tr>
 `
+	//XMLMagicFooter  HACK:I struggle for a long time,at last ,I find it is necessary,and don't konw why.
+	XMLMagicFooter = `<w:p>
+		<w:pPr>
+			<w:keepNext w:val="off"/>
+			<w:keepLines w:val="off"/>
+			<w:pageBreakBefore w:val="off"/>
+			<w:widowControl w:val="off"/>
+			<w:tabs>
+				<w:tab w:val="center" w:pos="1312"/>
+			</w:tabs>
+			<w:kinsoku/>
+			<w:wordWrap/>
+			<w:overflowPunct/>
+			<w:topLinePunct w:val="off"/>
+			<w:autoSpaceDE/>
+			<w:autoSpaceDN/>
+			<w:adjustRightInd/>
+			<w:snapToGrid/>
+			<w:spacing w:line="360" w:line-rule="exact"/>
+			<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+			<w:jc w:val="both"/>
+			<w:textAlignment w:val="auto"/>
+			<w:outlineLvl w:val="9"/>
+		</w:pPr>
+		<w:r>
+				<w:t></w:t>
+			</w:r>
+	</w:p>
+	`
 	//XMLTableFooter ...
 	XMLTableFooter = `</w:tbl>
 `
