@@ -88,10 +88,12 @@ func TestWriteTable(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
 	table := [][][]interface{}{{{"aaa"}, {"bbb"}}, {{"a"}, {"b"}}, {{"xxx"}, {"yyyy"}}}
+	head := [][]interface{}{{"Hello"}, {"World"}}
 	trSpan := []int{0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190}
 	thw := []int{4190, 4190}
-	err := doc.WriteTable(false, table, [][]interface{}{{"Hello"}, {"World"}}, thw, trSpan, tdw)
+	tableObj := NewTable(false, table, head, thw, trSpan, tdw)
+	err := doc.WriteTable(tableObj)
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -102,8 +104,8 @@ func TestWriteTable(t *testing.T) {
 func TestWriteImage(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	image1 := &Image{"1.png", "offlineWS-102-risk.png", 140.00, 160.00, 21600, 21600}
-	image2 := &Image{"2.png", "offlineWS-102-url.png", 140.00, 160.00, 21600, 21600}
+	image1 := NewImage("1.png", "offlineWS-102-risk.png", 140.00, 160.00)
+	image2 := NewImage("2.png", "offlineWS-102-url.png", 140.00, 160.00)
 	images := []*Image{image1, image2}
 	if err := doc.WriteImage(false, "", images...); err != nil {
 		t.Errorf(err.Error())

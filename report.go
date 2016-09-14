@@ -17,16 +17,38 @@ type Report struct {
 
 //Image include image configuration.
 type Image struct {
-	URIDist    string  `json:"uridist"`
-	ImageSrc   string  `json:"imagesrc"`
-	Height     float64 `json:"height"`
-	Width      float64 `json:"width"`
-	CoordsizeX int     `json:"coordsizeX"`
-	CoordsizeY int     `json:"coordsizeY"`
+	//This image will link to ?
+	Hyperlink string `json:"hyperlink"`
+	//destination of the URI in WORD (where it will go to?)
+	URIDist string `json:"uridist"`
+	//source of the image
+	ImageSrc string `json:"imagesrc"`
+	//image height  (pixel)
+	Height float64 `json:"height"`
+	//image width  (pixel)
+	Width float64 `json:"width"`
+	//Zoom image     (pixel)  You'd bette not to change this default value
+	CoordsizeX int `json:"coordsizeX"`
+	//Zoom
+	CoordsizeY int `json:"coordsizeY"`
 }
 
 //Table include table configuration.
 type Table struct {
+	//Text OR Image in the sanme line
+	Inline bool `json:"inline"`
+	//Table data except table head
+	TableBody [][][]interface{} `json:"tablebody"`
+	//Table head data
+	TableHead [][]interface{} `json:"tablehead"`
+	// NOTE: Because of  the title line ,the Total width is 8380.
+	//Table head width,you should  list all width inside the table head          (pixel)
+	Thw []int `json:"thw"`
+	//Table body width ,you should list all width inside the table body     (pixel)
+	Tdw []int `json:"tdw"`
+	///////////////////////////////////////////////////////////
+	//you can merge cells use GridSpan ,if you need not ,just set 0.
+	GridSpan []int `json:"gridspan"`
 }
 
 //NewDoc new a Document
@@ -170,9 +192,15 @@ func (doc *Report) WriteBR() error {
 }
 
 //WriteTable  ==表格的格式
-func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) error {
+func (doc *Report) WriteTable(table *Table) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
+	inline := table.Inline
+	tableBody := table.TableBody
+	tableHead := table.TableHead
+	thw := table.Thw
+	gridSpan := table.GridSpan
+	tdw := table.Tdw
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		XMLTable.WriteString(XMLTableTR)
@@ -512,6 +540,18 @@ func NewImage(URIdist string, imageSrc string, height float64, width float64) *I
 	img.CoordsizeX = 21600
 	img.CoordsizeY = 21600
 	return img
+}
+
+//NewTable create a table
+func NewTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) *Table {
+	table := &Table{}
+	table.Inline = inline
+	table.TableBody = tableBody
+	table.TableHead = tableHead
+	table.Tdw = tdw
+	table.Thw = thw
+	table.GridSpan = gridSpan
+	return table
 }
 
 //CloseReport close file handle

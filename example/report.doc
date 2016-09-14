@@ -438,11 +438,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1064,11 +1064,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -1515,11 +1515,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2006,11 +2006,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -2807,11 +2807,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -3885,11 +3885,11 @@
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
 					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="nil"/>
 					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
-					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">

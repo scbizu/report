@@ -23,11 +23,12 @@ func main() {
 		{{"时间统计"}, {"开始：2011-11-09 15:51:00", "结束：2011-11-09 18:08:35", "耗时：2 小时17 分35 秒"}}}
 	trSpan := []int{0, 0, 0, 0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
-	doc.WriteTable(false, table, nil, nil, trSpan, tdw)
+	tableObj := report.NewTable(false, table, nil, nil, trSpan, tdw)
+	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3("1.1 具有最多安全性问题的文件(TOP5)")
+	tableHead := [][]interface{}{{"URL"}, {"漏洞数量"}}
 	table = [][][]interface{}{
-
 		{{"http://www.xjbtw.com/Article_Class.asp"}, {"13"}},
 		{{"http://www.xjbtw.com/Article_ClassC.asp"}, {"8"}},
 		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
@@ -36,11 +37,12 @@ func main() {
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
 	thw := []int{4190, 4190}
-	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"漏洞数量"}}, thw, trSpan, tdw)
+	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3("1.2 访问时间最慢的url(TOP5)")
+	tableHead = [][]interface{}{{"URL"}, {"访问时间"}}
 	table = [][][]interface{}{
-
 		{{"http://www.xjbtw.com/Article_Class.asp"}, {"13"}},
 		{{"http://www.xjbtw.com/Article_ClassC.asp"}, {"8"}},
 		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
@@ -49,7 +51,8 @@ func main() {
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
 	thw = []int{4190, 4190}
-	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"访问时间"}}, thw, trSpan, tdw)
+	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3("1.3 Web风险分布统计")
 	image2 := report.NewImage("1.png", "../images/offlineWS-102-risk.png", 110.00, 200.00)
@@ -58,6 +61,7 @@ func main() {
 	doc.WriteBR()
 
 	doc.WriteTitle3WithGrayBg("2. 目标风险等级列表")
+	tableHead = [][]interface{}{{"目标"}, {"紧急"}, {"高风险"}, {"中风险"}, {"低风险"}, {"信息"}, {"风险值"}}
 	table = [][][]interface{}{
 		{{"../images/fcwx.gif", "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}},
 		{{"../images/fcwx.gif", "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}}}
@@ -65,13 +69,15 @@ func main() {
 	thw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196}
 	tdw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196,
 		1204, 1196, 1196, 1196, 1196, 1196, 1196}
-	doc.WriteTable(true, table, [][]interface{}{{"目标"}, {"紧急"}, {"高风险"}, {"中风险"}, {"低风险"}, {"信息"}, {"风险值"}}, thw, trSpan, tdw)
+	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
 	doc.WriteBR()
 
 	doc.WriteTitle3WithGrayBg("3. 漏洞风险类别分布")
 	image4 := report.NewImage("3.png", "../images/offlineWS-102-1267308e465963bec7d4c63afbb8cd5b-1004.png", 300.00, 500.00)
 
 	doc.WriteImage(false, "", image4)
+	tableHead = [][]interface{}{{"分类名"}, {"高风险"}, {"中风险"}, {"低风险"}, {"总计"}}
 	table = [][][]interface{}{
 		{{"逻辑攻击类型:功能滥用"}, {"0"}, {"0"}, {"1"}, {"1"}},
 		{{"命令执行类型:SQL注入"}, {"1"}, {"0"}, {"0"}, {"1"}},
@@ -84,13 +90,16 @@ func main() {
 		1676, 1676, 1676, 1676, 1676,
 		1676, 1676, 1676, 1676, 1676,
 		1676, 1676, 1676, 1676, 1676}
-	doc.WriteTable(true, table, [][]interface{}{{"分类名"}, {"高风险"}, {"中风险"}, {"低风险"}, {"总计"}}, thw, trSpan, tdw)
+	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
+
 	doc.WriteTitle3("4.1.5: 漏洞信息")
 	tit := [][][]interface{}{
 		{{"请求方式"}, {"GET"}},
 		{{"URL"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`}},
 		{{"问题参数"}, {"class_id_int"}},
 		{{"参考（验证）"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int`}}}
+	tableHead = [][]interface{}{{"漏洞名称"}, {"出现次数"}, {"详情解决方法"}}
 	table = [][][]interface{}{
 		{{"检测到目标URL存在SQL注入漏洞"}, {"1"}, {"../images/move_down.gif"}},
 		// BUG: 注意需要转义! 否则填充会有BUG...
@@ -98,7 +107,8 @@ func main() {
 	tdw = []int{2793, 2793, 2793, 8380}
 	thw = []int{2793, 2793, 2793}
 	trSpan = []int{0, 3}
-	doc.WriteTable(false, table, [][]interface{}{{"漏洞名称"}, {"出现次数"}, {"详情解决方法"}}, thw, trSpan, tdw)
-	// IDEA: ENDHEAD
+	tableObj = report.NewTable(false, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
+	// ENDHEAD  and set page header or page footer
 	doc.WriteEndHead(false, true, "")
 }
