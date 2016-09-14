@@ -548,7 +548,7 @@ const (
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	`
@@ -587,7 +587,7 @@ const (
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 `
@@ -750,6 +750,22 @@ const (
 						</v:shape>
 			</w:pict>
 	</w:r>
+`
+	//XMLImageLinkTitle hyperlink start
+	XMLImageLinkTitle = `<w:r>
+          <w:fldChar w:fldCharType="begin"/>
+        </w:r>
+        <w:r>
+          <w:instrText> HYPERLINK "%s" </w:instrText>
+        </w:r>
+        <w:r>
+          <w:fldChar w:fldCharType="separate"/>
+        </w:r>
+`
+	//XMLImageLinkEnd hyper link end
+	XMLImageLinkEnd = `<w:r>
+<w:fldChar w:fldCharType="end"/>
+</w:r>
 `
 	//XMLIcon always is used for table data
 	XMLIcon = `<w:r>
