@@ -10,5 +10,5 @@ manually write doc(docx) by Word XML 2003
 
 ## Doing :
 
-  * Table in Table Style
+  * <del>Table in Table Style</del>
   * <del>muti-line Table TD Style</del>

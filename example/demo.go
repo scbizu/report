@@ -3,32 +3,27 @@ package main
 import "practice/report"
 
 func main() {
-	var doc report.Report
-	err := doc.Newdoc("report.doc")
+	doc := report.NewDoc()
+	err := doc.InitDoc("report.doc")
 	if err != nil {
 		panic(err)
 	}
 	defer doc.CloseReport()
 	doc.WriteHead()
-	image1 := &report.Image{}
-	image1.URIDist = "1.gif"
-	image1.ImageSrc = "../images/titlepic.gif"
-	image1.Height = 50.00
-	image1.Width = 50.00
-	image1.CoordsizeX = 21600
-	image1.CoordsizeY = 21600
-	images := []*report.Image{image1}
-	doc.WriteImage(images, true, "六壬网安'风险评估'安全评估报告")
+	image1 := report.NewImage("1.gif", "../images/titlepic.gif", 50.00, 50.00)
+	doc.WriteImage(true, "六壬网安'风险评估'安全评估报告", image1)
 	doc.WriteTitle3("                          ———Web应用扫描")
-	doc.WriteTitle2WithGrayBg("1.综述")
+	doc.WriteTitle3WithGrayBg("1.综述")
 	table := [][][]interface{}{
 		{{"任务名称"}, {"{{task_name}}"}},
 		{{"扫描模板"}, {"{{policy_name}}"}},
-		{{"Web风险"}, {"../images/netrisk_dangerous.gif", "  风险值:6.9"}},
-		{{"域名统计"}, {"  已扫描域名数：1 ", " 非常危险域名：0"}},
-		{{"信息统计"}, {" 已扫描的文件：213", "  有漏洞的文件：72", "已扫描的链接：216"}},
-		{{"时间统计"}, {"  开始：2011-11-09 15:51:00", " 结束：2011-11-09 18:08:35", " 耗时：2 小时17 分35 秒"}}}
-	doc.WriteTable(false, table, nil)
+		{{"Web风险"}, {"../images/netrisk_dangerous.gif", "风险值:6.9"}},
+		{{"域名统计"}, {"已扫描域名数：1 ", "非常危险域名：0"}},
+		{{"信息统计"}, {"已扫描的文件：213", "有漏洞的文件：72", "已扫描的链接：216"}},
+		{{"时间统计"}, {"开始：2011-11-09 15:51:00", "结束：2011-11-09 18:08:35", "耗时：2 小时17 分35 秒"}}}
+	trSpan := []int{0, 0, 0, 0, 0, 0}
+	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
+	doc.WriteTable(false, table, nil, nil, trSpan, tdw)
 
 	doc.WriteTitle3("1.1 具有最多安全性问题的文件(TOP5)")
 	table = [][][]interface{}{
@@ -38,7 +33,10 @@ func main() {
 		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
 		{{"http://www.xjbtw.com/video_ttbb.asp"}, {"7"}},
 		{{"http://www.xjbtw.com/imgchange.asp"}, {"6"}}}
-	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"漏洞数量"}})
+	trSpan = []int{0, 0, 0, 0, 0}
+	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
+	thw := []int{4190, 4190}
+	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"漏洞数量"}}, thw, trSpan, tdw)
 
 	doc.WriteTitle3("1.2 访问时间最慢的url(TOP5)")
 	table = [][][]interface{}{
@@ -48,54 +46,59 @@ func main() {
 		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
 		{{"http://www.xjbtw.com/video_ttbb.asp"}, {"7"}},
 		{{"http://www.xjbtw.com/imgchange.asp"}, {"6"}}}
-	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"访问时间"}})
+	trSpan = []int{0, 0, 0, 0, 0}
+	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
+	thw = []int{4190, 4190}
+	doc.WriteTable(true, table, [][]interface{}{{"URL"}, {"访问时间"}}, thw, trSpan, tdw)
 
 	doc.WriteTitle3("1.3 Web风险分布统计")
-	image2 := &report.Image{}
-	image2.URIDist = "1.png"
-	image2.ImageSrc = "../images/offlineWS-102-risk.png"
-	image2.Height = 140.00
-	image2.Width = 180.00
-	image2.CoordsizeX = 21600
-	image2.CoordsizeY = 21600
-	image3 := &report.Image{}
-	image3.URIDist = "2.png"
-	image3.ImageSrc = "../images/offlineWS-102-url.png"
-	image3.Height = 140.00
-	image3.Width = 180.00
-	image3.CoordsizeX = 21600
-	image3.CoordsizeY = 21600
-	images = []*report.Image{image2, image3}
-	doc.WriteImage(images, false, "")
+	image2 := report.NewImage("1.png", "../images/offlineWS-102-risk.png", 110.00, 200.00)
+	image3 := report.NewImage("2.png", "../images/offlineWS-102-url.png", 110.00, 200.00)
+	doc.WriteImage(false, "", image2, image3)
 	doc.WriteBR()
 
-	doc.WriteTitle2WithGrayBg("2. 目标风险等级列表")
+	doc.WriteTitle3WithGrayBg("2. 目标风险等级列表")
 	table = [][][]interface{}{
-
 		{{"../images/fcwx.gif", "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}},
 		{{"../images/fcwx.gif", "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}}}
-	doc.WriteTable(true, table, [][]interface{}{{"目标"}, {"紧急"}, {"高风险"}, {"中风险"}, {"低风险"}, {"信息"}, {"风险值"}})
+	trSpan = []int{0, 0}
+	thw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196}
+	tdw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196,
+		1204, 1196, 1196, 1196, 1196, 1196, 1196}
+	doc.WriteTable(true, table, [][]interface{}{{"目标"}, {"紧急"}, {"高风险"}, {"中风险"}, {"低风险"}, {"信息"}, {"风险值"}}, thw, trSpan, tdw)
 	doc.WriteBR()
 
-	doc.WriteTitle2WithGrayBg("3. 漏洞风险类别分布")
-	image4 := &report.Image{}
-	image4.URIDist = "3.png"
-	image4.ImageSrc = "../images/offlineWS-102-1267308e465963bec7d4c63afbb8cd5b-1004.png"
-	image4.Height = 300.00
-	image4.Width = 500.00
-	image4.CoordsizeX = 21600
-	image4.CoordsizeY = 21600
-	images = []*report.Image{image4}
-	doc.WriteImage(images, false, "")
+	doc.WriteTitle3WithGrayBg("3. 漏洞风险类别分布")
+	image4 := report.NewImage("3.png", "../images/offlineWS-102-1267308e465963bec7d4c63afbb8cd5b-1004.png", 300.00, 500.00)
+
+	doc.WriteImage(false, "", image4)
 	table = [][][]interface{}{
 		{{"逻辑攻击类型:功能滥用"}, {"0"}, {"0"}, {"1"}, {"1"}},
 		{{"命令执行类型:SQL注入"}, {"1"}, {"0"}, {"0"}, {"1"}},
 		{{"信息泄露类型:资源位置可预测"}, {"0"}, {"0"}, {"3"}, {"3"}},
 		{{"信息泄露类型:信息泄露"}, {"0"}, {"0"}, {"3"}, {"3"}},
 		{{"其他"}, {"0"}, {"0"}, {"0"}, {"1"}}}
-	doc.WriteBR()
-
-	doc.WriteTable(true, table, [][]interface{}{{"分类名"}, {"高风险"}, {"中风险"}, {"低风险"}, {"总计"}})
+	trSpan = []int{0, 0, 0, 0, 0}
+	thw = []int{1676, 1676, 1676, 1676, 1676}
+	tdw = []int{1676, 1676, 1676, 1676, 1676,
+		1676, 1676, 1676, 1676, 1676,
+		1676, 1676, 1676, 1676, 1676,
+		1676, 1676, 1676, 1676, 1676}
+	doc.WriteTable(true, table, [][]interface{}{{"分类名"}, {"高风险"}, {"中风险"}, {"低风险"}, {"总计"}}, thw, trSpan, tdw)
+	doc.WriteTitle3("4.1.5: 漏洞信息")
+	tit := [][][]interface{}{
+		{{"请求方式"}, {"GET"}},
+		{{"URL"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`}},
+		{{"问题参数"}, {"class_id_int"}},
+		{{"参考（验证）"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int`}}}
+	table = [][][]interface{}{
+		{{"检测到目标URL存在SQL注入漏洞"}, {"1"}, {"../images/move_down.gif"}},
+		// BUG: 注意需要转义! 否则填充会有BUG...
+		{{`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`, tit}}}
+	tdw = []int{2793, 2793, 2793, 8380}
+	thw = []int{2793, 2793, 2793}
+	trSpan = []int{0, 3}
+	doc.WriteTable(false, table, [][]interface{}{{"漏洞名称"}, {"出现次数"}, {"详情解决方法"}}, thw, trSpan, tdw)
 	// IDEA: ENDHEAD
 	doc.WriteEndHead(false, true, "")
 }

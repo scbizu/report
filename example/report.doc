@@ -392,7 +392,8 @@
 	    </wsp:rsids>
 	  </w:docPr>
 	  <w:body>
-	    <wx:sect><w:p>
+	    <wx:sect>
+<w:p>
 <w:pPr>
 		<w:pStyle w:val="1"/>
 		<w:jc w:val="center"/>
@@ -424,14 +425,14 @@
     </w:r>
   </w:p>
 <w:p>
-    <w:pPr>
-      <w:pStyle w:val="2"/>
-			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-    </w:pPr>
-    <w:r>
-      <w:t>1.综述</w:t>
-    </w:r>
-  </w:p>
+	<w:pPr>
+		<w:pStyle w:val="3"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:pPr>
+	<w:r>
+		<w:t>1.综述</w:t>
+	</w:r>
+</w:p>
 <w:tbl>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
@@ -447,102 +448,213 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>任务名称</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>{{task_name}}</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>扫描模板</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>{{policy_name}}</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>Web风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 		<w:pict>
 				<w:binData w:name="wordml://../images/netrisk_dangerous.gif">R0lGODlhKAAoAPebAOVFAOFDANlAAO9KAN1BAOxJAOlHAP9UAL80AM46AP9XAPZOAPhPAPNMAMo5ALsyAP9bAMY3APtRAP1SALgxAP9fAMI1AP9jALUvALIuAP9nAK8tAP9qAK0sAP9tAKsrAP9wAMt/Zv/9/P/jzP/48//7+d2qmfHc1f9cDMBePOzPxr5HHv/DlvGaddGGbP+eYMViP96MbP+0iv+IM/749vnk2/vOuv/An++beP/Suv/Rsf+1e/hvMPjbz/NOA/Xi29ZDBsp1V9dTHv+BHv/Hmf+GJ/SylumnjdGKcv+PSPe6n/Tb0vO0mf79/P/Yuvnu6v+CJP/Lpfru6v6uh//Zuv/59veyk8NRJ/+wcsdWLf/fxtdyS/DZ0vrs5/9pA+ONbLM/GPthGP9ZA8s+Bv349vSifujGuv/v57AvA9idivPFsd1qPP+veP36+f9qIe7Syf+fac2AZvfn4f/cwNmFZv+/k/nHsfmIVNaYhL5CFf6Zaf/cw8M3A/9/JP97GM5sSPvz8MBTLfTXzLo+EvyuiuzQxu/Tyfv18/Th28ZtTv/t5LVEHv/17f7y7fTAq/3o3u+oisU/DP+IQvtVBv3Fq/+ZXf/38+Gfh/RZEtI8ANU+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJsALAAAAAAoACgAAAj/ADcJHEiwoMGDCBMq3ERixBwiVEYwWkjxoJYdRUBo3AhiCBYnFSlGgeKhpMmTJv2wEBHS4J4ZHGLKnEkzZh8dLQfW8aKhp8+fQIGyYVmxxIsLSJMqXcoUaRISFStVmEq1qtWrVSWVWCgDgtevYMOKFQtHYQ4xCtKqXcu2rdsbCC25OUC3rt27ePMeQKHo4JQJgAMLDlxwsGHAegxWCSOhsePHjgtCntx40pmClBho3syZc8HOoDcTKnhngenTqFEXTM36NA+CIjA1mE27du2CtnPT9tFo4KMBwIMLH15wuHHhNgbaKcC8ufPnBZ9Ld25loBID2LNr315wu3ftZQYa/wFAvrz58wXPqzffYiCTAPDjy59fcL59+TgGOiLAv7///wX9J6B/kAzUgwAIJqjgggUt6KCCagxEAxCaVGjhhRhmqGGGNRC0RiYghijiiCSWOKIQBR2RwIostthiQS7GyOIXBXUxhgM45qhjjgXt6GOOghgUQwREFmlkkQUdqSSRWxwkRSQWRCnllFEWROWVFvCxBEKXIODll2CGKeaYCNCRUBN/PKDmmmy26aabWZChECBXUGDnnXjmqSeeechB0Q8rYCDooIQWaqiggxgS0hMwZODoo5BGKmkgiOTUhgtobKDpppx2umkQh+Q00AmJdGDqqaimmsIbohpUCBKLfBwg66yzghGHGa0qxIUJaYTgKx4mqJDrsMQWG1JAADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="netrisk_dangerous.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
@@ -557,174 +669,389 @@
 		</w:pict>
 </w:r>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>  风险值:6.9</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>风险值:6.9</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>域名统计</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>  已扫描域名数：1 </w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>已扫描域名数：1 </w:t>
 		</w:r>
-<w:p/>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t> 非常危险域名：0</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>非常危险域名：0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>信息统计</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t> 已扫描的文件：213</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>已扫描的文件：213</w:t>
 		</w:r>
-<w:p/>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>  有漏洞的文件：72</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>有漏洞的文件：72</w:t>
 		</w:r>
-<w:p/>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>已扫描的链接：216</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>时间统计</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>  开始：2011-11-09 15:51:00</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>开始：2011-11-09 15:51:00</w:t>
 		</w:r>
-<w:p/>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t> 结束：2011-11-09 18:08:35</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>结束：2011-11-09 18:08:35</w:t>
 		</w:r>
-<w:p/>
 </w:p>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t> 耗时：2 小时17 分35 秒</w:t>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>耗时：2 小时17 分35 秒</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr></w:tbl><w:p>
+</w:tr>
+</w:tbl>
+<w:p>
     <w:pPr>
       <w:pStyle w:val="3"/>
     </w:pPr>
@@ -747,216 +1074,435 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="4190" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>URL</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="4190" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>漏洞数量</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>13</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>8</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>7</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>7</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>6</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr></w:tbl><w:p>
+</w:tr>
+</w:tbl>
+<w:p>
     <w:pPr>
       <w:pStyle w:val="3"/>
     </w:pPr>
@@ -979,216 +1525,435 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="4190" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>URL</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="4190" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>访问时间</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>13</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>8</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>7</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>7</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="4190" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>6</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr></w:tbl><w:p>
+</w:tr>
+</w:tbl>
+<w:p>
     <w:pPr>
       <w:pStyle w:val="3"/>
     </w:pPr>
@@ -1200,7 +1965,7 @@
 <w:r>
 			<w:pict>
 					<w:binData w:name="wordml://1.png">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</w:binData>
-						<v:shape id="_x0000_s1026" o:spt="75" alt="offlineWS-102-risk.png" type="#_x0000_t75" style="height:140pt;width:180pt;"
+						<v:shape id="_x0000_s1026" o:spt="75" alt="offlineWS-102-risk.png" type="#_x0000_t75" style="height:110pt;width:200pt;"
 						filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 							<v:fill on="f" focussize="0,0"/>
 							<v:stroke on="f"/>
@@ -1214,7 +1979,7 @@
 <w:r>
 			<w:pict>
 					<w:binData w:name="wordml://2.png">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</w:binData>
-						<v:shape id="_x0000_s1026" o:spt="75" alt="offlineWS-102-url.png" type="#_x0000_t75" style="height:140pt;width:180pt;"
+						<v:shape id="_x0000_s1026" o:spt="75" alt="offlineWS-102-url.png" type="#_x0000_t75" style="height:110pt;width:200pt;"
 						filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 							<v:fill on="f" focussize="0,0"/>
 							<v:stroke on="f"/>
@@ -1228,14 +1993,14 @@
 </w:p>
 <w:p/>
 <w:p>
-    <w:pPr>
-      <w:pStyle w:val="2"/>
-			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-    </w:pPr>
-    <w:r>
-      <w:t>2. 目标风险等级列表</w:t>
-    </w:r>
-  </w:p>
+	<w:pPr>
+		<w:pStyle w:val="3"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:pPr>
+	<w:r>
+		<w:t>2. 目标风险等级列表</w:t>
+	</w:r>
+</w:p>
 <w:tbl>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
@@ -1251,408 +2016,776 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1204" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>目标</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>紧急</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>高风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>中风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>低风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>信息</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1196" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>风险值</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1204" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-		<w:pict>
-				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
-					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
-					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
-						<v:fill on="f" focussize="0,0"/>
-						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
-						<o:lock v:ext="edit" aspectratio="t"/>
-						<w10:wrap type="none"/>
-						<w10:anchorlock/>
-					</v:shape>
-		</w:pict>
-</w:r>
-<w:r>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>7</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>10</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>10</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-		<w:pict>
-				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
-					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
-					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
-						<v:fill on="f" focussize="0,0"/>
-						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
-						<o:lock v:ext="edit" aspectratio="t"/>
-						<w10:wrap type="none"/>
-						<w10:anchorlock/>
-					</v:shape>
-		</w:pict>
-</w:r>
-<w:r>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>1</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>7</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>10</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-  </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
-			<w:t>10</w:t>
-		</w:r>
-<w:p/>
-</w:p>
-
-</w:tc>
-</w:tr></w:tbl><w:p/>
 <w:p>
-    <w:pPr>
-      <w:pStyle w:val="2"/>
-			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-    </w:pPr>
-    <w:r>
-      <w:t>3. 漏洞风险类别分布</w:t>
-    </w:r>
-  </w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+<w:r>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>7</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>10</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>10</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1204" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+<w:r>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>7</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>10</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>10</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p/>
+<w:p>
+	<w:pPr>
+		<w:pStyle w:val="3"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:pPr>
+	<w:r>
+		<w:t>3. 漏洞风险类别分布</w:t>
+	</w:r>
+</w:p>
 <w:p>
 <w:r>
 			<w:pict>
@@ -1669,7 +2802,6 @@
 			</w:pict>
 	</w:r>
 </w:p>
-<w:p/>
 <w:tbl>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
@@ -1685,525 +2817,1663 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1676" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>分类名</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1676" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>高风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1676" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>中风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1676" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>低风险</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="3046" w:type="dxa"/>
+		<w:tcW w:w="1676" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-		</w:pPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
 <w:r>
 			<w:t>总计</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>逻辑攻击类型:功能滥用</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>1</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>1</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>命令执行类型:SQL注入</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>1</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>1</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>信息泄露类型:资源位置可预测</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>3</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>3</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>信息泄露类型:信息泄露</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>3</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>3</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr><w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>其他</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>0</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+	              <w:tcW w:w="1676" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
   </w:tcPr>
-<w:p wsp:rsidR="00AF5A68" wsp:rsidRDefault="00AF5A68" wsp:rsidP="00AF5A68">
-     <w:pPr>
-       <w:tabs>
-         <w:tab w:val="center" w:pos="1312"/>
-       </w:tabs>
-     </w:pPr><w:r>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
 			<w:t>1</w:t>
 		</w:r>
-<w:p/>
 </w:p>
 
 </w:tc>
-</w:tr></w:tbl><w:sectPr><w:ftr w:type="odd">
+</w:tr>
+</w:tbl>
+<w:p>
+    <w:pPr>
+      <w:pStyle w:val="3"/>
+    </w:pPr>
+    <w:r>
+      <w:t>4.1.5: 漏洞信息</w:t>
+    </w:r>
+  </w:p>
+<w:tbl>
+				<w:tblPr>
+					<w:tblW w:w="8380" w:type="dxa"/>
+					<w:tblBorders>
+					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					<w:insideV w:val="single" w:sz="6" wx:bdrwidth="15" w:space="0" w:color="auto"/>
+					</w:tblBorders>
+				</w:tblPr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+			<w:t>漏洞名称</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+			<w:t>出现次数</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+			<w:t>详情解决方法</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="2793" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>检测到目标URL存在SQL注入漏洞</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="2793" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="2793" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://../images/move_down.gif">R0lGODlhEAAQAPeDAIyhsP7+/vHz9dPe5qCxvtbg6JequPz9/SyEyMzV3CyEx/f5+o2hsSuDx8LN1ZSotrbEzfT2+Pb4+fP2+NTf5+Hn6vv8/dDZ3/L19t3j6Ku6xd7m7LjFzuzw8il/xCh/xLvH0KS0wSFyu+Lo7a28x8HM1PP198fS2SV4v669x6O0wPr7/LG/yePo67XCzNrh5v39/iqBxubs8d7k6SBvufL1+BhisNjf5Pn7/Ka2wtHc5ZiruZ6wvZ6xvpGltPX3+e7y9RZero6isdfh6JmsuaGyv/n6+4edrZutu+Dm6p2vvMbQ2Nzk66e3wvj6++vw8+fr7rTCzLjFzw9Rpd3l6+ru8CBwuvj5+vX3+CqBxdji6a69yP7//9ng5f7+/+nv84+jst/n7cHO2MnT2tTe5pSntevu8cjS2RVdrcfR2L/L0yuEx4mfrtjh5/H19+rw8+Dl6ubt8fL19+br7vj6+u/z9iJzvMvW3qS1wbnGz+ft8pOmtc3W3Zapt8HN1ZCltIacrCyFyP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAIMALAAAAAAQABAAAAjuAAcJHEiwYMELIQApLJLggEEBBABwyABlBggGfToQlGCAAAZBgrjgqDGChxAzA1n4kAASxoI6cTaQ+UOEziABR16AtBCoJ5MCA8QASjOIzwNBAYy46RmIwoAhGwzgiQBCw4FAChAgwNpgTaA3W5RU4KBhwpMGWTx8+OAhBpAFLpB0GWNATxgtKOxYoSFCzgpBBFTcqALoDlAKNoKg+XFAUAdAUeAMyrFDRwEqMqY48YK0yQMHAm4y6NHmywQLIK+kYCPlwsA5ZQD4yYChwok9YCAswUIwAgkACgEBCFEigQmDAVqogZDHwZkkAQYGBAA7</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="move_down.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://../images/move_down.gif" o:title="move_down.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="2793" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="3"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
+		</w:r>
+</w:p>
+<w:tbl>
+			<w:tblPr>
+				<w:tblW w:w="8380" w:type="dxa"/>
+				<w:tblBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="nil"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tblBorders>
+			</w:tblPr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>请求方式</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>GET</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>URL</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>问题参数</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>class_id_int</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>参考（验证）</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="3046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="auto"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p>
+		<w:pPr>
+			<w:keepNext w:val="off"/>
+			<w:keepLines w:val="off"/>
+			<w:pageBreakBefore w:val="off"/>
+			<w:widowControl w:val="off"/>
+			<w:tabs>
+				<w:tab w:val="center" w:pos="1312"/>
+			</w:tabs>
+			<w:kinsoku/>
+			<w:wordWrap/>
+			<w:overflowPunct/>
+			<w:topLinePunct w:val="off"/>
+			<w:autoSpaceDE/>
+			<w:autoSpaceDN/>
+			<w:adjustRightInd/>
+			<w:snapToGrid/>
+			<w:spacing w:line="360" w:line-rule="exact"/>
+			<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+			<w:jc w:val="both"/>
+			<w:textAlignment w:val="auto"/>
+			<w:outlineLvl w:val="9"/>
+		</w:pPr>
+		<w:r>
+				<w:t></w:t>
+			</w:r>
+	</w:p>
+	
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:sectPr>
+<w:ftr w:type="odd">
 	<w:p>
 		<w:pPr>
 			<w:pStyle w:val="a3"/>

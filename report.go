@@ -15,7 +15,7 @@ type Report struct {
 	Doc *os.File
 }
 
-//Image assign all Variable.
+//Image include image configuration.
 type Image struct {
 	URIDist    string  `json:"uridist"`
 	ImageSrc   string  `json:"imagesrc"`
@@ -25,8 +25,17 @@ type Image struct {
 	CoordsizeY int     `json:"coordsizeY"`
 }
 
-//Newdoc init the MS doc file ,don't forget to close.
-func (doc *Report) Newdoc(filename string) error {
+//Table include table configuration.
+type Table struct {
+}
+
+//NewDoc new a Document
+func NewDoc() *Report {
+	return &Report{}
+}
+
+//InitDoc init the MS doc file ,don't forget to close.
+func (doc *Report) InitDoc(filename string) error {
 	file, err := os.OpenFile(filename, os.O_WRONLY, os.ModeAppend)
 	if err != nil {
 		file, err = os.Create(filename)
@@ -129,6 +138,17 @@ func (doc *Report) WriteTitle3(text string) error {
 	return nil
 }
 
+//WriteTitle3WithGrayBg == 灰色panel背景的标题3
+func (doc *Report) WriteTitle3WithGrayBg(text string) error {
+	Title3Gray := fmt.Sprintf(XMLTitle3WithGrayBg, text)
+	_, err := doc.Doc.WriteString(Title3Gray)
+	if err != nil {
+		return err
+	}
+	//color.Blue("[LOG]:WriteTitle2WithGrayBg Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+	return nil
+}
+
 //WriteText == 正文的格式
 func (doc *Report) WriteText(text string) error {
 	Text := fmt.Sprintf(XMLText, text)
@@ -150,14 +170,15 @@ func (doc *Report) WriteBR() error {
 }
 
 //WriteTable  ==表格的格式
-func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}) error {
+func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) error {
 	XMLTable := bytes.Buffer{}
 	XMLTable.WriteString(XMLTableHead)
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		XMLTable.WriteString(XMLTableTR)
-		for _, rowdata := range tableHead {
-			XMLTable.WriteString(XMLHeadTableTDBegin)
+		for thindex, rowdata := range tableHead {
+			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
+			XMLTable.WriteString(thw)
 			if inline {
 				XMLTable.WriteString(XMLHeadTableTDBegin2)
 			}
@@ -177,8 +198,6 @@ func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHea
 					//not
 					data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
 					XMLTable.WriteString(data)
-					//换行
-					XMLTable.WriteString(XMLBr)
 				}
 				if !inline {
 					XMLTable.WriteString(XMLIMGtail)
@@ -193,26 +212,40 @@ func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHea
 	}
 
 	//Generate formation
-	for _, v := range tableBody {
+	for k, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
 
-		for _, vv := range v {
-			XMLTable.WriteString(XMLTableTD)
+		for kk, vv := range v {
+			//Span formation
+			td := fmt.Sprintf(XMLTableTD, strconv.FormatInt(int64(tdw[kk]), 10), strconv.FormatInt(int64(gridSpan[k]), 10))
+			XMLTable.WriteString(td)
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
 			}
 			for _, vvv := range vv {
-				if !inline {
+				table, ok := vvv.([][][]interface{})
+				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
-				if isResource(vvv.(string)) {
-					XMLTable.WriteString(XMLIcon)
+				//if td is a table
+				if ok {
+					tablestr, err := writeTableToBuffer(true, table, nil)
+					if err != nil {
+						return err
+					}
+					XMLTable.WriteString(tablestr)
+					// FIXME: magic operation
+					XMLTable.WriteString(XMLMagicFooter)
+					//image or text
 				} else {
-					XMLTable.WriteString(XMLHeadtableTDText)
-					XMLTable.WriteString(XMLBr)
-				}
-				if !inline {
-					XMLTable.WriteString(XMLIMGtail)
+					if isResource(vvv.(string)) {
+						XMLTable.WriteString(XMLIcon)
+					} else {
+						XMLTable.WriteString(XMLHeadtableTDText)
+					}
+					if !inline && !ok {
+						XMLTable.WriteString(XMLIMGtail)
+					}
 				}
 			}
 			if inline {
@@ -229,17 +262,19 @@ func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHea
 	for _, row := range tableBody {
 		for _, rowdata := range row {
 			for _, rowEle := range rowdata {
-				if isResource(rowEle.(string)) {
-					//图片
-					imageSrc := rowEle.(string)
-					bindata, err := getImagedata(imageSrc)
-					URI := "wordml://" + imageSrc
-					if err != nil {
-						return err
+				if _, ok := rowEle.([][][]interface{}); !ok {
+					if isResource(rowEle.(string)) {
+						//图片
+						imageSrc := rowEle.(string)
+						bindata, err := getImagedata(imageSrc)
+						URI := "wordml://" + imageSrc
+						if err != nil {
+							return err
+						}
+						rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+					} else {
+						rows = append(rows, rowEle)
 					}
-					rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
-				} else {
-					rows = append(rows, rowEle)
 				}
 			}
 		}
@@ -256,7 +291,7 @@ func (doc *Report) WriteTable(inline bool, tableBody [][][]interface{}, tableHea
 }
 
 //WriteImage == 写入图片
-func (doc *Report) WriteImage(imagesData []*Image, withtext bool, text string) error {
+func (doc *Report) WriteImage(withtext bool, text string, imagesData ...*Image) error {
 	xmlimage := bytes.Buffer{}
 	//write fontStyle
 
@@ -312,6 +347,111 @@ func writeImageToBuffer(src string) (string, error) {
 	return ResImage.String(), nil
 }
 
+//Generate table xml string formation  ~> 用于 表中再次嵌入表格时的填充
+func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}) (string, error) {
+	XMLTable := bytes.Buffer{}
+	//表格中的表格为无边框形式
+	XMLTable.WriteString(XMLTableInTableHead)
+	//handle TableHead :Split with TableBody
+	if tableHead != nil {
+		XMLTable.WriteString(XMLTableTR)
+		for _, rowdata := range tableHead {
+			XMLTable.WriteString(XMLHeadTableInTableTDBegin)
+			if inline {
+				XMLTable.WriteString(XMLHeadTableTDBegin2)
+			}
+			for _, rowEle := range rowdata {
+				if !inline {
+					XMLTable.WriteString(XMLHeadTableTDBegin2)
+				}
+				if isResource(rowEle.(string)) {
+					//rowEle is a resource
+					str, err := writeImageToBuffer(rowEle.(string))
+					if err != nil {
+						return "", err
+					}
+					XMLTable.WriteString(str)
+				} else {
+					//not
+					data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
+					XMLTable.WriteString(data)
+					//换行
+					XMLTable.WriteString(XMLBr)
+				}
+				if !inline {
+					XMLTable.WriteString(XMLIMGtail)
+				}
+			}
+			if inline {
+				XMLTable.WriteString(XMLIMGtail)
+			}
+			XMLTable.WriteString(XMLHeadTableTDEnd)
+		}
+		XMLTable.WriteString(XMLTableEndTR)
+	}
+
+	//Generate formation
+	for _, v := range tableBody {
+		XMLTable.WriteString(XMLTableTR)
+
+		for _, vv := range v {
+			XMLTable.WriteString(XMLTableInTableTD)
+			if inline {
+				XMLTable.WriteString(XMLTableTD2)
+			}
+			for _, vvv := range vv {
+				if !inline {
+					XMLTable.WriteString(XMLTableTD2)
+				}
+				if isResource(vvv.(string)) {
+					XMLTable.WriteString(XMLIcon)
+				} else {
+					XMLTable.WriteString(XMLHeadtableTDText)
+				}
+				if !inline {
+					XMLTable.WriteString(XMLIMGtail)
+				}
+			}
+			if inline {
+				XMLTable.WriteString(XMLIMGtail)
+			}
+
+			XMLTable.WriteString(XMLHeadTableTDEnd)
+
+		}
+		XMLTable.WriteString(XMLTableEndTR)
+	}
+	XMLTable.WriteString(XMLTableFooter)
+	//serialization
+	var rows []interface{}
+
+	for _, row := range tableBody {
+		for _, rowdata := range row {
+			for _, rowEle := range rowdata {
+				if _, ok := rowEle.([][][]interface{}); !ok {
+					if isResource(rowEle.(string)) {
+						//图片
+						imageSrc := rowEle.(string)
+						bindata, err := getImagedata(imageSrc)
+						URI := "wordml://" + imageSrc
+						if err != nil {
+							return "", err
+						}
+						rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+					} else {
+						rows = append(rows, rowEle)
+					}
+				}
+			}
+		}
+	}
+
+	//data fill in
+	tabledata := fmt.Sprintf(XMLTable.String(), rows...)
+
+	return tabledata, nil
+}
+
 //get bindata
 func getImagedata(src string) (string, error) {
 	file, err := os.Open(src)
@@ -360,6 +500,18 @@ func isResource(str string) bool {
 	}
 	defer file.Close()
 	return true
+}
+
+//NewImage init a image with fixed CoordsizeX & CoordsizeY
+func NewImage(URIdist string, imageSrc string, height float64, width float64) *Image {
+	img := &Image{}
+	img.URIDist = URIdist
+	img.ImageSrc = imageSrc
+	img.Height = height
+	img.Width = width
+	img.CoordsizeX = 21600
+	img.CoordsizeY = 21600
+	return img
 }
 
 //CloseReport close file handle

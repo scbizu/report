@@ -3,8 +3,8 @@ package report
 import "testing"
 
 func TestNewdoc(t *testing.T) {
-	var doc Report
-	err := doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	err := doc.InitDoc("demo.doc")
 	if err != nil {
 		doc.CloseReport()
 		t.Errorf("init doc failed")
@@ -15,8 +15,8 @@ func TestNewdoc(t *testing.T) {
 }
 
 func TestWriteHead(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteHead()
 	if err != nil {
 		t.Errorf(err.Error())
@@ -27,8 +27,8 @@ func TestWriteHead(t *testing.T) {
 }
 
 func TestWriteTitle1(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteTitle1("Hello World")
 	if err != nil {
 		t.Errorf(err.Error())
@@ -39,8 +39,8 @@ func TestWriteTitle1(t *testing.T) {
 }
 
 func TestWriteTitle2(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteTitle2("Hello World")
 	if err != nil {
 		t.Errorf(err.Error())
@@ -51,8 +51,8 @@ func TestWriteTitle2(t *testing.T) {
 }
 
 func TestWriteTitle3(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteTitle3("Hello World")
 	if err != nil {
 		t.Errorf(err.Error())
@@ -62,8 +62,8 @@ func TestWriteTitle3(t *testing.T) {
 	doc.Doc.Close()
 }
 func TestWriteBr(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteBR()
 	if err != nil {
 		t.Errorf(err.Error())
@@ -74,8 +74,8 @@ func TestWriteBr(t *testing.T) {
 }
 
 func TestWriteText(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteText("Hello World")
 	if err != nil {
 		t.Errorf(err.Error())
@@ -85,10 +85,13 @@ func TestWriteText(t *testing.T) {
 	doc.Doc.Close()
 }
 func TestWriteTable(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	table := [][][]interface{}{{{"aaa"}, {"bbb"}}, {{"a"}, {"b"}}, {{"xxx"}, {"yyyy"}}}
-	err := doc.WriteTable(false, table, [][]interface{}{{"Hello"}, {"World"}})
+	trSpan := []int{0, 0, 0}
+	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190}
+	thw := []int{4190, 4190}
+	err := doc.WriteTable(false, table, [][]interface{}{{"Hello"}, {"World"}}, thw, trSpan, tdw)
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -97,12 +100,12 @@ func TestWriteTable(t *testing.T) {
 	doc.Doc.Close()
 }
 func TestWriteImage(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	image1 := &Image{"1.png", "offlineWS-102-risk.png", 140.00, 160.00, 21600, 21600}
 	image2 := &Image{"2.png", "offlineWS-102-url.png", 140.00, 160.00, 21600, 21600}
 	images := []*Image{image1, image2}
-	if err := doc.WriteImage(images, false, ""); err != nil {
+	if err := doc.WriteImage(false, "", images...); err != nil {
 		t.Errorf(err.Error())
 	} else {
 		t.Log("TestWriteImage Succeed")
@@ -111,8 +114,8 @@ func TestWriteImage(t *testing.T) {
 }
 
 func TestWriteEndHead(t *testing.T) {
-	var doc Report
-	doc.Newdoc("demo.doc")
+	doc := NewDoc()
+	doc.InitDoc("demo.doc")
 	err := doc.WriteEndHead(true, true, "Hello World")
 	if err != nil {
 		t.Errorf(err.Error())
