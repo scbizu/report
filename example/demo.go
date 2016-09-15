@@ -12,62 +12,62 @@ func main() {
 	doc.WriteHead()
 	image1 := report.NewImage("1.gif", "../images/titlepic.gif", 50.00, 50.00, "")
 	doc.WriteImage(true, "六壬网安'风险评估'安全评估报告", image1)
-	doc.WriteTitle3("                          ———Web应用扫描")
-	doc.WriteTitle3WithGrayBg("1.综述")
+	doc.WriteTitle3(report.NewText("                               ———Web应用扫描"))
+	doc.WriteTitle2WithGrayBg("1.综述")
 	tdimage1 := report.NewImage("11.gif", "../images/netrisk_dangerous.gif", 50.00, 50.00, "")
 	table := [][][]interface{}{
-		{{"任务名称"}, {"{{task_name}}"}},
-		{{"扫描模板"}, {"{{policy_name}}"}},
-		{{"Web风险"}, {tdimage1, "风险值:6.9"}},
-		{{"域名统计"}, {"已扫描域名数：1 ", "非常危险域名：0"}},
-		{{"信息统计"}, {"已扫描的文件：213", "有漏洞的文件：72", "已扫描的链接：216"}},
-		{{"时间统计"}, {"开始：2011-11-09 15:51:00", "结束：2011-11-09 18:08:35", "耗时：2 小时17 分35 秒"}}}
+		{{report.NewText("任务名称")}, {report.NewText("{{task_name}}")}},
+		{{report.NewText("扫描模板")}, {report.NewText("{{policy_name}}")}},
+		{{report.NewText("Web风险")}, {tdimage1, report.NewText("风险值:6.9")}},
+		{{report.NewText("域名统计")}, {report.NewText("已扫描域名数：1 "), report.NewText("非常危险域名：0")}},
+		{{report.NewText("信息统计")}, {report.NewText("已扫描的文件：213"), report.NewText("有漏洞的文件：72"), report.NewText("已扫描的链接：216")}},
+		{{report.NewText("时间统计")}, {report.NewText("开始：2011-11-09 15:51:00"), report.NewText("结束：2011-11-09 18:08:35"), report.NewText("耗时：2 小时17 分35 秒")}}}
 	trSpan := []int{0, 0, 0, 0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
 	tableObj := report.NewTable(false, table, nil, nil, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
-	doc.WriteTitle3("1.1 具有最多安全性问题的文件(TOP5)")
+	doc.WriteTitle3(report.NewText("1.1 具有最多安全性问题的文件(TOP5)"))
 	tableHead := [][]interface{}{{"URL"}, {"漏洞数量"}}
 	table = [][][]interface{}{
-		{{"http://www.xjbtw.com/Article_Class.asp"}, {"13"}},
-		{{"http://www.xjbtw.com/Article_ClassC.asp"}, {"8"}},
-		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
-		{{"http://www.xjbtw.com/video_ttbb.asp"}, {"7"}},
-		{{"http://www.xjbtw.com/imgchange.asp"}, {"6"}}}
+		{{report.NewText("http://www.xjbtw.com/Article_Class.asp")}, {report.NewText("13")}},
+		{{report.NewText("http://www.xjbtw.com/Article_ClassC.asp")}, {report.NewText("8")}},
+		{{report.NewText("http://www.xjbtw.com/video_xwlb.asp	")}, {report.NewText("8")}},
+		{{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}, {report.NewText("7")}},
+		{{report.NewText("http://www.xjbtw.com/imgchange.asp")}, {report.NewText("7")}}}
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
 	thw := []int{4190, 4190}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
-	doc.WriteTitle3("1.2 访问时间最慢的url(TOP5)")
-	tableHead = [][]interface{}{{"URL"}, {"访问时间"}}
+	doc.WriteTitle3(report.NewText("1.2 访问时间最慢的url(TOP5)"))
+	tableHead = [][]interface{}{{report.NewText("URL")}, {report.NewText("访问时间")}}
 	table = [][][]interface{}{
-		{{"http://www.xjbtw.com/Article_Class.asp"}, {"13"}},
-		{{"http://www.xjbtw.com/Article_ClassC.asp"}, {"8"}},
-		{{"http://www.xjbtw.com/video_xwlb.asp	"}, {"7"}},
-		{{"http://www.xjbtw.com/video_ttbb.asp"}, {"7"}},
-		{{"http://www.xjbtw.com/imgchange.asp"}, {"6"}}}
+		{{report.NewText("http://www.xjbtw.com/Article_Class.asp")}, {report.NewText("13")}},
+		{{report.NewText("http://www.xjbtw.com/Article_ClassC.asp")}, {report.NewText("8")}},
+		{{report.NewText("http://www.xjbtw.com/video_xwlb.asp	")}, {report.NewText("8")}},
+		{{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}, {report.NewText("7")}},
+		{{report.NewText("http://www.xjbtw.com/imgchange.asp")}, {report.NewText("6")}}}
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
 	thw = []int{4190, 4190}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
-	doc.WriteTitle3("1.3 Web风险分布统计")
+	doc.WriteTitle3(report.NewText("1.3 Web风险分布统计"))
 	image2 := report.NewImage("1.png", "../images/offlineWS-102-risk.png", 110.00, 200.00, "")
 	image3 := report.NewImage("2.png", "../images/offlineWS-102-url.png", 110.00, 200.00, "")
 	doc.WriteImage(false, "", image2, image3)
 	doc.WriteBR()
 
-	doc.WriteTitle3WithGrayBg("2. 目标风险等级列表")
+	doc.WriteTitle2WithGrayBg("2. 目标风险等级列表")
 	intableImage := report.NewImage("5.gif", "../images/fcwx.gif", 50.00, 50.00, "")
 	intableImage2 := report.NewImage("6.gif", "../images/fcwx.gif", 50.00, 50.00, "")
-	tableHead = [][]interface{}{{"目标"}, {"紧急"}, {"高风险"}, {"中风险"}, {"低风险"}, {"信息"}, {"风险值"}}
+	tableHead = [][]interface{}{{report.NewText("目标")}, {report.NewText("紧急")}, {report.NewText("紧急")}, {report.NewText("中风险")}, {report.NewText("中风险")}, {report.NewText("中风险")}, {report.NewText("中风险")}}
 	table = [][][]interface{}{
-		{{intableImage, "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}},
-		{{intableImage2, "192.168.168.250"}, {"1"}, {"1"}, {"1"}, {"7"}, {"10"}, {"10"}}}
+		{{intableImage, report.NewText("192.168.168.250")}, {report.NewText("192.168.168.250")}, {report.NewText("1")}, {report.NewText("1")}, {report.NewText("1")}, {report.NewText("1")}, {report.NewText("1")}},
+		{{intableImage2, report.NewText("192.168.168.250")}, {report.NewText("192.168.168.250")}, {report.NewText("1")}, {report.NewText("1")}, {report.NewText("7")}, {report.NewText("10")}, {report.NewText("10")}}}
 	trSpan = []int{0, 0}
 	thw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196}
 	tdw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196,
@@ -80,13 +80,13 @@ func main() {
 	image4 := report.NewImage("3.png", "../images/offlineWS-102-1267308e465963bec7d4c63afbb8cd5b-1004.png", 300.00, 500.00, "")
 
 	doc.WriteImage(false, "", image4)
-	tableHead = [][]interface{}{{"分类名"}, {"高风险"}, {"中风险"}, {"低风险"}, {"总计"}}
+	tableHead = [][]interface{}{{report.NewText("分类名")}, {report.NewText("高风险")}, {report.NewText("中风险")}, {report.NewText("低风险")}, {report.NewText("总计")}}
 	table = [][][]interface{}{
-		{{"逻辑攻击类型:功能滥用"}, {"0"}, {"0"}, {"1"}, {"1"}},
-		{{"命令执行类型:SQL注入"}, {"1"}, {"0"}, {"0"}, {"1"}},
-		{{"信息泄露类型:资源位置可预测"}, {"0"}, {"0"}, {"3"}, {"3"}},
-		{{"信息泄露类型:信息泄露"}, {"0"}, {"0"}, {"3"}, {"3"}},
-		{{"其他"}, {"0"}, {"0"}, {"0"}, {"1"}}}
+		{{report.NewText("逻辑攻击类型:功能滥用")}, {report.NewText("0")}, {report.NewText("0")}, {report.NewText("1")}, {report.NewText("1")}},
+		{{report.NewText("命令执行类型:SQL注入")}, {report.NewText("1")}, {report.NewText("1")}, {report.NewText("0")}, {report.NewText("0")}},
+		{{report.NewText("信息泄露类型:资源位置可预测")}, {report.NewText("0")}, {report.NewText("0")}, {report.NewText("3")}, {report.NewText("3")}},
+		{{report.NewText("信息泄露类型:信息泄露")}, {report.NewText("0")}, {report.NewText("0")}, {report.NewText("3")}, {report.NewText("3")}},
+		{{report.NewText("其他")}, {report.NewText("0")}, {report.NewText("0")}, {report.NewText("0")}, {report.NewText("1")}}}
 	trSpan = []int{0, 0, 0, 0, 0}
 	thw = []int{1676, 1676, 1676, 1676, 1676}
 	tdw = []int{1676, 1676, 1676, 1676, 1676,
@@ -95,18 +95,21 @@ func main() {
 		1676, 1676, 1676, 1676, 1676}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
-
-	doc.WriteTitle3("4.1.5: 漏洞信息")
+	cText := report.NewText("4.1.5: 漏洞信息")
+	// cText.SetSize("15")
+	doc.WriteTitle3(cText)
 	intableImage3 := report.NewImage("10.gif", "../images/move_down.gif", 50, 50, "http://blog.scnace.cc/")
 	tit := [][][]interface{}{
-		{{"请求方式"}, {"GET"}},
-		{{"URL"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`}},
-		{{"问题参数"}, {"class_id_int"}},
-		{{"参考（验证）"}, {`http://www.xjbtw.com/Link_Class.asp?class_id_int`}}}
-	tableHead = [][]interface{}{{"漏洞名称"}, {"出现次数"}, {"详情解决方法"}}
+		{{report.NewText("请求方式")}, {report.NewText("GET")}},
+		{{report.NewText("URL")}, {report.NewText(`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`)}},
+		{{report.NewText("问题参数")}, {report.NewText("class_id_int")}},
+		{{report.NewText("参考（验证）")}, {report.NewText(`http://www.xjbtw.com/Link_Class.asp?class_id_int`)}}}
+	tableHead = [][]interface{}{{report.NewText("漏洞名称")}, {report.NewText("出现次数")}, {report.NewText("详情解决方法")}}
+	redFont := report.NewText("检测到目标URL存在SQL注入漏洞")
+	redFont.Setcolor("ef1515")
 	table = [][][]interface{}{
-		{{"检测到目标URL存在SQL注入漏洞"}, {"1"}, {intableImage3}},
-		// BUG: 注意需要转义! 否则填充会有BUG...
+		{{redFont}, {report.NewText("1")}, {intableImage3}},
+		// BUG: 注意'%^'需要转义! 否则填充会有BUG...
 		{{`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`, tit}}}
 	tdw = []int{2793, 2793, 2793, 8380}
 	thw = []int{2793, 2793, 2793}

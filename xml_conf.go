@@ -110,8 +110,8 @@ const (
 	      <w:rPr>
 	        <wx:font wx:val="Calibri"/>
 	        <w:kern w:val="2"/>
-	        <w:sz w:val="21"/>
-	        <w:sz-cs w:val="22"/>
+	        <w:sz w:val="20"/>
+	        <w:sz-cs w:val="21"/>
 	        <w:lang w:val="EN-US" w:fareast="ZH-CN" w:bidi="AR-SA"/>
 	      </w:rPr>
 	    </w:style>
@@ -133,8 +133,8 @@ const (
 	        <w:b/>
 	        <w:b-cs/>
 	        <w:kern w:val="44"/>
-	        <w:sz w:val="44"/>
-	        <w:sz-cs w:val="44"/>
+	        <w:sz w:val="34"/>
+	        <w:sz-cs w:val="34"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="paragraph" w:styleId="2">
@@ -155,8 +155,8 @@ const (
 	        <wx:font wx:val="Cambria"/>
 	        <w:b/>
 	        <w:b-cs/>
-	        <w:sz w:val="32"/>
-	        <w:sz-cs w:val="32"/>
+	        <w:sz w:val="28"/>
+	        <w:sz-cs w:val="28"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="paragraph" w:styleId="3">
@@ -176,8 +176,8 @@ const (
 	        <wx:font wx:val="Calibri"/>
 	        <w:b/>
 	        <w:b-cs/>
-	        <w:sz w:val="32"/>
-	        <w:sz-cs w:val="32"/>
+	        <w:sz w:val="26"/>
+	        <w:sz-cs w:val="26"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="character" w:default="on" w:styleId="a0">
@@ -406,6 +406,9 @@ const (
 			<w:jc w:val="center"/>
 		</w:pPr>
 		<w:r>
+		<w:rPr>
+			<w:color w:val="%s"/>
+		</w:rPr>
 			<w:t>%s</w:t>
 		</w:r>
 	</w:p>
@@ -416,6 +419,9 @@ const (
       <w:pStyle w:val="1"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="%s"/>
+		</w:rPr>
       <w:t>%s</w:t>
     </w:r>
   </w:p>
@@ -426,6 +432,9 @@ const (
       <w:pStyle w:val="2"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="%s"/>
+		</w:rPr>
       <w:t>%s</w:t>
     </w:r>
   </w:p>
@@ -447,6 +456,9 @@ const (
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="%s"/>
+		</w:rPr>
       <w:t>%s</w:t>
     </w:r>
   </w:p>
@@ -465,6 +477,11 @@ const (
 	//XMLText == 正文
 	XMLText = `<w:p>
     <w:r>
+		<w:rPr>
+			<w:color w:val="%s"/>
+			<w:sz w:val="%s"/>
+			<w:sz-cs w:val="%s"/>
+		</w:rPr>
       <w:t>%s</w:t>
     </w:r>
   </w:p>
@@ -593,6 +610,11 @@ const (
 `
 	//XMLHeadtableTDText ..
 	XMLHeadtableTDText = `<w:r>
+			<w:rPr>
+				<w:color w:val="%s"/>
+				<w:sz w:val="%s"/>
+				<w:sz-cs w:val="%s"/>
+			</w:rPr>
 			<w:t>%s</w:t>
 		</w:r>
 `

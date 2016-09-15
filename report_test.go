@@ -29,7 +29,7 @@ func TestWriteHead(t *testing.T) {
 func TestWriteTitle1(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	err := doc.WriteTitle1("Hello World")
+	err := doc.WriteTitle1(NewText("Hello World"))
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -41,7 +41,7 @@ func TestWriteTitle1(t *testing.T) {
 func TestWriteTitle2(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	err := doc.WriteTitle2("Hello World")
+	err := doc.WriteTitle2(NewText("Hello World"))
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -53,7 +53,7 @@ func TestWriteTitle2(t *testing.T) {
 func TestWriteTitle3(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	err := doc.WriteTitle3("Hello World")
+	err := doc.WriteTitle3(NewText("Hello World"))
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {
@@ -76,7 +76,7 @@ func TestWriteBr(t *testing.T) {
 func TestWriteText(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	err := doc.WriteText("Hello World")
+	err := doc.WriteText(NewText("Hello World"))
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {

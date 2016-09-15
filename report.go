@@ -15,6 +15,13 @@ type Report struct {
 	Doc *os.File
 }
 
+//Text include text configuration
+type Text struct {
+	Words string `json:"word"`
+	Color string `json:"color"`
+	Size  string `json:"size"`
+}
+
 //Image include image configuration.
 type Image struct {
 	//This image will link to ?
@@ -101,40 +108,45 @@ func (doc *Report) WriteEndHead(sethdr bool, setftr bool, hdr string) error {
 		return err
 	}
 	doc.Doc.WriteString(XMLEndHead)
-	//color.Blue("[LOG]:WriteEndHead wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+
 	return nil
 }
 
 //WriteTitle == 居中大标题
-func (doc *Report) WriteTitle(text string) error {
-	Title := fmt.Sprintf(XMLTitle, text)
+func (doc *Report) WriteTitle(text *Text) error {
+	color := text.Color
+	word := text.Words
+	Title := fmt.Sprintf(XMLTitle, color, word)
 	_, err := doc.Doc.WriteString(Title)
 	if err != nil {
 		return err
 	}
-	//	color.Blue("[LOG]:WriteTitle Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+
 	return nil
 }
 
 //WriteTitle1 == 标题1的格式
-func (doc *Report) WriteTitle1(text string) error {
-	Title1 := fmt.Sprintf(XMLTitle1, text)
+func (doc *Report) WriteTitle1(text *Text) error {
+	color := text.Color
+	word := text.Words
+	Title1 := fmt.Sprintf(XMLTitle1, color, word)
 	_, err := doc.Doc.WriteString(Title1)
 	if err != nil {
 		return err
 	}
-	//color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
+
 	return nil
 }
 
 //WriteTitle2 == 标题2的格式
-func (doc *Report) WriteTitle2(text string) error {
-	Title2 := fmt.Sprintf(XMLTitle2, text)
+func (doc *Report) WriteTitle2(text *Text) error {
+	color := text.Color
+	word := text.Words
+	Title2 := fmt.Sprintf(XMLTitle2, color, word)
 	_, err := doc.Doc.WriteString(Title2)
 	if err != nil {
 		return err
 	}
-	//color.Blue("[LOG]:WriteTitle2 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }
 
@@ -150,8 +162,10 @@ func (doc *Report) WriteTitle2WithGrayBg(text string) error {
 }
 
 //WriteTitle3 == 标题3的格式
-func (doc *Report) WriteTitle3(text string) error {
-	Title3 := fmt.Sprintf(XMLTitle3, text)
+func (doc *Report) WriteTitle3(text *Text) error {
+	color := text.Color
+	word := text.Words
+	Title3 := fmt.Sprintf(XMLTitle3, color, word)
 	_, err := doc.Doc.WriteString(Title3)
 	if err != nil {
 		return err
@@ -172,8 +186,11 @@ func (doc *Report) WriteTitle3WithGrayBg(text string) error {
 }
 
 //WriteText == 正文的格式
-func (doc *Report) WriteText(text string) error {
-	Text := fmt.Sprintf(XMLText, text)
+func (doc *Report) WriteText(text *Text) error {
+	color := text.Color
+	size := text.Size
+	word := text.Words
+	Text := fmt.Sprintf(XMLText, color, size, size, word)
 	_, err := doc.Doc.WriteString(Text)
 	if err != nil {
 		return err
@@ -221,10 +238,12 @@ func (doc *Report) WriteTable(table *Table) error {
 						return err
 					}
 					XMLTable.WriteString(str)
-					//由于图片需要连着字 所以这里不换行
-				} else {
+				} else if text, ok := rowEle.(*Text); ok {
 					//not
-					data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
+					tColor := text.Color
+					tSize := text.Size
+					tWord := text.Words
+					data := fmt.Sprintf(XMLHeadtableTDText, tColor, tSize, tSize, tWord)
 					XMLTable.WriteString(data)
 				}
 				if !inline {
@@ -274,7 +293,7 @@ func (doc *Report) WriteTable(table *Table) error {
 						if icon.Hyperlink != "" {
 							XMLTable.WriteString(XMLImageLinkEnd)
 						}
-					} else {
+					} else if _, ko := vvv.(*Text); ko {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
 					if !inline && !ok {
@@ -311,8 +330,11 @@ func (doc *Report) WriteTable(table *Table) error {
 						} else {
 							rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
 						}
-					} else {
-						rows = append(rows, rowEle)
+					} else if text, ok := rowEle.(*Text); ok {
+						tColor := text.Color
+						tSize := text.Size
+						tWord := text.Words
+						rows = append(rows, tColor, tSize, tSize, tWord)
 					}
 				}
 			}
@@ -420,12 +442,13 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 						return "", err
 					}
 					XMLTable.WriteString(str)
-				} else {
+				} else if text, ok := rowEle.(*Text); ok {
 					//not
-					data := fmt.Sprintf(XMLHeadtableTDText, rowEle)
+					tColor := text.Color
+					tSize := text.Size
+					tWord := text.Words
+					data := fmt.Sprintf(XMLHeadtableTDText, tColor, tSize, tSize, tWord)
 					XMLTable.WriteString(data)
-					//换行
-					XMLTable.WriteString(XMLBr)
 				}
 				if !inline {
 					XMLTable.WriteString(XMLIMGtail)
@@ -449,16 +472,35 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 				XMLTable.WriteString(XMLTableTD2)
 			}
 			for _, vvv := range vv {
-				if !inline {
+				table, ok := vvv.([][][]interface{})
+				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
-				if isResource(vvv.(string)) {
-					XMLTable.WriteString(XMLIcon)
+				//if td is a table
+				if ok {
+					tablestr, err := writeTableToBuffer(true, table, nil)
+					if err != nil {
+						return "", err
+					}
+					XMLTable.WriteString(tablestr)
+					// FIXME: magic operation
+					XMLTable.WriteString(XMLMagicFooter)
+					//image or text
 				} else {
-					XMLTable.WriteString(XMLHeadtableTDText)
-				}
-				if !inline {
-					XMLTable.WriteString(XMLIMGtail)
+					if icon, ko := vvv.(*Image); ko {
+						if icon.Hyperlink != "" {
+							XMLTable.WriteString(XMLImageLinkTitle)
+						}
+						XMLTable.WriteString(XMLIcon)
+						if icon.Hyperlink != "" {
+							XMLTable.WriteString(XMLImageLinkEnd)
+						}
+					} else if _, ko := vvv.(*Text); ko {
+						XMLTable.WriteString(XMLHeadtableTDText)
+					}
+					if !inline && !ok {
+						XMLTable.WriteString(XMLIMGtail)
+					}
 				}
 			}
 			if inline {
@@ -478,17 +520,25 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 		for _, rowdata := range row {
 			for _, rowEle := range rowdata {
 				if _, ok := rowEle.([][][]interface{}); !ok {
-					if isResource(rowEle.(string)) {
+					if icon, ok := rowEle.(*Image); ok {
 						//图片
-						imageSrc := rowEle.(string)
+						imageSrc := icon.ImageSrc
 						bindata, err := getImagedata(imageSrc)
-						URI := "wordml://" + imageSrc
+						URI := "wordml://" + icon.URIDist
 						if err != nil {
 							return "", err
 						}
-						rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
-					} else {
-						rows = append(rows, rowEle)
+
+						if icon.Hyperlink != "" {
+							rows = append(rows, icon.Hyperlink, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+						} else {
+							rows = append(rows, URI, bindata, filepath.Base(imageSrc), URI, filepath.Base(imageSrc))
+						}
+					} else if text, ok := rowEle.(*Text); ok {
+						tColor := text.Color
+						tSize := text.Size
+						tWord := text.Words
+						rows = append(rows, tColor, tSize, tSize, tWord)
 					}
 				}
 			}
@@ -574,6 +624,25 @@ func NewTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{
 	table.Thw = thw
 	table.GridSpan = gridSpan
 	return table
+}
+
+//NewText create word with default setting
+func NewText(words string) *Text {
+	text := &Text{}
+	text.Words = words
+	text.Color = "000000"
+	text.Size = "21"
+	return text
+}
+
+//Setcolor Set Text color
+func (tx *Text) Setcolor(color string) {
+	tx.Color = color
+}
+
+//SetSize set text size
+func (tx *Text) SetSize(size string) {
+	tx.Size = size
 }
 
 //CloseReport close file handle

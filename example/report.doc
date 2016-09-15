@@ -105,8 +105,8 @@
 	      <w:rPr>
 	        <wx:font wx:val="Calibri"/>
 	        <w:kern w:val="2"/>
-	        <w:sz w:val="21"/>
-	        <w:sz-cs w:val="22"/>
+	        <w:sz w:val="20"/>
+	        <w:sz-cs w:val="21"/>
 	        <w:lang w:val="EN-US" w:fareast="ZH-CN" w:bidi="AR-SA"/>
 	      </w:rPr>
 	    </w:style>
@@ -128,8 +128,8 @@
 	        <w:b/>
 	        <w:b-cs/>
 	        <w:kern w:val="44"/>
-	        <w:sz w:val="44"/>
-	        <w:sz-cs w:val="44"/>
+	        <w:sz w:val="34"/>
+	        <w:sz-cs w:val="34"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="paragraph" w:styleId="2">
@@ -150,8 +150,8 @@
 	        <wx:font wx:val="Cambria"/>
 	        <w:b/>
 	        <w:b-cs/>
-	        <w:sz w:val="32"/>
-	        <w:sz-cs w:val="32"/>
+	        <w:sz w:val="28"/>
+	        <w:sz-cs w:val="28"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="paragraph" w:styleId="3">
@@ -171,8 +171,8 @@
 	        <wx:font wx:val="Calibri"/>
 	        <w:b/>
 	        <w:b-cs/>
-	        <w:sz w:val="32"/>
-	        <w:sz-cs w:val="32"/>
+	        <w:sz w:val="26"/>
+	        <w:sz-cs w:val="26"/>
 	      </w:rPr>
 	    </w:style>
 	    <w:style w:type="character" w:default="on" w:styleId="a0">
@@ -421,18 +421,21 @@
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
-      <w:t>                          ———Web应用扫描</w:t>
+		<w:rPr>
+			<w:color w:val="000000"/>
+		</w:rPr>
+      <w:t>                               ———Web应用扫描</w:t>
     </w:r>
   </w:p>
 <w:p>
-	<w:pPr>
-		<w:pStyle w:val="3"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:pPr>
-	<w:r>
-		<w:t>1.综述</w:t>
-	</w:r>
-</w:p>
+    <w:pPr>
+      <w:pStyle w:val="2"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+    </w:pPr>
+    <w:r>
+      <w:t>1.综述</w:t>
+    </w:r>
+  </w:p>
 <w:tbl>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
@@ -472,10 +475,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>任务名称</w:t>
 		</w:r>
 </w:p>
@@ -507,10 +515,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>{{task_name}}</w:t>
 		</w:r>
 </w:p>
@@ -544,10 +557,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>扫描模板</w:t>
 		</w:r>
 </w:p>
@@ -579,10 +597,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>{{policy_name}}</w:t>
 		</w:r>
 </w:p>
@@ -616,10 +639,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>Web风险</w:t>
 		</w:r>
 </w:p>
@@ -651,17 +679,17 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
 		<w:pict>
-				<w:binData w:name="wordml://../images/netrisk_dangerous.gif">R0lGODlhKAAoAPebAOVFAOFDANlAAO9KAN1BAOxJAOlHAP9UAL80AM46AP9XAPZOAPhPAPNMAMo5ALsyAP9bAMY3APtRAP1SALgxAP9fAMI1AP9jALUvALIuAP9nAK8tAP9qAK0sAP9tAKsrAP9wAMt/Zv/9/P/jzP/48//7+d2qmfHc1f9cDMBePOzPxr5HHv/DlvGaddGGbP+eYMViP96MbP+0iv+IM/749vnk2/vOuv/An++beP/Suv/Rsf+1e/hvMPjbz/NOA/Xi29ZDBsp1V9dTHv+BHv/Hmf+GJ/SylumnjdGKcv+PSPe6n/Tb0vO0mf79/P/Yuvnu6v+CJP/Lpfru6v6uh//Zuv/59veyk8NRJ/+wcsdWLf/fxtdyS/DZ0vrs5/9pA+ONbLM/GPthGP9ZA8s+Bv349vSifujGuv/v57AvA9idivPFsd1qPP+veP36+f9qIe7Syf+fac2AZvfn4f/cwNmFZv+/k/nHsfmIVNaYhL5CFf6Zaf/cw8M3A/9/JP97GM5sSPvz8MBTLfTXzLo+EvyuiuzQxu/Tyfv18/Th28ZtTv/t5LVEHv/17f7y7fTAq/3o3u+oisU/DP+IQvtVBv3Fq/+ZXf/38+Gfh/RZEtI8ANU+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJsALAAAAAAoACgAAAj/ADcJHEiwoMGDCBMq3ERixBwiVEYwWkjxoJYdRUBo3AhiCBYnFSlGgeKhpMmTJv2wEBHS4J4ZHGLKnEkzZh8dLQfW8aKhp8+fQIGyYVmxxIsLSJMqXcoUaRISFStVmEq1qtWrVSWVWCgDgtevYMOKFQtHYQ4xCtKqXcu2rdsbCC25OUC3rt27ePMeQKHo4JQJgAMLDlxwsGHAegxWCSOhsePHjgtCntx40pmClBho3syZc8HOoDcTKnhngenTqFEXTM36NA+CIjA1mE27du2CtnPT9tFo4KMBwIMLH15wuHHhNgbaKcC8ufPnBZ9Ld25loBID2LNr315wu3ftZQYa/wFAvrz58wXPqzffYiCTAPDjy59fcL59+TgGOiLAv7///wX9J6B/kAzUgwAIJqjgggUt6KCCagxEAxCaVGjhhRhmqGGGNRC0RiYghijiiCSWOKIQBR2RwIostthiQS7GyOIXBXUxhgM45qhjjgXt6GOOghgUQwREFmlkkQUdqSSRWxwkRSQWRCnllFEWROWVFvCxBEKXIODll2CGKeaYCNCRUBN/PKDmmmy26aabWZChECBXUGDnnXjmqSeeechB0Q8rYCDooIQWaqiggxgS0hMwZODoo5BGKmkgiOTUhgtobKDpppx2umkQh+Q00AmJdGDqqaimmsIbohpUCBKLfBwg66yzghGHGa0qxIUJaYTgKx4mqJDrsMQWG1JAADs=</w:binData>
+				<w:binData w:name="wordml://11.gif">R0lGODlhKAAoAPebAOVFAOFDANlAAO9KAN1BAOxJAOlHAP9UAL80AM46AP9XAPZOAPhPAPNMAMo5ALsyAP9bAMY3APtRAP1SALgxAP9fAMI1AP9jALUvALIuAP9nAK8tAP9qAK0sAP9tAKsrAP9wAMt/Zv/9/P/jzP/48//7+d2qmfHc1f9cDMBePOzPxr5HHv/DlvGaddGGbP+eYMViP96MbP+0iv+IM/749vnk2/vOuv/An++beP/Suv/Rsf+1e/hvMPjbz/NOA/Xi29ZDBsp1V9dTHv+BHv/Hmf+GJ/SylumnjdGKcv+PSPe6n/Tb0vO0mf79/P/Yuvnu6v+CJP/Lpfru6v6uh//Zuv/59veyk8NRJ/+wcsdWLf/fxtdyS/DZ0vrs5/9pA+ONbLM/GPthGP9ZA8s+Bv349vSifujGuv/v57AvA9idivPFsd1qPP+veP36+f9qIe7Syf+fac2AZvfn4f/cwNmFZv+/k/nHsfmIVNaYhL5CFf6Zaf/cw8M3A/9/JP97GM5sSPvz8MBTLfTXzLo+EvyuiuzQxu/Tyfv18/Th28ZtTv/t5LVEHv/17f7y7fTAq/3o3u+oisU/DP+IQvtVBv3Fq/+ZXf/38+Gfh/RZEtI8ANU+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJsALAAAAAAoACgAAAj/ADcJHEiwoMGDCBMq3ERixBwiVEYwWkjxoJYdRUBo3AhiCBYnFSlGgeKhpMmTJv2wEBHS4J4ZHGLKnEkzZh8dLQfW8aKhp8+fQIGyYVmxxIsLSJMqXcoUaRISFStVmEq1qtWrVSWVWCgDgtevYMOKFQtHYQ4xCtKqXcu2rdsbCC25OUC3rt27ePMeQKHo4JQJgAMLDlxwsGHAegxWCSOhsePHjgtCntx40pmClBho3syZc8HOoDcTKnhngenTqFEXTM36NA+CIjA1mE27du2CtnPT9tFo4KMBwIMLH15wuHHhNgbaKcC8ufPnBZ9Ld25loBID2LNr315wu3ftZQYa/wFAvrz58wXPqzffYiCTAPDjy59fcL59+TgGOiLAv7///wX9J6B/kAzUgwAIJqjgggUt6KCCagxEAxCaVGjhhRhmqGGGNRC0RiYghijiiCSWOKIQBR2RwIostthiQS7GyOIXBXUxhgM45qhjjgXt6GOOghgUQwREFmlkkQUdqSSRWxwkRSQWRCnllFEWROWVFvCxBEKXIODll2CGKeaYCNCRUBN/PKDmmmy26aabWZChECBXUGDnnXjmqSeeechB0Q8rYCDooIQWaqiggxgS0hMwZODoo5BGKmkgiOTUhgtobKDpppx2umkQh+Q00AmJdGDqqaimmsIbohpUCBKLfBwg66yzghGHGa0qxIUJaYTgKx4mqJDrsMQWG1JAADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="netrisk_dangerous.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
 					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 						<v:fill on="f" focussize="0,0"/>
 						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/netrisk_dangerous.gif" o:title="netrisk_dangerous.gif"/>
+						<v:imagedata src="wordml://11.gif" o:title="netrisk_dangerous.gif"/>
 						<o:lock v:ext="edit" aspectratio="t"/>
 						<w10:wrap type="none"/>
 						<w10:anchorlock/>
@@ -689,10 +717,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>风险值:6.9</w:t>
 		</w:r>
 </w:p>
@@ -726,10 +759,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>域名统计</w:t>
 		</w:r>
 </w:p>
@@ -761,10 +799,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>已扫描域名数：1 </w:t>
 		</w:r>
 </w:p>
@@ -788,10 +831,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>非常危险域名：0</w:t>
 		</w:r>
 </w:p>
@@ -825,10 +873,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>信息统计</w:t>
 		</w:r>
 </w:p>
@@ -860,10 +913,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>已扫描的文件：213</w:t>
 		</w:r>
 </w:p>
@@ -887,10 +945,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>有漏洞的文件：72</w:t>
 		</w:r>
 </w:p>
@@ -914,10 +977,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>已扫描的链接：216</w:t>
 		</w:r>
 </w:p>
@@ -951,10 +1019,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>时间统计</w:t>
 		</w:r>
 </w:p>
@@ -986,10 +1059,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>开始：2011-11-09 15:51:00</w:t>
 		</w:r>
 </w:p>
@@ -1013,10 +1091,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>结束：2011-11-09 18:08:35</w:t>
 		</w:r>
 </w:p>
@@ -1040,10 +1123,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>耗时：2 小时17 分35 秒</w:t>
 		</w:r>
 </w:p>
@@ -1056,6 +1144,9 @@
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="000000"/>
+		</w:rPr>
       <w:t>1.1 具有最多安全性问题的文件(TOP5)</w:t>
     </w:r>
   </w:p>
@@ -1097,12 +1188,9 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
-<w:r>
-			<w:t>URL</w:t>
-		</w:r>
 </w:p>
 
 </w:tc>
@@ -1131,12 +1219,9 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
-<w:r>
-			<w:t>漏洞数量</w:t>
-		</w:r>
 </w:p>
 
 </w:tc>
@@ -1168,10 +1253,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
 </w:p>
@@ -1203,10 +1293,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>13</w:t>
 		</w:r>
 </w:p>
@@ -1240,10 +1335,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
 </w:p>
@@ -1275,10 +1375,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>8</w:t>
 		</w:r>
 </w:p>
@@ -1312,10 +1417,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
 </w:p>
@@ -1347,11 +1457,16 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>7</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>8</w:t>
 		</w:r>
 </w:p>
 
@@ -1384,10 +1499,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
 </w:p>
@@ -1419,10 +1539,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>7</w:t>
 		</w:r>
 </w:p>
@@ -1456,10 +1581,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
 </w:p>
@@ -1491,11 +1621,16 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>6</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>7</w:t>
 		</w:r>
 </w:p>
 
@@ -1507,6 +1642,9 @@
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="000000"/>
+		</w:rPr>
       <w:t>1.2 访问时间最慢的url(TOP5)</w:t>
     </w:r>
   </w:p>
@@ -1548,10 +1686,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>URL</w:t>
 		</w:r>
 </w:p>
@@ -1582,10 +1725,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>访问时间</w:t>
 		</w:r>
 </w:p>
@@ -1619,10 +1767,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 		</w:r>
 </w:p>
@@ -1654,10 +1807,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>13</w:t>
 		</w:r>
 </w:p>
@@ -1691,10 +1849,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 		</w:r>
 </w:p>
@@ -1726,10 +1889,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>8</w:t>
 		</w:r>
 </w:p>
@@ -1763,10 +1931,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
 		</w:r>
 </w:p>
@@ -1798,11 +1971,16 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>7</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>8</w:t>
 		</w:r>
 </w:p>
 
@@ -1835,10 +2013,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 		</w:r>
 </w:p>
@@ -1870,10 +2053,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>7</w:t>
 		</w:r>
 </w:p>
@@ -1907,10 +2095,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 		</w:r>
 </w:p>
@@ -1942,10 +2135,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>6</w:t>
 		</w:r>
 </w:p>
@@ -1958,6 +2156,9 @@
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="000000"/>
+		</w:rPr>
       <w:t>1.3 Web风险分布统计</w:t>
     </w:r>
   </w:p>
@@ -1993,14 +2194,14 @@
 </w:p>
 <w:p/>
 <w:p>
-	<w:pPr>
-		<w:pStyle w:val="3"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:pPr>
-	<w:r>
-		<w:t>2. 目标风险等级列表</w:t>
-	</w:r>
-</w:p>
+    <w:pPr>
+      <w:pStyle w:val="2"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+    </w:pPr>
+    <w:r>
+      <w:t>2. 目标风险等级列表</w:t>
+    </w:r>
+  </w:p>
 <w:tbl>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
@@ -2039,10 +2240,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>目标</w:t>
 		</w:r>
 </w:p>
@@ -2073,10 +2279,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>紧急</w:t>
 		</w:r>
 </w:p>
@@ -2107,11 +2318,16 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:t>高风险</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>紧急</w:t>
 		</w:r>
 </w:p>
 
@@ -2141,10 +2357,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>中风险</w:t>
 		</w:r>
 </w:p>
@@ -2175,11 +2396,16 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:t>低风险</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>中风险</w:t>
 		</w:r>
 </w:p>
 
@@ -2209,11 +2435,16 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:t>信息</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>中风险</w:t>
 		</w:r>
 </w:p>
 
@@ -2243,11 +2474,16 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:t>风险值</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>中风险</w:t>
 		</w:r>
 </w:p>
 
@@ -2280,17 +2516,17 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
 		<w:pict>
-				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+				<w:binData w:name="wordml://5.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
 					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 						<v:fill on="f" focussize="0,0"/>
 						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<v:imagedata src="wordml://5.gif" o:title="fcwx.gif"/>
 						<o:lock v:ext="edit" aspectratio="t"/>
 						<w10:wrap type="none"/>
 						<w10:anchorlock/>
@@ -2298,6 +2534,11 @@
 		</w:pict>
 </w:r>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>192.168.168.250</w:t>
 		</w:r>
 </w:p>
@@ -2329,10 +2570,55 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -2364,10 +2650,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -2399,10 +2690,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -2434,11 +2730,16 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>7</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>1</w:t>
 		</w:r>
 </w:p>
 
@@ -2469,46 +2770,16 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>10</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="1196" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
-			<w:t>10</w:t>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>1</w:t>
 		</w:r>
 </w:p>
 
@@ -2541,17 +2812,17 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
 		<w:pict>
-				<w:binData w:name="wordml://../images/fcwx.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+				<w:binData w:name="wordml://6.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
 					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 						<v:fill on="f" focussize="0,0"/>
 						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/fcwx.gif" o:title="fcwx.gif"/>
+						<v:imagedata src="wordml://6.gif" o:title="fcwx.gif"/>
 						<o:lock v:ext="edit" aspectratio="t"/>
 						<w10:wrap type="none"/>
 						<w10:anchorlock/>
@@ -2559,6 +2830,11 @@
 		</w:pict>
 </w:r>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>192.168.168.250</w:t>
 		</w:r>
 </w:p>
@@ -2590,10 +2866,55 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>192.168.168.250</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1196" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -2625,10 +2946,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -2660,45 +2986,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>1</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="1196" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>7</w:t>
 		</w:r>
 </w:p>
@@ -2730,10 +3026,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>10</w:t>
 		</w:r>
 </w:p>
@@ -2765,10 +3066,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>10</w:t>
 		</w:r>
 </w:p>
@@ -2840,10 +3146,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>分类名</w:t>
 		</w:r>
 </w:p>
@@ -2874,10 +3185,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>高风险</w:t>
 		</w:r>
 </w:p>
@@ -2908,10 +3224,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>中风险</w:t>
 		</w:r>
 </w:p>
@@ -2942,10 +3263,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>低风险</w:t>
 		</w:r>
 </w:p>
@@ -2976,10 +3302,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>总计</w:t>
 		</w:r>
 </w:p>
@@ -3013,10 +3344,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>逻辑攻击类型:功能滥用</w:t>
 		</w:r>
 </w:p>
@@ -3048,10 +3384,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3083,10 +3424,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3118,10 +3464,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -3153,10 +3504,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -3190,10 +3546,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>命令执行类型:SQL注入</w:t>
 		</w:r>
 </w:p>
@@ -3225,10 +3586,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -3260,81 +3626,96 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:t>0</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="1676" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
-			<w:t>0</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="1676" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1676" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>0</w:t>
+		</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="1676" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>0</w:t>
 		</w:r>
 </w:p>
 
@@ -3367,10 +3748,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>信息泄露类型:资源位置可预测</w:t>
 		</w:r>
 </w:p>
@@ -3402,10 +3788,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3437,10 +3828,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3472,10 +3868,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>3</w:t>
 		</w:r>
 </w:p>
@@ -3507,10 +3908,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>3</w:t>
 		</w:r>
 </w:p>
@@ -3544,10 +3950,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>信息泄露类型:信息泄露</w:t>
 		</w:r>
 </w:p>
@@ -3579,10 +3990,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3614,10 +4030,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3649,10 +4070,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>3</w:t>
 		</w:r>
 </w:p>
@@ -3684,10 +4110,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>3</w:t>
 		</w:r>
 </w:p>
@@ -3721,10 +4152,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>其他</w:t>
 		</w:r>
 </w:p>
@@ -3756,10 +4192,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3791,10 +4232,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3826,10 +4272,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>0</w:t>
 		</w:r>
 </w:p>
@@ -3861,10 +4312,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -3877,6 +4333,9 @@
       <w:pStyle w:val="3"/>
     </w:pPr>
     <w:r>
+		<w:rPr>
+			<w:color w:val="000000"/>
+		</w:rPr>
       <w:t>4.1.5: 漏洞信息</w:t>
     </w:r>
   </w:p>
@@ -3918,10 +4377,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>漏洞名称</w:t>
 		</w:r>
 </w:p>
@@ -3952,10 +4416,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>出现次数</w:t>
 		</w:r>
 </w:p>
@@ -3986,10 +4455,15 @@
 		<w:spacing w:line="240" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>详情解决方法</w:t>
 		</w:r>
 </w:p>
@@ -4023,10 +4497,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="ef1515"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>检测到目标URL存在SQL注入漏洞</w:t>
 		</w:r>
 </w:p>
@@ -4058,10 +4537,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>1</w:t>
 		</w:r>
 </w:p>
@@ -4093,22 +4577,34 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+          <w:fldChar w:fldCharType="begin"/>
+        </w:r>
+        <w:r>
+          <w:instrText> HYPERLINK "http://blog.scnace.cc/" </w:instrText>
+        </w:r>
+        <w:r>
+          <w:fldChar w:fldCharType="separate"/>
+        </w:r>
+<w:r>
 		<w:pict>
-				<w:binData w:name="wordml://../images/move_down.gif">R0lGODlhEAAQAPeDAIyhsP7+/vHz9dPe5qCxvtbg6JequPz9/SyEyMzV3CyEx/f5+o2hsSuDx8LN1ZSotrbEzfT2+Pb4+fP2+NTf5+Hn6vv8/dDZ3/L19t3j6Ku6xd7m7LjFzuzw8il/xCh/xLvH0KS0wSFyu+Lo7a28x8HM1PP198fS2SV4v669x6O0wPr7/LG/yePo67XCzNrh5v39/iqBxubs8d7k6SBvufL1+BhisNjf5Pn7/Ka2wtHc5ZiruZ6wvZ6xvpGltPX3+e7y9RZero6isdfh6JmsuaGyv/n6+4edrZutu+Dm6p2vvMbQ2Nzk66e3wvj6++vw8+fr7rTCzLjFzw9Rpd3l6+ru8CBwuvj5+vX3+CqBxdji6a69yP7//9ng5f7+/+nv84+jst/n7cHO2MnT2tTe5pSntevu8cjS2RVdrcfR2L/L0yuEx4mfrtjh5/H19+rw8+Dl6ubt8fL19+br7vj6+u/z9iJzvMvW3qS1wbnGz+ft8pOmtc3W3Zapt8HN1ZCltIacrCyFyP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAIMALAAAAAAQABAAAAjuAAcJHEiwYMELIQApLJLggEEBBABwyABlBggGfToQlGCAAAZBgrjgqDGChxAzA1n4kAASxoI6cTaQ+UOEziABR16AtBCoJ5MCA8QASjOIzwNBAYy46RmIwoAhGwzgiQBCw4FAChAgwNpgTaA3W5RU4KBhwpMGWTx8+OAhBpAFLpB0GWNATxgtKOxYoSFCzgpBBFTcqALoDlAKNoKg+XFAUAdAUeAMyrFDRwEqMqY48YK0yQMHAm4y6NHmywQLIK+kYCPlwsA5ZQD4yYChwok9YCAswUIwAgkACgEBCFEigQmDAVqogZDHwZkkAQYGBAA7</w:binData>
+				<w:binData w:name="wordml://10.gif">R0lGODlhEAAQAPeDAIyhsP7+/vHz9dPe5qCxvtbg6JequPz9/SyEyMzV3CyEx/f5+o2hsSuDx8LN1ZSotrbEzfT2+Pb4+fP2+NTf5+Hn6vv8/dDZ3/L19t3j6Ku6xd7m7LjFzuzw8il/xCh/xLvH0KS0wSFyu+Lo7a28x8HM1PP198fS2SV4v669x6O0wPr7/LG/yePo67XCzNrh5v39/iqBxubs8d7k6SBvufL1+BhisNjf5Pn7/Ka2wtHc5ZiruZ6wvZ6xvpGltPX3+e7y9RZero6isdfh6JmsuaGyv/n6+4edrZutu+Dm6p2vvMbQ2Nzk66e3wvj6++vw8+fr7rTCzLjFzw9Rpd3l6+ru8CBwuvj5+vX3+CqBxdji6a69yP7//9ng5f7+/+nv84+jst/n7cHO2MnT2tTe5pSntevu8cjS2RVdrcfR2L/L0yuEx4mfrtjh5/H19+rw8+Dl6ubt8fL19+br7vj6+u/z9iJzvMvW3qS1wbnGz+ft8pOmtc3W3Zapt8HN1ZCltIacrCyFyP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAIMALAAAAAAQABAAAAjuAAcJHEiwYMELIQApLJLggEEBBABwyABlBggGfToQlGCAAAZBgrjgqDGChxAzA1n4kAASxoI6cTaQ+UOEziABR16AtBCoJ5MCA8QASjOIzwNBAYy46RmIwoAhGwzgiQBCw4FAChAgwNpgTaA3W5RU4KBhwpMGWTx8+OAhBpAFLpB0GWNATxgtKOxYoSFCzgpBBFTcqALoDlAKNoKg+XFAUAdAUeAMyrFDRwEqMqY48YK0yQMHAm4y6NHmywQLIK+kYCPlwsA5ZQD4yYChwok9YCAswUIwAgkACgEBCFEigQmDAVqogZDHwZkkAQYGBAA7</w:binData>
 					<v:shape id="_x0000_s1026" o:spt="75" alt="move_down.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
 					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
 						<v:fill on="f" focussize="0,0"/>
 						<v:stroke on="f"/>
-						<v:imagedata src="wordml://../images/move_down.gif" o:title="move_down.gif"/>
+						<v:imagedata src="wordml://10.gif" o:title="move_down.gif"/>
 						<o:lock v:ext="edit" aspectratio="t"/>
 						<w10:wrap type="none"/>
 						<w10:anchorlock/>
 					</v:shape>
 		</w:pict>
+</w:r>
+<w:r>
+<w:fldChar w:fldCharType="end"/>
 </w:r>
 </w:p>
 
@@ -4141,13 +4637,10 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
-	<w:r>
-			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
-		</w:r>
-</w:p>
+	</w:p>
 <w:tbl>
 			<w:tblPr>
 				<w:tblW w:w="8380" w:type="dxa"/>
@@ -4186,10 +4679,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>请求方式</w:t>
 		</w:r>
 </w:p>
@@ -4220,10 +4718,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>GET</w:t>
 		</w:r>
 </w:p>
@@ -4256,10 +4759,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>URL</w:t>
 		</w:r>
 </w:p>
@@ -4290,10 +4798,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
 		</w:r>
 </w:p>
@@ -4326,10 +4839,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>问题参数</w:t>
 		</w:r>
 </w:p>
@@ -4360,10 +4878,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>class_id_int</w:t>
 		</w:r>
 </w:p>
@@ -4396,10 +4919,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>参考（验证）</w:t>
 		</w:r>
 </w:p>
@@ -4430,10 +4958,15 @@
 		<w:spacing w:line="360" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
-		<w:textAlignment w:val="auto"/>
+		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
 			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
 		</w:r>
 </w:p>

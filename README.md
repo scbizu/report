@@ -13,5 +13,5 @@ manually write doc(docx) by Word XML 2003
   * <del>Table in Table Style</del>
   * <del>muti-line Table TD Style</del>
   * <del>Hyperlink</del>
-  * colorful Text
-  * custom  Text Size   
+  * <del>colorful Text</del>
+  * <del>custom  Text Size</del>   
