@@ -40,12 +40,20 @@ type Image struct {
 	CoordsizeY int `json:"coordsizeY"`
 }
 
+//TableTD descripes every block of the table
+type TableTD struct {
+	//TData refers block's element
+	TData []interface{} `json:"tdata"`
+	//TDBG refers block's background
+	TDBG bool `json:"tdbg"`
+}
+
 //Table include table configuration.
 type Table struct {
 	//Text OR Image in the sanme line
 	Inline bool `json:"inline"`
 	//Table data except table head
-	TableBody [][][]interface{} `json:"tablebody"`
+	TableBody [][]*TableTD `json:"tablebody"`
 	//Table head data
 	TableHead [][]interface{} `json:"tablehead"`
 	// NOTE: Because of  the title line ,the Total width is 8380.
@@ -263,14 +271,21 @@ func (doc *Report) WriteTable(table *Table) error {
 		XMLTable.WriteString(XMLTableTR)
 
 		for kk, vv := range v {
-			//Span formation
-			td := fmt.Sprintf(XMLTableTD, strconv.FormatInt(int64(tdw[kk]), 10), strconv.FormatInt(int64(gridSpan[k]), 10))
+			//td bg
+			var td string
+			if vv.TDBG {
+				//Span formation
+				td = fmt.Sprintf(XMLTableTD, strconv.FormatInt(int64(tdw[kk]), 10), "E7E6E6", strconv.FormatInt(int64(gridSpan[k]), 10))
+			} else {
+				//Span formation
+				td = fmt.Sprintf(XMLTableTD, strconv.FormatInt(int64(tdw[kk]), 10), "auto", strconv.FormatInt(int64(gridSpan[k]), 10))
+			}
 			XMLTable.WriteString(td)
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
 			}
-			for _, vvv := range vv {
-				table, ok := vvv.([][][]interface{})
+			for _, vvv := range vv.TData {
+				table, ok := vvv.([][]*TableTD)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
@@ -314,7 +329,7 @@ func (doc *Report) WriteTable(table *Table) error {
 
 	for _, row := range tableBody {
 		for _, rowdata := range row {
-			for _, rowEle := range rowdata {
+			for _, rowEle := range rowdata.TData {
 				if _, ok := rowEle.([][][]interface{}); !ok {
 					if icon, ok := rowEle.(*Image); ok {
 						//图片
@@ -419,7 +434,7 @@ func writeImageToBuffer(image *Image) (string, error) {
 }
 
 //Generate table xml string formation  ~> 用于 表中再次嵌入表格时的填充
-func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}) (string, error) {
+func writeTableToBuffer(inline bool, tableBody [][]*TableTD, tableHead [][]interface{}) (string, error) {
 	XMLTable := bytes.Buffer{}
 	//表格中的表格为无边框形式
 	XMLTable.WriteString(XMLTableInTableHead)
@@ -467,12 +482,21 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 		XMLTable.WriteString(XMLTableTR)
 
 		for _, vv := range v {
-			XMLTable.WriteString(XMLTableInTableTD)
+
+			var bg string
+			if vv.TDBG {
+				//fill with gray
+				bg = fmt.Sprintf(XMLTableInTableTD, "E7E6E6")
+			} else {
+				bg = fmt.Sprintf(XMLTableInTableTD, "auto")
+			}
+			XMLTable.WriteString(bg)
+
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
 			}
-			for _, vvv := range vv {
-				table, ok := vvv.([][][]interface{})
+			for _, vvv := range vv.TData {
+				table, ok := vvv.([][]*TableTD)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
@@ -518,7 +542,7 @@ func writeTableToBuffer(inline bool, tableBody [][][]interface{}, tableHead [][]
 
 	for _, row := range tableBody {
 		for _, rowdata := range row {
-			for _, rowEle := range rowdata {
+			for _, rowEle := range rowdata.TData {
 				if _, ok := rowEle.([][][]interface{}); !ok {
 					if icon, ok := rowEle.(*Image); ok {
 						//图片
@@ -615,7 +639,7 @@ func NewImage(URIdist string, imageSrc string, height float64, width float64, hy
 }
 
 //NewTable create a table
-func NewTable(inline bool, tableBody [][][]interface{}, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) *Table {
+func NewTable(inline bool, tableBody [][]*TableTD, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) *Table {
 	table := &Table{}
 	table.Inline = inline
 	table.TableBody = tableBody
@@ -643,6 +667,19 @@ func (tx *Text) Setcolor(color string) {
 //SetSize set text size
 func (tx *Text) SetSize(size string) {
 	tx.Size = size
+}
+
+//NewTableTD init table td block
+func NewTableTD(tdata []interface{}) *TableTD {
+	Tabletd := &TableTD{}
+	Tabletd.TData = tdata
+	Tabletd.TDBG = false
+	return Tabletd
+}
+
+//SetTableTDBG set block's color with gray(#E7E6E6)
+func (tbtd *TableTD) SetTableTDBG() {
+	tbtd.TDBG = true
 }
 
 //CloseReport close file handle

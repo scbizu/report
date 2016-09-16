@@ -87,7 +87,14 @@ func TestWriteText(t *testing.T) {
 func TestWriteTable(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	table := [][][]interface{}{{{"aaa"}, {"bbb"}}, {{"a"}, {"b"}}, {{"xxx"}, {"yyyy"}}}
+	// tabletd := NewTableTD([]interface{}{{, }, {{"a"}, {"b"}}, {{"xxx"}, {"yyyy"}}})
+	td0 := NewTableTD([]interface{}{"aaa"})
+	td1 := NewTableTD([]interface{}{"bbb"})
+	td2 := NewTableTD([]interface{}{"a"})
+	td3 := NewTableTD([]interface{}{"b"})
+	td4 := NewTableTD([]interface{}{"xxx"})
+	td5 := NewTableTD([]interface{}{"yyyyy"})
+	table := [][]*TableTD{{td0, td1}, {td2, td3}, {td4, td5}}
 	head := [][]interface{}{{"Hello"}, {"World"}}
 	trSpan := []int{0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190}

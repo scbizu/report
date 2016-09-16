@@ -532,7 +532,7 @@ const (
 	XMLTableTD = `<w:tc>
   <w:tcPr>
 	              <w:tcW w:w="%s" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="%s"/>
 			<w:gridSpan w:val="%s"/>
   </w:tcPr>
 `
@@ -540,7 +540,7 @@ const (
 	XMLTableInTableTD = `<w:tc>
 <w:tcPr>
     <w:tcW w:w="3046" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="%s"/>
 </w:tcPr>
 `
 
