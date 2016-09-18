@@ -285,13 +285,13 @@ func (doc *Report) WriteTable(table *Table) error {
 				XMLTable.WriteString(XMLTableTD2)
 			}
 			for _, vvv := range vv.TData {
-				table, ok := vvv.([][]*TableTD)
+				table, ok := vvv.(*Table)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
 				//if td is a table
 				if ok {
-					tablestr, err := writeTableToBuffer(true, table, nil)
+					tablestr, err := writeTableToBuffer(table)
 					if err != nil {
 						return err
 					}
@@ -434,15 +434,21 @@ func writeImageToBuffer(image *Image) (string, error) {
 }
 
 //Generate table xml string formation  ~> 用于 表中再次嵌入表格时的填充
-func writeTableToBuffer(inline bool, tableBody [][]*TableTD, tableHead [][]interface{}) (string, error) {
+func writeTableToBuffer(table *Table) (string, error) {
+	tableHead := table.TableHead
+	tableBody := table.TableBody
+	inline := table.Inline
+	thw := table.Thw
+	tdw := table.Tdw
 	XMLTable := bytes.Buffer{}
 	//表格中的表格为无边框形式
 	XMLTable.WriteString(XMLTableInTableHead)
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		XMLTable.WriteString(XMLTableHeadTR)
-		for _, rowdata := range tableHead {
-			XMLTable.WriteString(XMLHeadTableInTableTDBegin)
+		for thindex, rowdata := range tableHead {
+			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
+			XMLTable.WriteString(thw)
 			if inline {
 				XMLTable.WriteString(XMLHeadTableTDBegin2)
 			}
@@ -481,28 +487,28 @@ func writeTableToBuffer(inline bool, tableBody [][]*TableTD, tableHead [][]inter
 	for _, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
 
-		for _, vv := range v {
+		for kk, vv := range v {
 
-			var bg string
+			var ttd string
 			if vv.TDBG {
 				//fill with gray
-				bg = fmt.Sprintf(XMLTableInTableTD, "E7E6E6")
+				ttd = fmt.Sprintf(XMLTableInTableTD, strconv.FormatInt(int64(tdw[kk]), 10), "E7E6E6")
 			} else {
-				bg = fmt.Sprintf(XMLTableInTableTD, "auto")
+				ttd = fmt.Sprintf(XMLTableInTableTD, strconv.FormatInt(int64(tdw[kk]), 10), "auto")
 			}
-			XMLTable.WriteString(bg)
+			XMLTable.WriteString(ttd)
 
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
 			}
 			for _, vvv := range vv.TData {
-				table, ok := vvv.([][]*TableTD)
+				table, ok := vvv.(*Table)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
 				//if td is a table
 				if ok {
-					tablestr, err := writeTableToBuffer(true, table, nil)
+					tablestr, err := writeTableToBuffer(table)
 					if err != nil {
 						return "", err
 					}

@@ -495,6 +495,7 @@ const (
 	XMLFontStyle = `<w:pPr>
 		<w:pStyle w:val="%s"/>
 		<w:jc w:val="center"/>
+		<w:textAlignment w:val="center"/>
 	</w:pPr>
 	`
 	//XMLTableHead ...
@@ -502,11 +503,11 @@ const (
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
@@ -516,12 +517,12 @@ const (
 			<w:tblPr>
 				<w:tblW w:w="8380" w:type="dxa"/>
 				<w:tblBorders>
-					<w:top w:val="nil"/>
-					<w:left w:val="nil"/>
-					<w:bottom w:val="nil"/>
-					<w:right w:val="nil"/>
-					<w:insideH w:val="nil"/>
-					<w:insideV w:val="nil"/>
+				<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:left w:val="nil"/>
+				<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:right w:val="nil"/>
+				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:insideV w:val="nil"/>
 				</w:tblBorders>
 			</w:tblPr>
 `
@@ -531,7 +532,7 @@ const (
 	//XMLTableHeadTR ...
 	XMLTableHeadTR = `<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:trPr>
-	<w:trHeight w:val="607" w:h-rule="atLeast"/>
+	<w:trHeight w:val="207"/>
 </w:trPr>
 `
 	//XMLTableTD ...
@@ -545,7 +546,7 @@ const (
 	//XMLTableInTableTD ...
 	XMLTableInTableTD = `<w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+    <w:tcW w:w="%s" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="%s"/>
 </w:tcPr>
 `
@@ -607,7 +608,7 @@ const (
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="420" w:line-rule="exact"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>

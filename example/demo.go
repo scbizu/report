@@ -119,14 +119,19 @@ func main() {
 	titd4.SetTableTDBG()
 	titd6 := report.NewTableTD([]interface{}{report.NewText("参考（验证）")})
 	titd6.SetTableTDBG()
-	tit := [][]*report.TableTD{
+	titbody := [][]*report.TableTD{
 		{titd0, report.NewTableTD([]interface{}{report.NewText("GET")})},
 		{titd2, report.NewTableTD([]interface{}{report.NewText(`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`)})},
 		{titd4, report.NewTableTD([]interface{}{report.NewText("class_id_int")})},
 		{titd6, report.NewTableTD([]interface{}{report.NewText(`http://www.xjbtw.com/Link_Class.asp?class_id_int`)})}}
+	thw = []int{1046, 5046}
+	tdw = []int{1046, 5046, 1046, 5046, 1046, 5046, 1046, 5046}
+	trSpan = []int{0, 0}
+	tit := report.NewTable(false, titbody, nil, thw, trSpan, tdw)
 	tableHead = [][]interface{}{{report.NewText("漏洞名称")}, {report.NewText("出现次数")}, {report.NewText("详情解决方法")}}
 	redFont := report.NewText("检测到目标URL存在SQL注入漏洞")
 	redFont.Setcolor("ef1515")
+
 	table = [][]*report.TableTD{
 		{report.NewTableTD([]interface{}{redFont}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{intableImage3})},
 		// BUG: 注意'%^'需要转义! 否则填充会有BUG...
