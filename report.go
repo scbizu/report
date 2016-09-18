@@ -228,7 +228,7 @@ func (doc *Report) WriteTable(table *Table) error {
 	tdw := table.Tdw
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
-		XMLTable.WriteString(XMLTableTR)
+		XMLTable.WriteString(XMLTableHeadTR)
 		for thindex, rowdata := range tableHead {
 			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
 			XMLTable.WriteString(thw)
@@ -440,7 +440,7 @@ func writeTableToBuffer(inline bool, tableBody [][]*TableTD, tableHead [][]inter
 	XMLTable.WriteString(XMLTableInTableHead)
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
-		XMLTable.WriteString(XMLTableTR)
+		XMLTable.WriteString(XMLTableHeadTR)
 		for _, rowdata := range tableHead {
 			XMLTable.WriteString(XMLHeadTableInTableTDBegin)
 			if inline {

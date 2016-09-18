@@ -40,7 +40,7 @@ func main() {
 	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3(report.NewText("1.1 具有最多安全性问题的文件(TOP5)"))
-	tableHead := [][]interface{}{{"URL"}, {"漏洞数量"}}
+	tableHead := [][]interface{}{{report.NewText("URL")}, {report.NewText("漏洞数量")}}
 	table = [][]*report.TableTD{
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/Article_Class.asp")}), report.NewTableTD([]interface{}{report.NewText("13")})},
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/Article_ClassC.asp")}), report.NewTableTD([]interface{}{report.NewText("8")})},

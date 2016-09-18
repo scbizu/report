@@ -502,11 +502,11 @@ const (
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="6" wx:bdrwidth="50" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
@@ -527,6 +527,12 @@ const (
 `
 	//XMLTableTR ...
 	XMLTableTR = `<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+`
+	//XMLTableHeadTR ...
+	XMLTableHeadTR = `<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="607" w:h-rule="atLeast"/>
+</w:trPr>
 `
 	//XMLTableTD ...
 	XMLTableTD = `<w:tc>
