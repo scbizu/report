@@ -111,8 +111,8 @@ func TestWriteTable(t *testing.T) {
 func TestWriteImage(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	image1 := NewImage("1.png", "offlineWS-102-risk.png", 140.00, 160.00, "")
-	image2 := NewImage("2.png", "offlineWS-102-url.png", 140.00, 160.00, "")
+	image1 := NewImage("1.png", "./images/offlineWS-102-risk.png", 140.00, 160.00, "")
+	image2 := NewImage("2.png", "./images/offlineWS-102-url.png", 140.00, 160.00, "")
 	images := []*Image{image1, image2}
 	if err := doc.WriteImage(false, "", images...); err != nil {
 		t.Errorf(err.Error())
