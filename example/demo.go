@@ -48,8 +48,8 @@ func main() {
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})},
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/imgchange.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})}}
 	trSpan = []int{0, 0, 0, 0, 0}
-	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
-	thw := []int{4190, 4190}
+	tdw = []int{5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793}
+	thw := []int{5587, 2793}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
@@ -62,8 +62,8 @@ func main() {
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})},
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/imgchange.asp")}), report.NewTableTD([]interface{}{report.NewText("6")})}}
 	trSpan = []int{0, 0, 0, 0, 0}
-	tdw = []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
-	thw = []int{4190, 4190}
+	tdw = []int{5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793}
+	thw = []int{5587, 2793}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
@@ -131,8 +131,8 @@ func main() {
 		{report.NewTableTD([]interface{}{redFont}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{intableImage3})},
 		// BUG: 注意'%^'需要转义! 否则填充会有BUG...
 		{report.NewTableTD([]interface{}{`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`, tit})}}
-	tdw = []int{2793, 2793, 2793, 8380}
-	thw = []int{2793, 2793, 2793}
+	tdw = []int{4587, 1793, 2000, 8380}
+	thw = []int{4587, 1793, 2000}
 	trSpan = []int{0, 3}
 	tableObj = report.NewTable(false, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
