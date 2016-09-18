@@ -48,8 +48,8 @@ func main() {
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})},
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/imgchange.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})}}
 	trSpan = []int{0, 0, 0, 0, 0}
-	tdw = []int{5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793}
-	thw := []int{5587, 2793}
+	tdw = []int{6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693}
+	thw := []int{6687, 1693}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
@@ -62,8 +62,8 @@ func main() {
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/video_ttbb.asp")}), report.NewTableTD([]interface{}{report.NewText("7")})},
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/imgchange.asp")}), report.NewTableTD([]interface{}{report.NewText("6")})}}
 	trSpan = []int{0, 0, 0, 0, 0}
-	tdw = []int{5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793, 5587, 2793}
-	thw = []int{5587, 2793}
+	tdw = []int{6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693}
+	thw = []int{6687, 1693}
 	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 

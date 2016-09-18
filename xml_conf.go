@@ -512,6 +512,20 @@ const (
 					</w:tblBorders>
 				</w:tblPr>
 `
+	//XMLTableNoHead == 没有表头的样式把table top line remove掉
+	XMLTableNoHead = `<w:tbl>
+			<w:tblPr>
+				<w:tblW w:w="8380" w:type="dxa"/>
+				<w:tblBorders>
+				<w:top w:val="nil"/>
+				<w:left w:val="nil"/>
+				<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:right w:val="nil"/>
+				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:insideV w:val="nil"/>
+				</w:tblBorders>
+			</w:tblPr>
+`
 	//XMLTableInTableHead == 表中表的样式头
 	XMLTableInTableHead = `<w:tbl>
 			<w:tblPr>
@@ -525,6 +539,20 @@ const (
 				<w:insideV w:val="nil"/>
 				</w:tblBorders>
 			</w:tblPr>
+`
+	//XMLTableInTableNoHead ...
+	XMLTableInTableNoHead = `<w:tbl>
+		<w:tblPr>
+			<w:tblW w:w="8380" w:type="dxa"/>
+			<w:tblBorders>
+			<w:top w:val="nil"/>
+			<w:left w:val="nil"/>
+			<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+			<w:right w:val="nil"/>
+			<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+			<w:insideV w:val="nil"/>
+			</w:tblBorders>
+		</w:tblPr>
 `
 	//XMLTableTR ...
 	XMLTableTR = `<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
@@ -608,7 +636,7 @@ const (
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="420" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>

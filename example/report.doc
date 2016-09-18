@@ -397,6 +397,7 @@
 <w:pPr>
 		<w:pStyle w:val="1"/>
 		<w:jc w:val="center"/>
+		<w:textAlignment w:val="center"/>
 	</w:pPr>
 	<w:r>
 			<w:pict>
@@ -437,17 +438,17 @@
     </w:r>
   </w:p>
 <w:tbl>
-				<w:tblPr>
-					<w:tblW w:w="8380" w:type="dxa"/>
-					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
-					<w:insideV w:val="nil"/>
-					</w:tblBorders>
-				</w:tblPr>
+			<w:tblPr>
+				<w:tblW w:w="8380" w:type="dxa"/>
+				<w:tblBorders>
+				<w:top w:val="nil"/>
+				<w:left w:val="nil"/>
+				<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:right w:val="nil"/>
+				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:insideV w:val="nil"/>
+				</w:tblBorders>
+			</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
@@ -1154,18 +1155,21 @@
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="4190" w:type="dxa"/>
+		<w:tcW w:w="6687" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -1185,18 +1189,26 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
+<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>URL</w:t>
+		</w:r>
 </w:p>
 
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="4190" w:type="dxa"/>
+		<w:tcW w:w="1693" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -1216,12 +1228,20 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
+<w:r>
+			<w:rPr>
+				<w:color w:val="000000"/>
+				<w:sz w:val="21"/>
+				<w:sz-cs w:val="21"/>
+			</w:rPr>
+			<w:t>漏洞数量</w:t>
+		</w:r>
 </w:p>
 
 </w:tc>
@@ -1229,7 +1249,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1269,7 +1289,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1311,7 +1331,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1351,7 +1371,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1393,7 +1413,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1426,14 +1446,14 @@
 				<w:sz w:val="21"/>
 				<w:sz-cs w:val="21"/>
 			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
+			<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
 		</w:r>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1475,7 +1495,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1515,7 +1535,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1557,7 +1577,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1597,7 +1617,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1652,18 +1672,21 @@
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="4190" w:type="dxa"/>
+		<w:tcW w:w="6687" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -1683,7 +1706,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -1702,7 +1725,7 @@
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="4190" w:type="dxa"/>
+		<w:tcW w:w="1693" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -1722,7 +1745,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -1743,7 +1766,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1783,7 +1806,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1825,7 +1848,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1865,7 +1888,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1907,7 +1930,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1940,14 +1963,14 @@
 				<w:sz w:val="21"/>
 				<w:sz-cs w:val="21"/>
 			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_xwlb.asp	</w:t>
+			<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
 		</w:r>
 </w:p>
 
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -1989,7 +2012,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -2029,7 +2052,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -2071,7 +2094,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="6687" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -2111,7 +2134,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
+	              <w:tcW w:w="1693" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -2206,15 +2229,18 @@
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="1204" w:type="dxa"/>
@@ -2237,7 +2263,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2276,7 +2302,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2315,7 +2341,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2354,7 +2380,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2393,7 +2419,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2432,7 +2458,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -2471,7 +2497,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -3112,15 +3138,18 @@
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
 <w:tc>
 	<w:tcPr>
 		<w:tcW w:w="1676" w:type="dxa"/>
@@ -3143,7 +3172,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -3182,7 +3211,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -3221,7 +3250,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -3260,7 +3289,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -3299,7 +3328,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -4343,18 +4372,21 @@
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
-					<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
 				</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:tcW w:w="4587" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -4374,7 +4406,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -4393,7 +4425,7 @@
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:tcW w:w="1793" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -4413,7 +4445,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -4432,7 +4464,7 @@
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="2793" w:type="dxa"/>
+		<w:tcW w:w="2000" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -4452,7 +4484,7 @@
 		<w:autoSpaceDN/>
 		<w:adjustRightInd/>
 		<w:snapToGrid/>
-		<w:spacing w:line="240" w:line-rule="exact"/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
@@ -4473,7 +4505,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="2793" w:type="dxa"/>
+	              <w:tcW w:w="4587" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -4513,7 +4545,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="2793" w:type="dxa"/>
+	              <w:tcW w:w="1793" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -4553,7 +4585,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="2793" w:type="dxa"/>
+	              <w:tcW w:w="2000" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -4613,7 +4645,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="2793" w:type="dxa"/>
+	              <w:tcW w:w="4587" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="3"/>
   </w:tcPr>
@@ -4642,22 +4674,22 @@
 	</w:pPr>
 	</w:p>
 <w:tbl>
-			<w:tblPr>
-				<w:tblW w:w="8380" w:type="dxa"/>
-				<w:tblBorders>
-					<w:top w:val="nil"/>
-					<w:left w:val="nil"/>
-					<w:bottom w:val="nil"/>
-					<w:right w:val="nil"/>
-					<w:insideH w:val="nil"/>
-					<w:insideV w:val="nil"/>
-				</w:tblBorders>
-			</w:tblPr>
+		<w:tblPr>
+			<w:tblW w:w="8380" w:type="dxa"/>
+			<w:tblBorders>
+			<w:top w:val="nil"/>
+			<w:left w:val="nil"/>
+			<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+			<w:right w:val="nil"/>
+			<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+			<w:insideV w:val="nil"/>
+			</w:tblBorders>
+		</w:tblPr>
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
 	<w:pPr>
@@ -4695,7 +4727,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -4736,8 +4768,8 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
 	<w:pPr>
@@ -4775,7 +4807,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -4816,8 +4848,8 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
 	<w:pPr>
@@ -4855,7 +4887,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -4896,8 +4928,8 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
 	<w:pPr>
@@ -4935,7 +4967,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="3046" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>

@@ -219,7 +219,7 @@ func (doc *Report) WriteBR() error {
 //WriteTable  ==表格的格式
 func (doc *Report) WriteTable(table *Table) error {
 	XMLTable := bytes.Buffer{}
-	XMLTable.WriteString(XMLTableHead)
+
 	inline := table.Inline
 	tableBody := table.TableBody
 	tableHead := table.TableHead
@@ -228,6 +228,7 @@ func (doc *Report) WriteTable(table *Table) error {
 	tdw := table.Tdw
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
+		XMLTable.WriteString(XMLTableHead)
 		XMLTable.WriteString(XMLTableHeadTR)
 		for thindex, rowdata := range tableHead {
 			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
@@ -264,8 +265,9 @@ func (doc *Report) WriteTable(table *Table) error {
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
 		XMLTable.WriteString(XMLTableEndTR)
+	} else {
+		XMLTable.WriteString(XMLTableNoHead)
 	}
-
 	//Generate formation
 	for k, v := range tableBody {
 		XMLTable.WriteString(XMLTableTR)
@@ -441,10 +443,11 @@ func writeTableToBuffer(table *Table) (string, error) {
 	thw := table.Thw
 	tdw := table.Tdw
 	XMLTable := bytes.Buffer{}
-	//表格中的表格为无边框形式
-	XMLTable.WriteString(XMLTableInTableHead)
+
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
+		//表格中的表格为无边框形式
+		XMLTable.WriteString(XMLTableInTableHead)
 		XMLTable.WriteString(XMLTableHeadTR)
 		for thindex, rowdata := range tableHead {
 			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
@@ -481,6 +484,8 @@ func writeTableToBuffer(table *Table) (string, error) {
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
 		XMLTable.WriteString(XMLTableEndTR)
+	} else {
+		XMLTable.WriteString(XMLTableInTableNoHead)
 	}
 
 	//Generate formation
