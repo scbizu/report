@@ -1,6 +1,6 @@
 package main
 
-import "practice/report"
+import "github.com/scbizu/report"
 
 func main() {
 	doc := report.NewDoc()
