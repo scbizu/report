@@ -99,7 +99,7 @@ func TestWriteTable(t *testing.T) {
 	trSpan := []int{0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190}
 	thw := []int{4190, 4190}
-	tableObj := NewTable(false, table, head, thw, trSpan, tdw)
+	tableObj := NewTable("test", false, table, head, thw, trSpan, tdw)
 	err := doc.WriteTable(tableObj)
 	if err != nil {
 		t.Errorf(err.Error())

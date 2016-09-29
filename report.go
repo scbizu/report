@@ -17,9 +17,11 @@ type Report struct {
 
 //Text include text configuration
 type Text struct {
-	Words string `json:"word"`
-	Color string `json:"color"`
-	Size  string `json:"size"`
+	Words    string `json:"word"`
+	Color    string `json:"color"`
+	Size     string `json:"size"`
+	Isbold   bool   `json:"isbold"`
+	IsCenter bool   `json:"iscenter"`
 }
 
 //Image include image configuration.
@@ -50,6 +52,8 @@ type TableTD struct {
 
 //Table include table configuration.
 type Table struct {
+	//Tbname  is the name of the table
+	Tbname string `json:"tbname"`
 	//Text OR Image in the sanme line
 	Inline bool `json:"inline"`
 	//Table data except table head
@@ -64,6 +68,8 @@ type Table struct {
 	///////////////////////////////////////////////////////////
 	//you can merge cells use GridSpan ,if you need not ,just set 0.
 	GridSpan []int `json:"gridspan"`
+	//Thcenter set table head center word
+	Thcenter bool `json:"thcenter"`
 }
 
 //NewDoc new a Document
@@ -198,7 +204,20 @@ func (doc *Report) WriteText(text *Text) error {
 	color := text.Color
 	size := text.Size
 	word := text.Words
-	Text := fmt.Sprintf(XMLText, color, size, size, word)
+	var Text string
+	if text.IsCenter {
+		if text.Isbold {
+			Text = fmt.Sprintf(XMLCenterBoldText, color, size, size, word)
+		} else {
+			Text = fmt.Sprintf(XMLCenterText, color, size, size, word)
+		}
+	} else {
+		if text.Isbold {
+			Text = fmt.Sprintf(XMLBoldText, color, size, size, word)
+		} else {
+			Text = fmt.Sprintf(XMLText, color, size, size, word)
+		}
+	}
 	_, err := doc.Doc.WriteString(Text)
 	if err != nil {
 		return err
@@ -219,26 +238,36 @@ func (doc *Report) WriteBR() error {
 //WriteTable  ==表格的格式
 func (doc *Report) WriteTable(table *Table) error {
 	XMLTable := bytes.Buffer{}
-
+	tbname := table.Tbname
 	inline := table.Inline
 	tableBody := table.TableBody
 	tableHead := table.TableHead
 	thw := table.Thw
 	gridSpan := table.GridSpan
 	tdw := table.Tdw
+
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
-		XMLTable.WriteString(XMLTableHead)
+		tablehead := fmt.Sprintf(XMLTableHead, tbname)
+		XMLTable.WriteString(tablehead)
 		XMLTable.WriteString(XMLTableHeadTR)
 		for thindex, rowdata := range tableHead {
 			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
 			XMLTable.WriteString(thw)
 			if inline {
-				XMLTable.WriteString(XMLHeadTableTDBegin2)
+				if table.Thcenter {
+					XMLTable.WriteString(XMLHeadTableTDBegin2C)
+				} else {
+					XMLTable.WriteString(XMLHeadTableTDBegin2)
+				}
 			}
 			for _, rowEle := range rowdata {
 				if !inline {
-					XMLTable.WriteString(XMLHeadTableTDBegin2)
+					if table.Thcenter {
+						XMLTable.WriteString(XMLHeadTableTDBegin2C)
+					} else {
+						XMLTable.WriteString(XMLHeadTableTDBegin2)
+					}
 				}
 				if image, ok := rowEle.(*Image); ok {
 					//rowEle is a resource
@@ -249,10 +278,17 @@ func (doc *Report) WriteTable(table *Table) error {
 					XMLTable.WriteString(str)
 				} else if text, ok := rowEle.(*Text); ok {
 					//not
-					tColor := text.Color
-					tSize := text.Size
-					tWord := text.Words
-					data := fmt.Sprintf(XMLHeadtableTDText, tColor, tSize, tSize, tWord)
+					color := text.Color
+					size := text.Size
+					word := text.Words
+					var data string
+
+					if text.Isbold {
+						data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+					} else {
+						data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+					}
+
 					XMLTable.WriteString(data)
 				}
 				if !inline {
@@ -266,7 +302,8 @@ func (doc *Report) WriteTable(table *Table) error {
 		}
 		XMLTable.WriteString(XMLTableEndTR)
 	} else {
-		XMLTable.WriteString(XMLTableNoHead)
+		nohead := fmt.Sprintf(XMLTableNoHead, tbname)
+		XMLTable.WriteString(nohead)
 	}
 	//Generate formation
 	for k, v := range tableBody {
@@ -437,6 +474,7 @@ func writeImageToBuffer(image *Image) (string, error) {
 
 //Generate table xml string formation  ~> 用于 表中再次嵌入表格时的填充
 func writeTableToBuffer(table *Table) (string, error) {
+	tbname := table.Tbname
 	tableHead := table.TableHead
 	tableBody := table.TableBody
 	inline := table.Inline
@@ -447,17 +485,26 @@ func writeTableToBuffer(table *Table) (string, error) {
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		//表格中的表格为无边框形式
-		XMLTable.WriteString(XMLTableInTableHead)
+		tablehead := fmt.Sprintf(XMLTableInTableHead, tbname)
+		XMLTable.WriteString(tablehead)
 		XMLTable.WriteString(XMLTableHeadTR)
 		for thindex, rowdata := range tableHead {
 			thw := fmt.Sprintf(XMLHeadTableTDBegin, strconv.FormatInt(int64(thw[thindex]), 10))
 			XMLTable.WriteString(thw)
 			if inline {
-				XMLTable.WriteString(XMLHeadTableTDBegin2)
+				if table.Thcenter {
+					XMLTable.WriteString(XMLHeadTableTDBegin2C)
+				} else {
+					XMLTable.WriteString(XMLHeadTableTDBegin2)
+				}
 			}
 			for _, rowEle := range rowdata {
 				if !inline {
-					XMLTable.WriteString(XMLHeadTableTDBegin2)
+					if table.Thcenter {
+						XMLTable.WriteString(XMLHeadTableTDBegin2C)
+					} else {
+						XMLTable.WriteString(XMLHeadTableTDBegin2)
+					}
 				}
 				if image, ok := rowEle.(*Image); ok {
 					//rowEle is a resource
@@ -468,10 +515,16 @@ func writeTableToBuffer(table *Table) (string, error) {
 					XMLTable.WriteString(str)
 				} else if text, ok := rowEle.(*Text); ok {
 					//not
-					tColor := text.Color
-					tSize := text.Size
-					tWord := text.Words
-					data := fmt.Sprintf(XMLHeadtableTDText, tColor, tSize, tSize, tWord)
+					color := text.Color
+					size := text.Size
+					word := text.Words
+					var data string
+
+					if text.Isbold {
+						data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+					} else {
+						data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+					}
 					XMLTable.WriteString(data)
 				}
 				if !inline {
@@ -485,7 +538,8 @@ func writeTableToBuffer(table *Table) (string, error) {
 		}
 		XMLTable.WriteString(XMLTableEndTR)
 	} else {
-		XMLTable.WriteString(XMLTableInTableNoHead)
+		nohead := fmt.Sprintf(XMLTableInTableNoHead, tbname)
+		XMLTable.WriteString(nohead)
 	}
 
 	//Generate formation
@@ -650,15 +704,22 @@ func NewImage(URIdist string, imageSrc string, height float64, width float64, hy
 }
 
 //NewTable create a table
-func NewTable(inline bool, tableBody [][]*TableTD, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) *Table {
+func NewTable(tbname string, inline bool, tableBody [][]*TableTD, tableHead [][]interface{}, thw []int, gridSpan []int, tdw []int) *Table {
 	table := &Table{}
+	table.Tbname = tbname
 	table.Inline = inline
 	table.TableBody = tableBody
 	table.TableHead = tableHead
 	table.Tdw = tdw
 	table.Thw = thw
 	table.GridSpan = gridSpan
+	table.Thcenter = false
 	return table
+}
+
+//SetHeadCenter set table head center word
+func (tb *Table) SetHeadCenter(center bool) {
+	tb.Thcenter = center
 }
 
 //NewText create word with default setting
@@ -667,6 +728,8 @@ func NewText(words string) *Text {
 	text.Words = words
 	text.Color = "000000"
 	text.Size = "21"
+	text.Isbold = false
+	text.IsCenter = false
 	return text
 }
 
@@ -678,6 +741,16 @@ func (tx *Text) Setcolor(color string) {
 //SetSize set text size
 func (tx *Text) SetSize(size string) {
 	tx.Size = size
+}
+
+//SetBold set bold
+func (tx *Text) SetBold(bold bool) {
+	tx.Isbold = bold
+}
+
+//SetCenter set center  text
+func (tx *Text) SetCenter(center bool) {
+	tx.IsCenter = center
 }
 
 //NewTableTD init table td block

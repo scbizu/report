@@ -438,6 +438,7 @@
     </w:r>
   </w:p>
 <w:tbl>
+			<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 			<w:tblPr>
 				<w:tblW w:w="8380" w:type="dxa"/>
 				<w:tblBorders>
@@ -480,13 +481,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>任务名称</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>任务名称</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -520,95 +521,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>{{task_name}}</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="center"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>扫描模板</w:t>
-		</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="4190" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
-		<w:textAlignment w:val="center"/>
-		<w:outlineLvl w:val="9"/>
-	</w:pPr>
-	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>{{policy_name}}</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>{{task_name}}</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -644,13 +563,95 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>Web风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>扫描模板</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="4190" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>{{policy_name}}</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="4190" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>Web风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -722,13 +723,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>风险值:6.9</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>风险值:6.9</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -764,13 +765,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>域名统计</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>域名统计</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -804,13 +805,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>已扫描域名数：1 </w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>已扫描域名数：1 </w:t>
+</w:r>
 </w:p>
 <w:p>
 	<w:pPr>
@@ -836,13 +837,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>非常危险域名：0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>非常危险域名：0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -878,13 +879,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>信息统计</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>信息统计</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -918,13 +919,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>已扫描的文件：213</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>已扫描的文件：213</w:t>
+</w:r>
 </w:p>
 <w:p>
 	<w:pPr>
@@ -950,13 +951,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>有漏洞的文件：72</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>有漏洞的文件：72</w:t>
+</w:r>
 </w:p>
 <w:p>
 	<w:pPr>
@@ -982,13 +983,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>已扫描的链接：216</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>已扫描的链接：216</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1024,13 +1025,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>时间统计</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>时间统计</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1064,13 +1065,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>开始：2011-11-09 15:51:00</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>开始：2011-11-09 15:51:00</w:t>
+</w:r>
 </w:p>
 <w:p>
 	<w:pPr>
@@ -1096,13 +1097,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>结束：2011-11-09 18:08:35</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>结束：2011-11-09 18:08:35</w:t>
+</w:r>
 </w:p>
 <w:p>
 	<w:pPr>
@@ -1128,17 +1129,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>耗时：2 小时17 分35 秒</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>耗时：2 小时17 分35 秒</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p>
     <w:pPr>
@@ -1152,6 +1154,7 @@
     </w:r>
   </w:p>
 <w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -1196,13 +1199,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>URL</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>URL</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1235,13 +1238,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>漏洞数量</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>漏洞数量</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1277,13 +1280,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1317,13 +1320,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>13</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>13</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1359,13 +1362,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1399,13 +1402,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>8</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>8</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1441,13 +1444,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1481,13 +1484,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>8</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>8</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1523,13 +1526,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1563,13 +1566,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>7</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>7</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1605,13 +1608,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1645,17 +1648,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>7</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>7</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p>
     <w:pPr>
@@ -1669,6 +1673,7 @@
     </w:r>
   </w:p>
 <w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -1713,13 +1718,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>URL</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>URL</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1752,13 +1757,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>访问时间</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>访问时间</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1794,13 +1799,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1834,13 +1839,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>13</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>13</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1876,13 +1881,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1916,13 +1921,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>8</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>8</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1958,13 +1963,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -1998,13 +2003,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>8</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>8</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2040,13 +2045,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2080,13 +2085,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>7</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>7</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2122,13 +2127,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2162,17 +2167,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>6</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>6</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p>
     <w:pPr>
@@ -2226,6 +2232,7 @@
     </w:r>
   </w:p>
 <w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="t1"/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -2270,13 +2277,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>目标</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>目标</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2309,13 +2316,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>紧急</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>紧急</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2348,13 +2355,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>紧急</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>紧急</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2387,13 +2394,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>中风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>中风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2426,13 +2433,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>中风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>中风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2465,13 +2472,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>中风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>中风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2504,13 +2511,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>中风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>中风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2560,13 +2567,13 @@
 		</w:pict>
 </w:r>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>192.168.168.250</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2600,13 +2607,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>192.168.168.250</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2640,13 +2647,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2680,13 +2687,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2720,13 +2727,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2760,13 +2767,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2800,13 +2807,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2856,13 +2863,13 @@
 		</w:pict>
 </w:r>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>192.168.168.250</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2896,13 +2903,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>192.168.168.250</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>192.168.168.250</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2936,13 +2943,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -2976,13 +2983,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3016,13 +3023,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>7</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>7</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3056,13 +3063,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>10</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>10</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3096,17 +3103,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>10</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>10</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p/>
 <w:p>
@@ -3135,6 +3143,7 @@
 	</w:r>
 </w:p>
 <w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -3179,13 +3188,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>分类名</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>分类名</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3218,13 +3227,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>高风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>高风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3257,13 +3266,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>中风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>中风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3296,13 +3305,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>低风险</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>低风险</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3335,13 +3344,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>总计</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>总计</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3377,13 +3386,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>逻辑攻击类型:功能滥用</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>逻辑攻击类型:功能滥用</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3417,13 +3426,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3457,13 +3466,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3497,13 +3506,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3537,13 +3546,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3579,13 +3588,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>命令执行类型:SQL注入</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>命令执行类型:SQL注入</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3619,13 +3628,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3659,13 +3668,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3699,13 +3708,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3739,13 +3748,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3781,13 +3790,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>信息泄露类型:资源位置可预测</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>信息泄露类型:资源位置可预测</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3821,13 +3830,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3861,13 +3870,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3901,13 +3910,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>3</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>3</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3941,13 +3950,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>3</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>3</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -3983,13 +3992,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>信息泄露类型:信息泄露</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>信息泄露类型:信息泄露</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4023,13 +4032,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4063,13 +4072,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4103,13 +4112,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>3</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>3</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4143,13 +4152,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>3</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>3</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4185,13 +4194,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>其他</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>其他</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4225,13 +4234,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4265,13 +4274,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4305,13 +4314,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>0</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>0</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4345,17 +4354,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p>
     <w:pPr>
@@ -4369,6 +4379,7 @@
     </w:r>
   </w:p>
 <w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -4413,13 +4424,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>漏洞名称</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>漏洞名称</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4452,13 +4463,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>出现次数</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>出现次数</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4491,13 +4502,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 <w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>详情解决方法</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>详情解决方法</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4533,13 +4544,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="ef1515"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>检测到目标URL存在SQL注入漏洞</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="ef1515"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>检测到目标URL存在SQL注入漏洞</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4573,13 +4584,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>1</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4616,7 +4627,7 @@
           <w:fldChar w:fldCharType="begin"/>
         </w:r>
         <w:r>
-          <w:instrText> HYPERLINK "http://blog.scnace.cc/" </w:instrText>
+          <w:instrText> HYPERLINK \l "table1" </w:instrText>
         </w:r>
         <w:r>
           <w:fldChar w:fldCharType="separate"/>
@@ -4674,6 +4685,7 @@
 	</w:pPr>
 	</w:p>
 <w:tbl>
+		<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 		<w:tblPr>
 			<w:tblW w:w="8380" w:type="dxa"/>
 			<w:tblBorders>
@@ -4715,13 +4727,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>请求方式</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>请求方式</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4754,13 +4766,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>GET</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>GET</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4795,13 +4807,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>URL</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>URL</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4834,13 +4846,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4875,13 +4887,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>问题参数</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>问题参数</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4914,13 +4926,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>class_id_int</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>class_id_int</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4955,13 +4967,13 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>参考（验证）</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>参考（验证）</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
@@ -4994,17 +5006,18 @@
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	<w:r>
-			<w:rPr>
-				<w:color w:val="000000"/>
-				<w:sz w:val="21"/>
-				<w:sz-cs w:val="21"/>
-			</w:rPr>
-			<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
+</w:r>
 </w:p>
 
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:p>
 		<w:pPr>
@@ -5036,6 +5049,363 @@
 	
 </w:tc>
 </w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
+</w:tbl>
+<w:p/>
+<w:p/>
+<w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
+				<w:tblPr>
+					<w:tblW w:w="8380" w:type="dxa"/>
+					<w:tblBorders>
+					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+					<w:left w:val="nil"/>
+					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+					<w:insideV w:val="nil"/>
+					</w:tblBorders>
+				</w:tblPr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="8380" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+<w:pPr>
+	<w:keepNext w:val="off"/>
+	<w:keepLines w:val="off"/>
+	<w:pageBreakBefore w:val="off"/>
+	<w:widowControl w:val="off"/>
+	<w:tabs>
+		<w:tab w:val="center" w:pos="1312"/>
+	</w:tabs>
+	<w:kinsoku/>
+	<w:wordWrap/>
+	<w:overflowPunct/>
+	<w:topLinePunct w:val="off"/>
+	<w:autoSpaceDE/>
+	<w:autoSpaceDN/>
+	<w:adjustRightInd/>
+	<w:snapToGrid/>
+	<w:spacing w:line="276" w:line-rule="auto"/>
+	<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+	<w:jc w:val="center"/>
+	<w:textAlignment w:val="center"/>
+	<w:outlineLvl w:val="9"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+	<w:b/>
+	<w:b-cs/>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1234567890-+</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+  <w:tcPr>
+	              <w:tcW w:w="8380" w:type="dxa"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:gridSpan w:val="0"/>
+  </w:tcPr>
+<w:tbl>
+			<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="table1"/>
+			<w:tblPr>
+				<w:tblW w:w="8380" w:type="dxa"/>
+				<w:tblBorders>
+				<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:left w:val="nil"/>
+				<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:right w:val="nil"/>
+				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
+				<w:insideV w:val="nil"/>
+				</w:tblBorders>
+			</w:tblPr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:trPr>
+	<w:trHeight w:val="207"/>
+</w:trPr>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="4587" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>th1</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="1793" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>th2</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+	<w:tcPr>
+		<w:tcW w:w="2000" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
+	</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="276" w:line-rule="auto"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>th3</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="4587" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="1793" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+<w:tc>
+<w:tcPr>
+    <w:tcW w:w="2000" w:type="dxa"/>
+	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p>
+	<w:pPr>
+		<w:keepNext w:val="off"/>
+		<w:keepLines w:val="off"/>
+		<w:pageBreakBefore w:val="off"/>
+		<w:widowControl w:val="off"/>
+		<w:tabs>
+			<w:tab w:val="center" w:pos="1312"/>
+		</w:tabs>
+		<w:kinsoku/>
+		<w:wordWrap/>
+		<w:overflowPunct/>
+		<w:topLinePunct w:val="off"/>
+		<w:autoSpaceDE/>
+		<w:autoSpaceDN/>
+		<w:adjustRightInd/>
+		<w:snapToGrid/>
+		<w:spacing w:line="360" w:line-rule="exact"/>
+		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+		<w:jc w:val="both"/>
+		<w:textAlignment w:val="center"/>
+		<w:outlineLvl w:val="9"/>
+	</w:pPr>
+	<w:r>
+<w:rPr>
+	<w:color w:val="000000"/>
+	<w:sz w:val="21"/>
+	<w:sz-cs w:val="21"/>
+</w:rPr>
+	<w:t>1</w:t>
+</w:r>
+</w:p>
+
+</w:tc>
+</w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
+</w:tbl>
+<w:p>
+		<w:pPr>
+			<w:keepNext w:val="off"/>
+			<w:keepLines w:val="off"/>
+			<w:pageBreakBefore w:val="off"/>
+			<w:widowControl w:val="off"/>
+			<w:tabs>
+				<w:tab w:val="center" w:pos="1312"/>
+			</w:tabs>
+			<w:kinsoku/>
+			<w:wordWrap/>
+			<w:overflowPunct/>
+			<w:topLinePunct w:val="off"/>
+			<w:autoSpaceDE/>
+			<w:autoSpaceDN/>
+			<w:adjustRightInd/>
+			<w:snapToGrid/>
+			<w:spacing w:line="360" w:line-rule="exact"/>
+			<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+			<w:jc w:val="both"/>
+			<w:textAlignment w:val="auto"/>
+			<w:outlineLvl w:val="9"/>
+		</w:pPr>
+		<w:r>
+				<w:t></w:t>
+			</w:r>
+	</w:p>
+	
+</w:tc>
+</w:tr>
+<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
 <w:sectPr>
 <w:ftr w:type="odd">

@@ -486,6 +486,52 @@ const (
     </w:r>
   </w:p>
 `
+	//XMLCenterText == 居中正文
+	XMLCenterText = `<w:p>
+	<w:r>
+	<w:pPr>
+  	<w:jc w:val="center"/>
+	</w:pPr>
+	<w:rPr>
+		<w:color w:val="%s"/>
+		<w:sz w:val="%s"/>
+		<w:sz-cs w:val="%s"/>
+	</w:rPr>
+		<w:t>%s</w:t>
+	</w:r>
+</w:p>
+`
+	//XMLCenterBoldText 居中粗体
+	XMLCenterBoldText = `<w:p>
+<w:r>
+<w:pPr>
+	<w:jc w:val="center"/>
+</w:pPr>
+<w:rPr>
+	<w:b/>
+	<w:b-cs/>
+	<w:color w:val="%s"/>
+	<w:sz w:val="%s"/>
+	<w:sz-cs w:val="%s"/>
+</w:rPr>
+	<w:t>%s</w:t>
+</w:r>
+</w:p>
+`
+	//XMLBoldText ==粗体
+	XMLBoldText = `<w:p>
+	<w:r>
+	<w:rPr>
+		<w:b/>
+		<w:b-cs/>
+		<w:color w:val="%s"/>
+		<w:sz w:val="%s"/>
+		<w:sz-cs w:val="%s"/>
+	</w:rPr>
+		<w:t>%s</w:t>
+	</w:r>
+</w:p>
+`
 	//XMLInlineText == 不换行的正文
 	XMLInlineText = `<w:r>
 		<w:t>%s</w:t>
@@ -500,6 +546,7 @@ const (
 	`
 	//XMLTableHead ...
 	XMLTableHead = `<w:tbl>
+				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="%s"/>
 				<w:tblPr>
 					<w:tblW w:w="8380" w:type="dxa"/>
 					<w:tblBorders>
@@ -514,6 +561,7 @@ const (
 `
 	//XMLTableNoHead == 没有表头的样式把table top line remove掉
 	XMLTableNoHead = `<w:tbl>
+			<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="%s"/>
 			<w:tblPr>
 				<w:tblW w:w="8380" w:type="dxa"/>
 				<w:tblBorders>
@@ -528,6 +576,7 @@ const (
 `
 	//XMLTableInTableHead == 表中表的样式头
 	XMLTableInTableHead = `<w:tbl>
+			<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="%s"/>
 			<w:tblPr>
 				<w:tblW w:w="8380" w:type="dxa"/>
 				<w:tblBorders>
@@ -542,6 +591,7 @@ const (
 `
 	//XMLTableInTableNoHead ...
 	XMLTableInTableNoHead = `<w:tbl>
+		<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name="%s"/>
 		<w:tblPr>
 			<w:tblW w:w="8380" w:type="dxa"/>
 			<w:tblBorders>
@@ -643,15 +693,55 @@ const (
 		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 `
-	//XMLHeadtableTDText ..
+
+	//XMLHeadTableTDBegin2C ...
+	XMLHeadTableTDBegin2C = `<w:p>
+<w:pPr>
+	<w:keepNext w:val="off"/>
+	<w:keepLines w:val="off"/>
+	<w:pageBreakBefore w:val="off"/>
+	<w:widowControl w:val="off"/>
+	<w:tabs>
+		<w:tab w:val="center" w:pos="1312"/>
+	</w:tabs>
+	<w:kinsoku/>
+	<w:wordWrap/>
+	<w:overflowPunct/>
+	<w:topLinePunct w:val="off"/>
+	<w:autoSpaceDE/>
+	<w:autoSpaceDN/>
+	<w:adjustRightInd/>
+	<w:snapToGrid/>
+	<w:spacing w:line="276" w:line-rule="auto"/>
+	<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
+	<w:jc w:val="center"/>
+	<w:textAlignment w:val="center"/>
+	<w:outlineLvl w:val="9"/>
+</w:pPr>
+`
+
+	//XMLHeadtableTDTextB ...
+	XMLHeadtableTDTextB = `<w:r>
+<w:rPr>
+	<w:b/>
+	<w:b-cs/>
+	<w:color w:val="%s"/>
+	<w:sz w:val="%s"/>
+	<w:sz-cs w:val="%s"/>
+</w:rPr>
+	<w:t>%s</w:t>
+</w:r>
+`
+
+	//XMLHeadtableTDText ...
 	XMLHeadtableTDText = `<w:r>
-			<w:rPr>
-				<w:color w:val="%s"/>
-				<w:sz w:val="%s"/>
-				<w:sz-cs w:val="%s"/>
-			</w:rPr>
-			<w:t>%s</w:t>
-		</w:r>
+<w:rPr>
+	<w:color w:val="%s"/>
+	<w:sz w:val="%s"/>
+	<w:sz-cs w:val="%s"/>
+</w:rPr>
+	<w:t>%s</w:t>
+</w:r>
 `
 
 	//XMLHeadTableTDEnd ...
@@ -691,7 +781,8 @@ const (
 	</w:p>
 	`
 	//XMLTableFooter ...
-	XMLTableFooter = `</w:tbl>
+	XMLTableFooter = `<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
+</w:tbl>
 `
 	//XMLSectBegin ...
 	XMLSectBegin = `<w:sectPr>
@@ -813,7 +904,7 @@ const (
           <w:fldChar w:fldCharType="begin"/>
         </w:r>
         <w:r>
-          <w:instrText> HYPERLINK "%s" </w:instrText>
+          <w:instrText> HYPERLINK \l "%s" </w:instrText>
         </w:r>
         <w:r>
           <w:fldChar w:fldCharType="separate"/>

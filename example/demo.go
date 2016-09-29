@@ -36,7 +36,7 @@ func main() {
 		{td10, td11}}
 	trSpan := []int{0, 0, 0, 0, 0, 0}
 	tdw := []int{4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190, 4190}
-	tableObj := report.NewTable(false, table, nil, nil, trSpan, tdw)
+	tableObj := report.NewTable("", false, table, nil, nil, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3(report.NewText("1.1 具有最多安全性问题的文件(TOP5)"))
@@ -50,7 +50,7 @@ func main() {
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693}
 	thw := []int{6687, 1693}
-	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3(report.NewText("1.2 访问时间最慢的url(TOP5)"))
@@ -64,7 +64,7 @@ func main() {
 	trSpan = []int{0, 0, 0, 0, 0}
 	tdw = []int{6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693, 6687, 1693}
 	thw = []int{6687, 1693}
-	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
 	doc.WriteTitle3(report.NewText("1.3 Web风险分布统计"))
@@ -84,7 +84,7 @@ func main() {
 	thw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196}
 	tdw = []int{1204, 1196, 1196, 1196, 1196, 1196, 1196,
 		1204, 1196, 1196, 1196, 1196, 1196, 1196}
-	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("t1", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 	doc.WriteBR()
 
@@ -92,6 +92,7 @@ func main() {
 	image4 := report.NewImage("3.png", "../images/offlineWS-102-1267308e465963bec7d4c63afbb8cd5b-1004.png", 300.00, 500.00, "")
 
 	doc.WriteImage(false, "", image4)
+
 	tableHead = [][]interface{}{{report.NewText("分类名")}, {report.NewText("高风险")}, {report.NewText("中风险")}, {report.NewText("低风险")}, {report.NewText("总计")}}
 	table = [][]*report.TableTD{
 		{report.NewTableTD([]interface{}{report.NewText("逻辑攻击类型:功能滥用")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{report.NewText("1")})},
@@ -99,18 +100,19 @@ func main() {
 		{report.NewTableTD([]interface{}{report.NewText("信息泄露类型:资源位置可预测")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("3")}), report.NewTableTD([]interface{}{report.NewText("3")})},
 		{report.NewTableTD([]interface{}{report.NewText("信息泄露类型:信息泄露")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("3")}), report.NewTableTD([]interface{}{report.NewText("3")})},
 		{report.NewTableTD([]interface{}{report.NewText("其他")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("0")}), report.NewTableTD([]interface{}{report.NewText("1")})}}
+
 	trSpan = []int{0, 0, 0, 0, 0}
 	thw = []int{1676, 1676, 1676, 1676, 1676}
 	tdw = []int{1676, 1676, 1676, 1676, 1676,
 		1676, 1676, 1676, 1676, 1676,
 		1676, 1676, 1676, 1676, 1676,
 		1676, 1676, 1676, 1676, 1676}
-	tableObj = report.NewTable(true, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 	cText := report.NewText("4.1.5: 漏洞信息")
 	// cText.SetSize("15")
 	doc.WriteTitle3(cText)
-	intableImage3 := report.NewImage("10.gif", "../images/move_down.gif", 50, 50, "http://blog.scnace.cc/")
+	intableImage3 := report.NewImage("10.gif", "../images/move_down.gif", 50, 50, "table1")
 	titd0 := report.NewTableTD([]interface{}{report.NewText("请求方式")})
 	titd0.SetTableTDBG()
 	titd2 := report.NewTableTD([]interface{}{report.NewText("URL")})
@@ -127,7 +129,7 @@ func main() {
 	thw = []int{1046, 5046}
 	tdw = []int{1046, 5046, 1046, 5046, 1046, 5046, 1046, 5046}
 	trSpan = []int{0, 0}
-	tit := report.NewTable(false, titbody, nil, thw, trSpan, tdw)
+	tit := report.NewTable("", false, titbody, nil, thw, trSpan, tdw)
 	tableHead = [][]interface{}{{report.NewText("漏洞名称")}, {report.NewText("出现次数")}, {report.NewText("详情解决方法")}}
 	redFont := report.NewText("检测到目标URL存在SQL注入漏洞")
 	redFont.Setcolor("ef1515")
@@ -139,7 +141,30 @@ func main() {
 	tdw = []int{4587, 1793, 2000, 8380}
 	thw = []int{4587, 1793, 2000}
 	trSpan = []int{0, 3}
-	tableObj = report.NewTable(false, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("", false, table, tableHead, thw, trSpan, tdw)
+	doc.WriteTable(tableObj)
+
+	titbody = [][]*report.TableTD{
+		{report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{report.NewText("1")})},
+	}
+	tithead := [][]interface{}{{report.NewText("th1")}, {report.NewText("th2")}, {report.NewText("th3")}}
+	thw = []int{4587, 1793, 2000}
+	tdw = []int{4587, 1793, 2000}
+	trspan := []int{0}
+	tit = report.NewTable("table1", false, titbody, tithead, thw, trSpan, tdw)
+	thtext := report.NewText("1234567890-+")
+	thtext.SetBold(true)
+	tableHead = [][]interface{}{{thtext}}
+	table = [][]*report.TableTD{
+		{report.NewTableTD([]interface{}{tit})},
+	}
+	tthw := []int{8380}
+	ttdw := []int{8380}
+	trspan = []int{0}
+	tableObj = report.NewTable("", false, table, tableHead, tthw, trspan, ttdw)
+	tableObj.SetHeadCenter(true)
+	doc.WriteBR()
+	doc.WriteBR()
 	doc.WriteTable(tableObj)
 	// ENDHEAD  and set page header or page footer
 	doc.WriteEndHead(false, true, "")
