@@ -557,6 +557,7 @@ const (
 					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 					<w:insideV w:val="nil"/>
 					</w:tblBorders>
+					<w:tblLayout w:type="Fixed"/>
 				</w:tblPr>
 `
 	//XMLTableNoHead == 没有表头的样式把table top line remove掉
@@ -572,6 +573,7 @@ const (
 				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 				<w:insideV w:val="nil"/>
 				</w:tblBorders>
+				<w:tblLayout w:type="Fixed"/>
 			</w:tblPr>
 `
 	//XMLTableInTableHead == 表中表的样式头
@@ -587,6 +589,7 @@ const (
 				<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 				<w:insideV w:val="nil"/>
 				</w:tblBorders>
+				<w:tblLayout w:type="Fixed"/>
 			</w:tblPr>
 `
 	//XMLTableInTableNoHead ...
@@ -602,6 +605,7 @@ const (
 			<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
 			<w:insideV w:val="nil"/>
 			</w:tblBorders>
+			<w:tblLayout w:type="Fixed"/>
 		</w:tblPr>
 `
 	//XMLTableTR ...
@@ -632,26 +636,11 @@ const (
 	//XMLTableTD2 ...
 	XMLTableTD2 = `<w:p>
 	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
 		<w:tabs>
 			<w:tab w:val="center" w:pos="1312"/>
 		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
 		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
-		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 	`
 	//XMLHeadTableTDBegin ...
@@ -671,49 +660,21 @@ const (
 	//XMLHeadTableTDBegin2 ...
 	XMLHeadTableTDBegin2 = `<w:p>
 	<w:pPr>
-		<w:keepNext w:val="off"/>
-		<w:keepLines w:val="off"/>
-		<w:pageBreakBefore w:val="off"/>
-		<w:widowControl w:val="off"/>
-		<w:tabs>
+  	<w:tabs>
 			<w:tab w:val="center" w:pos="1312"/>
 		</w:tabs>
-		<w:kinsoku/>
-		<w:wordWrap/>
-		<w:overflowPunct/>
-		<w:topLinePunct w:val="off"/>
-		<w:autoSpaceDE/>
-		<w:autoSpaceDN/>
-		<w:adjustRightInd/>
-		<w:snapToGrid/>
 		<w:spacing w:line="276" w:line-rule="auto"/>
-		<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-		<w:jc w:val="both"/>
 		<w:textAlignment w:val="center"/>
-		<w:outlineLvl w:val="9"/>
 	</w:pPr>
 `
 
 	//XMLHeadTableTDBegin2C ...
 	XMLHeadTableTDBegin2C = `<w:p>
 <w:pPr>
-	<w:keepNext w:val="off"/>
-	<w:keepLines w:val="off"/>
-	<w:pageBreakBefore w:val="off"/>
-	<w:widowControl w:val="off"/>
 	<w:tabs>
 		<w:tab w:val="center" w:pos="1312"/>
 	</w:tabs>
-	<w:kinsoku/>
-	<w:wordWrap/>
-	<w:overflowPunct/>
-	<w:topLinePunct w:val="off"/>
-	<w:autoSpaceDE/>
-	<w:autoSpaceDN/>
-	<w:adjustRightInd/>
-	<w:snapToGrid/>
 	<w:spacing w:line="276" w:line-rule="auto"/>
-	<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
 	<w:jc w:val="center"/>
 	<w:textAlignment w:val="center"/>
 	<w:outlineLvl w:val="9"/>
@@ -754,26 +715,11 @@ const (
 	//XMLMagicFooter  HACK:I struggle for a long time,at last ,I find it is necessary,and don't konw why.
 	XMLMagicFooter = `<w:p>
 		<w:pPr>
-			<w:keepNext w:val="off"/>
-			<w:keepLines w:val="off"/>
-			<w:pageBreakBefore w:val="off"/>
-			<w:widowControl w:val="off"/>
 			<w:tabs>
 				<w:tab w:val="center" w:pos="1312"/>
 			</w:tabs>
-			<w:kinsoku/>
-			<w:wordWrap/>
-			<w:overflowPunct/>
-			<w:topLinePunct w:val="off"/>
-			<w:autoSpaceDE/>
-			<w:autoSpaceDN/>
-			<w:adjustRightInd/>
-			<w:snapToGrid/>
 			<w:spacing w:line="360" w:line-rule="exact"/>
-			<w:ind w:left="0" w:left-chars="0" w:right="0" w:right-chars="0" w:first-line="0" w:first-line-chars="0"/>
-			<w:jc w:val="both"/>
 			<w:textAlignment w:val="auto"/>
-			<w:outlineLvl w:val="9"/>
 		</w:pPr>
 		<w:r>
 				<w:t></w:t>
