@@ -350,13 +350,15 @@ func (doc *Report) WriteTable(table *Table) error {
 					} else if _, ko := vvv.(*Text); ko {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
-					if !inline && !ok {
+					if !inline {
 						XMLTable.WriteString(XMLIMGtail)
 					}
 				}
 			}
 			if inline {
 				XMLTable.WriteString(XMLIMGtail)
+				//reset inline flag
+				inline = false
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
@@ -594,6 +596,7 @@ func writeTableToBuffer(table *Table) (string, error) {
 			}
 			if inline {
 				XMLTable.WriteString(XMLIMGtail)
+				inline = false
 			}
 
 			XMLTable.WriteString(XMLHeadTableTDEnd)

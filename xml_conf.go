@@ -726,6 +726,20 @@ const (
 			</w:r>
 	</w:p>
 	`
+	//XMLMagicInlineFooter ...
+	// XMLMagicInlineFooter = `<w:p>
+	// 	<w:pPr>
+	// 		<w:tabs>
+	// 			<w:tab w:val="center" w:pos="1312"/>
+	// 		</w:tabs>
+	// 		<w:spacing w:line="360" w:line-rule="exact"/>
+	// 		<w:textAlignment w:val="auto"/>
+	// 	</w:pPr>
+	// 	<w:r>
+	// 			<w:t></w:t>
+	// 		</w:r>
+	// `
+
 	//XMLTableFooter ...
 	XMLTableFooter = `<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
 </w:tbl>
