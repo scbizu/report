@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"encoding/base64"
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -103,7 +104,11 @@ func (doc *Report) WriteHead() error {
 }
 
 //WriteEndHead end the Header
-func (doc *Report) WriteEndHead(sethdr bool, setftr bool, hdr string) error {
+/////@Params ftrmode:
+//"pages":For page index
+//"text" :For footer  text
+//others :none
+func (doc *Report) WriteEndHead(sethdr bool, ftrmode string, hdr string, ftr string) error {
 	_, err := doc.Doc.WriteString(XMLSectBegin)
 	if err != nil {
 		return err
@@ -113,8 +118,8 @@ func (doc *Report) WriteEndHead(sethdr bool, setftr bool, hdr string) error {
 		doc.writehdr(hdr)
 	}
 	//set FTR
-	if setftr {
-		doc.writeftr()
+	if ftrmode != "" {
+		doc.writeftr(ftrmode, ftr)
 	}
 
 	_, err = doc.Doc.WriteString(XMLSectEnd)
@@ -709,12 +714,27 @@ func (doc *Report) writehdr(text string) error {
 }
 
 //writeftr == 页脚  wrap function
-func (doc *Report) writeftr() error {
-
-	_, err := doc.Doc.WriteString(XMLftr)
-	if err != nil {
-		return err
+/////MODE :
+//"pages":For page index
+//"text" :For footer  text
+//others :none
+func (doc *Report) writeftr(mode string, text string) error {
+	switch mode {
+	case "pages":
+		_, err := doc.Doc.WriteString(XMLftrPages)
+		if err != nil {
+			return err
+		}
+	case "text":
+		ftrtext := fmt.Sprintf(XMLftrText, text)
+		_, err := doc.Doc.WriteString(ftrtext)
+		if err != nil {
+			return err
+		}
+	default:
+		return errors.New("Unknown Footer Mode :(")
 	}
+
 	// color.Blue("[LOG]:WriteTitle1 Wrote" + strconv.FormatInt(int64(count), 10) + "bytes")
 	return nil
 }

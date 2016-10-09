@@ -125,7 +125,7 @@ func TestWriteImage(t *testing.T) {
 func TestWriteEndHead(t *testing.T) {
 	doc := NewDoc()
 	doc.InitDoc("demo.doc")
-	err := doc.WriteEndHead(true, true, "Hello World")
+	err := doc.WriteEndHead(true, "pages", "Hello World", "")
 	if err != nil {
 		t.Errorf(err.Error())
 	} else {

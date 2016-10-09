@@ -3095,6 +3095,20 @@
 		<w:textAlignment w:val="center"/>
 	</w:pPr>
 	<w:r>
+		<w:pict>
+				<w:binData w:name="wordml://5.gif">R0lGODlhEAAQANUrAIIAAIgAAJgAAI8AAKEAAKoAALwAAMUAALhmZrMAAP35+eu0tLgSEv3z880DA+FUVPbS0qQ8PLZLS+XJyfPDw6UMDPz5+eVsbJkkJP/8/PLb2/rt7dAwMOrPz/Xk5JADA+OWlv78/L4kJMwAAN60tNByctZLS6MGBtq0tMBjY9eHh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACsALAAAAAAQABAAAAZawJVwSCwaj8hhppEsXh7NIcQxokRXpsOBE2ouDEIDKKkQJYQJxgapKhSE7tLRUyEQhPaTxpgS+P9+EkUdHwOGQoaGJEQRAY4BCAiPARgWQhMAmZqbmShXn0hBADs=</w:binData>
+					<v:shape id="_x0000_s1026" o:spt="75" alt="fcwx.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
+					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+						<v:fill on="f" focussize="0,0"/>
+						<v:stroke on="f"/>
+						<v:imagedata src="wordml://5.gif" o:title="fcwx.gif"/>
+						<o:lock v:ext="edit" aspectratio="t"/>
+						<w10:wrap type="none"/>
+						<w10:anchorlock/>
+					</v:shape>
+		</w:pict>
+</w:r>
+<w:r>
 <w:rPr>
 	<w:color w:val="ef1515"/>
 	<w:sz w:val="21"/>
@@ -3207,7 +3221,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
@@ -3231,7 +3245,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -3257,7 +3271,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
@@ -3281,7 +3295,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -3307,7 +3321,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
@@ -3331,7 +3345,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -3357,7 +3371,7 @@
 <w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
+    <w:tcW w:w="1046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
 </w:tcPr>
 <w:p>
@@ -3381,442 +3395,7 @@
 </w:tc>
 <w:tc>
 <w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
-</w:tbl>
-<w:p>
-		<w:pPr>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="1312"/>
-			</w:tabs>
-			<w:spacing w:line="360" w:line-rule="exact"/>
-			<w:textAlignment w:val="auto"/>
-		</w:pPr>
-		<w:r>
-				<w:t></w:t>
-			</w:r>
-	</w:p>
-	
-</w:tc>
-</w:tr>
-<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>
-</w:tbl>
-<w:tbl>
-				<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
-				<w:tblPr>
-					<w:tblW w:w="8380" w:type="dxa"/>
-					<w:tblBorders>
-					<w:top w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
-					<w:left w:val="nil"/>
-					<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
-					<w:right w:val="nil"/>
-					<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
-					<w:insideV w:val="nil"/>
-					</w:tblBorders>
-					<w:tblLayout w:type="Fixed"/>
-				</w:tblPr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:trPr>
-	<w:trHeight w:val="207"/>
-</w:trPr>
-<w:tc>
-	<w:tcPr>
-		<w:tcW w:w="4587" w:type="dxa"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:tcPr>
-<w:p>
-	<w:pPr>
-  	<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="276" w:line-rule="auto"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>漏洞名称</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-	<w:tcPr>
-		<w:tcW w:w="1793" w:type="dxa"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:tcPr>
-<w:p>
-	<w:pPr>
-  	<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="276" w:line-rule="auto"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>出现次数</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-	<w:tcPr>
-		<w:tcW w:w="2000" w:type="dxa"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:tcPr>
-<w:p>
-	<w:pPr>
-  	<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="276" w:line-rule="auto"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>详情解决方法</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="4587" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="ef1515"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>检测到目标URL存在SQL注入漏洞</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="1793" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>1</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="2000" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-          <w:fldChar w:fldCharType="begin"/>
-        </w:r>
-        <w:r>
-          <w:instrText> HYPERLINK \l "table1" </w:instrText>
-        </w:r>
-        <w:r>
-          <w:fldChar w:fldCharType="separate"/>
-        </w:r>
-<w:r>
-		<w:pict>
-				<w:binData w:name="wordml://10.gif">R0lGODlhEAAQAPeDAIyhsP7+/vHz9dPe5qCxvtbg6JequPz9/SyEyMzV3CyEx/f5+o2hsSuDx8LN1ZSotrbEzfT2+Pb4+fP2+NTf5+Hn6vv8/dDZ3/L19t3j6Ku6xd7m7LjFzuzw8il/xCh/xLvH0KS0wSFyu+Lo7a28x8HM1PP198fS2SV4v669x6O0wPr7/LG/yePo67XCzNrh5v39/iqBxubs8d7k6SBvufL1+BhisNjf5Pn7/Ka2wtHc5ZiruZ6wvZ6xvpGltPX3+e7y9RZero6isdfh6JmsuaGyv/n6+4edrZutu+Dm6p2vvMbQ2Nzk66e3wvj6++vw8+fr7rTCzLjFzw9Rpd3l6+ru8CBwuvj5+vX3+CqBxdji6a69yP7//9ng5f7+/+nv84+jst/n7cHO2MnT2tTe5pSntevu8cjS2RVdrcfR2L/L0yuEx4mfrtjh5/H19+rw8+Dl6ubt8fL19+br7vj6+u/z9iJzvMvW3qS1wbnGz+ft8pOmtc3W3Zapt8HN1ZCltIacrCyFyP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAIMALAAAAAAQABAAAAjuAAcJHEiwYMELIQApLJLggEEBBABwyABlBggGfToQlGCAAAZBgrjgqDGChxAzA1n4kAASxoI6cTaQ+UOEziABR16AtBCoJ5MCA8QASjOIzwNBAYy46RmIwoAhGwzgiQBCw4FAChAgwNpgTaA3W5RU4KBhwpMGWTx8+OAhBpAFLpB0GWNATxgtKOxYoSFCzgpBBFTcqALoDlAKNoKg+XFAUAdAUeAMyrFDRwEqMqY48YK0yQMHAm4y6NHmywQLIK+kYCPlwsA5ZQD4yYChwok9YCAswUIwAgkACgEBCFEigQmDAVqogZDHwZkkAQYGBAA7</w:binData>
-					<v:shape id="_x0000_s1026" o:spt="75" alt="move_down.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
-					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
-						<v:fill on="f" focussize="0,0"/>
-						<v:stroke on="f"/>
-						<v:imagedata src="wordml://10.gif" o:title="move_down.gif"/>
-						<o:lock v:ext="edit" aspectratio="t"/>
-						<w10:wrap type="none"/>
-						<w10:anchorlock/>
-					</v:shape>
-		</w:pict>
-</w:r>
-<w:r>
-<w:fldChar w:fldCharType="end"/>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="4587" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="3"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	</w:p>
-<w:tbl>
-		<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
-		<w:tblPr>
-			<w:tblW w:w="8380" w:type="dxa"/>
-			<w:tblBorders>
-			<w:top w:val="nil"/>
-			<w:left w:val="nil"/>
-			<w:bottom w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
-			<w:right w:val="nil"/>
-			<w:insideH w:val="single" w:sz="12" wx:bdrwidth="30" w:space="0" w:color="D4D8DA"/>
-			<w:insideV w:val="nil"/>
-			</w:tblBorders>
-			<w:tblLayout w:type="Fixed"/>
-		</w:tblPr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>请求方式</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>GET</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>URL</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>问题参数</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>class_id_int</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-</w:tr>
-<w:tr wsp:rsidR="00AF5A68" wsp:rsidTr="00AF5A68">
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="1546" w:type="dxa"/>
-	<w:shd w:val="clear" w:color="auto" w:fill="E7E6E6"/>
-</w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>参考（验证）</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-<w:tcPr>
-    <w:tcW w:w="6834" w:type="dxa"/>
+    <w:tcW w:w="5046" w:type="dxa"/>
 	<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 </w:tcPr>
 <w:p>
@@ -4100,73 +3679,17 @@
 </w:tbl>
 <w:sectPr>
 <w:ftr w:type="odd">
-	<w:p>
-		<w:pPr>
-			<w:pStyle w:val="a3"/>
-			<w:tabs>
-				<w:tab w:val="center" w:pos="4153"/>
-				<w:tab w:val="right" w:pos="8306"/>
-			</w:tabs>
-		</w:pPr>
-		<w:r>
-			<w:rPr>
-				<w:sz w:val="18"/>
-			</w:rPr>
-			<w:pict>
-				<v:shape id="_x0000_s1026" o:spt="202" type="#_x0000_t202" style="position:absolute;left:0pt;margin-top:0pt;height:144pt;width:144pt;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-wrap-style:none;z-index:251658240;mso-width-relative:page;mso-height-relative:page;" filled="f" stroked="f" coordsize="21600,21600">
-					<v:path/>
-					<v:fill on="f" focussize="0,0"/>
-					<v:stroke on="f"/>
-					<v:imagedata o:title=""/>
-					<o:lock v:ext="edit" aspectratio="f"/>
-					<v:textbox inset="0.00pt,0.00pt,0.00pt,0.00pt" style="mso-fit-shape-to-text:t;">
-						<w:txbxContent>
-							<w:p>
-								<w:pPr>
-									<w:snapToGrid w:val="off"/>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-								</w:pPr>
-								<w:r>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-									<w:fldChar w:fldCharType="begin"/>
-								</w:r>
-								<w:r>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-									<w:instrText> PAGE  \* MERGEFORMAT </w:instrText>
-								</w:r>
-								<w:r>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-									<w:fldChar w:fldCharType="separate"/>
-								</w:r>
-								<w:r>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-									<w:t>1</w:t>
-								</w:r>
-								<w:r>
-									<w:rPr>
-										<w:sz w:val="18"/>
-									</w:rPr>
-									<w:fldChar w:fldCharType="end"/>
-								</w:r>
-							</w:p>
-						</w:txbxContent>
-					</v:textbox>
-				</v:shape>
-			</w:pict>
-		</w:r>
-	</w:p>
-</w:ftr>
-<w:pgSz w:w="11906" w:h="16838"/>
+<w:p>
+    <w:pPr>
+      	<w:pStyle w:val="a6"/>
+				<w:jc w:val="center"/>
+				<w:textAlignment w:val="center"/>
+    </w:pPr>
+    <w:r>
+        <w:t>hello world!</w:t>
+    </w:r>
+</w:p>
+</w:ftr><w:pgSz w:w="11906" w:h="16838"/>
 	<w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>
 	<w:cols w:space="425"/>
 	<w:docGrid w:type="lines" w:line-pitch="312"/>

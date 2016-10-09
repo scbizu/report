@@ -167,5 +167,5 @@ func main() {
 	doc.WriteBR()
 	doc.WriteTable(tableObj)
 	// ENDHEAD  and set page header or page footer
-	doc.WriteEndHead(false, true, "")
+	doc.WriteEndHead(false, "text", "", "hello world!")
 }
