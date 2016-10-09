@@ -135,13 +135,13 @@ func main() {
 	redFont.Setcolor("ef1515")
 
 	table = [][]*report.TableTD{
-		{report.NewTableTD([]interface{}{redFont}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{intableImage3})},
+		{report.NewTableTD([]interface{}{intableImage, redFont}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{intableImage3})},
 		// BUG: 注意'%^'需要转义! 否则填充会有BUG...
 		{report.NewTableTD([]interface{}{`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`, tit})}}
 	tdw = []int{4587, 1793, 2000, 8380}
 	thw = []int{4587, 1793, 2000}
 	trSpan = []int{0, 3}
-	tableObj = report.NewTable("", false, table, tableHead, thw, trSpan, tdw)
+	tableObj = report.NewTable("", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
 	titbody = [][]*report.TableTD{

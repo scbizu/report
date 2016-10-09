@@ -245,7 +245,8 @@ func (doc *Report) WriteTable(table *Table) error {
 	thw := table.Thw
 	gridSpan := table.GridSpan
 	tdw := table.Tdw
-
+	var used bool
+	used = false
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		tablehead := fmt.Sprintf(XMLTableHead, tbname)
@@ -307,6 +308,7 @@ func (doc *Report) WriteTable(table *Table) error {
 	}
 	//Generate formation
 	for k, v := range tableBody {
+
 		XMLTable.WriteString(XMLTableTR)
 
 		for kk, vv := range v {
@@ -320,16 +322,22 @@ func (doc *Report) WriteTable(table *Table) error {
 				td = fmt.Sprintf(XMLTableTD, strconv.FormatInt(int64(tdw[kk]), 10), "auto", strconv.FormatInt(int64(gridSpan[k]), 10))
 			}
 			XMLTable.WriteString(td)
+			tds := 0
+			// vv.TData = append(vv.TData, "")
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
+
 			}
 			for _, vvv := range vv.TData {
 				table, ok := vvv.(*Table)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
+
 				//if td is a table
 				if ok {
+					//end with table
+					used = true
 					tablestr, err := writeTableToBuffer(table)
 					if err != nil {
 						return err
@@ -350,15 +358,26 @@ func (doc *Report) WriteTable(table *Table) error {
 					} else if _, ko := vvv.(*Text); ko {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
+					//not end with table
+					used = false
+					var next bool
+					if tds < len(vv.TData)-1 {
+						_, next = vv.TData[tds+1].(*Table)
+					}
+
 					if !inline {
+						XMLTable.WriteString(XMLIMGtail)
+					} else if inline && next {
 						XMLTable.WriteString(XMLIMGtail)
 					}
 				}
+				tds++
 			}
-			if inline {
+			//not end with table
+			if inline && !used {
 				XMLTable.WriteString(XMLIMGtail)
 				//reset inline flag
-				inline = false
+				// inline = false
 			}
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 		}
@@ -483,7 +502,8 @@ func writeTableToBuffer(table *Table) (string, error) {
 	thw := table.Thw
 	tdw := table.Tdw
 	XMLTable := bytes.Buffer{}
-
+	var used bool
+	used = false
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		//表格中的表格为无边框形式
@@ -559,16 +579,22 @@ func writeTableToBuffer(table *Table) (string, error) {
 			}
 			XMLTable.WriteString(ttd)
 
+			tds := 0
+			// vv.TData = append(vv.TData, "")
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
+
 			}
 			for _, vvv := range vv.TData {
 				table, ok := vvv.(*Table)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
+
 				//if td is a table
 				if ok {
+					//end with table
+					used = true
 					tablestr, err := writeTableToBuffer(table)
 					if err != nil {
 						return "", err
@@ -589,16 +615,27 @@ func writeTableToBuffer(table *Table) (string, error) {
 					} else if _, ko := vvv.(*Text); ko {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
-					if !inline && !ok {
+					//not end with table
+					used = false
+					var next bool
+					if tds < len(vv.TData)-1 {
+						_, next = vv.TData[tds+1].(*Table)
+					}
+
+					if !inline {
+						XMLTable.WriteString(XMLIMGtail)
+					} else if inline && next {
 						XMLTable.WriteString(XMLIMGtail)
 					}
 				}
+				tds++
 			}
-			if inline {
+			//not end with table
+			if inline && !used {
 				XMLTable.WriteString(XMLIMGtail)
-				inline = false
+				//reset inline flag
+				// inline = false
 			}
-
 			XMLTable.WriteString(XMLHeadTableTDEnd)
 
 		}
