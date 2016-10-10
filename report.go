@@ -288,13 +288,19 @@ func (doc *Report) WriteTable(table *Table) error {
 					size := text.Size
 					word := text.Words
 					var data string
-
-					if text.Isbold {
-						data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+					if text.IsCenter {
+						if text.Isbold {
+							data = fmt.Sprintf(XMLHeadtableTDTextBC, color, size, size, word)
+						} else {
+							data = fmt.Sprintf(XMLHeadtableTDTextC, color, size, size, word)
+						}
 					} else {
-						data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+						if text.Isbold {
+							data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+						} else {
+							data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+						}
 					}
-
 					XMLTable.WriteString(data)
 				}
 				if !inline {
@@ -364,8 +370,20 @@ func (doc *Report) WriteTable(table *Table) error {
 						if icon.Hyperlink != "" {
 							XMLTable.WriteString(XMLImageLinkEnd)
 						}
-					} else if _, ko := vvv.(*Text); ko {
-						XMLTable.WriteString(XMLHeadtableTDText)
+					} else if text, ko := vvv.(*Text); ko {
+						if text.IsCenter {
+							if text.Isbold {
+								XMLTable.WriteString(XMLHeadtableTDTextBC)
+							} else {
+								XMLTable.WriteString(XMLHeadtableTDTextC)
+							}
+						} else {
+							if text.Isbold {
+								XMLTable.WriteString(XMLHeadtableTDTextB)
+							} else {
+								XMLTable.WriteString(XMLHeadtableTDText)
+							}
+						}
 					}
 					//not end with table
 					used = false
@@ -551,11 +569,20 @@ func writeTableToBuffer(table *Table) (string, error) {
 					size := text.Size
 					word := text.Words
 					var data string
-
-					if text.Isbold {
-						data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+					if text.IsCenter {
+						// println(text.IsCenter)
+						if text.Isbold {
+							// println(text.Isbold)
+							data = fmt.Sprintf(XMLHeadtableTDTextBC, color, size, size, word)
+						} else {
+							data = fmt.Sprintf(XMLHeadtableTDTextC, color, size, size, word)
+						}
 					} else {
-						data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+						if text.Isbold {
+							data = fmt.Sprintf(XMLHeadtableTDTextB, color, size, size, word)
+						} else {
+							data = fmt.Sprintf(XMLHeadtableTDText, color, size, size, word)
+						}
 					}
 					XMLTable.WriteString(data)
 				}
@@ -622,8 +649,20 @@ func writeTableToBuffer(table *Table) (string, error) {
 						if icon.Hyperlink != "" {
 							XMLTable.WriteString(XMLImageLinkEnd)
 						}
-					} else if _, ko := vvv.(*Text); ko {
-						XMLTable.WriteString(XMLHeadtableTDText)
+					} else if text, ko := vvv.(*Text); ko {
+						if text.IsCenter {
+							if text.Isbold {
+								XMLTable.WriteString(XMLHeadtableTDTextBC)
+							} else {
+								XMLTable.WriteString(XMLHeadtableTDTextC)
+							}
+						} else {
+							if text.Isbold {
+								XMLTable.WriteString(XMLHeadtableTDTextB)
+							} else {
+								XMLTable.WriteString(XMLHeadtableTDText)
+							}
+						}
 					}
 					//not end with table
 					Bused = false

@@ -3405,17 +3405,20 @@
 	<w:textAlignment w:val="center"/>
 	<w:outlineLvl w:val="9"/>
 </w:pPr>
-<w:r>
-<w:rPr>
-	<w:b/>
-	<w:b-cs/>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>1234567890-+</w:t>
-</w:r>
-</w:p>
+<w:pPr>
+			<w:jc w:val="center"/>
+			<w:textAlignment w:val="center"/>
+		</w:pPr>
+	<w:r>
+	<w:rPr>
+		<w:b/>
+		<w:color w:val="000000"/>
+		<w:sz w:val="21"/>
+		<w:sz-cs w:val="21"/>
+	</w:rPr>
+		<w:t>1234567890-+</w:t>
+	</w:r>
+ </w:p>
 
 </w:tc>
 </w:tr>
@@ -3457,15 +3460,20 @@
 		<w:spacing w:line="276" w:line-rule="auto"/>
 		<w:textAlignment w:val="center"/>
 	</w:pPr>
-<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>th1</w:t>
-</w:r>
-</w:p>
+<w:pPr>
+			<w:jc w:val="center"/>
+			<w:textAlignment w:val="center"/>
+		</w:pPr>
+	<w:r>
+	<w:rPr>
+		<w:b/>
+		<w:color w:val="000000"/>
+		<w:sz w:val="21"/>
+		<w:sz-cs w:val="21"/>
+	</w:rPr>
+		<w:t>th1</w:t>
+	</w:r>
+ </w:p>
 
 </w:tc>
 <w:tc>

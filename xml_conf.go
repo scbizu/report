@@ -693,7 +693,35 @@ const (
 	<w:t>%s</w:t>
 </w:r>
 `
-
+	//XMLHeadtableTDTextC ...
+	XMLHeadtableTDTextC = `<w:pPr>
+	   	<w:jc w:val="center"/>
+			<w:textAlignment w:val="center"/>
+	 	</w:pPr>
+	<w:r>
+ 	<w:rPr>
+ 		<w:color w:val="%s"/>
+ 		<w:sz w:val="%s"/>
+ 		<w:sz-cs w:val="%s"/>
+ 	</w:rPr>
+ 		<w:t>%s</w:t>
+ 	</w:r>
+ `
+	//XMLHeadtableTDTextBC ...
+	XMLHeadtableTDTextBC = `<w:pPr>
+			<w:jc w:val="center"/>
+			<w:textAlignment w:val="center"/>
+		</w:pPr>
+	<w:r>
+	<w:rPr>
+		<w:b/>
+		<w:color w:val="%s"/>
+		<w:sz w:val="%s"/>
+		<w:sz-cs w:val="%s"/>
+	</w:rPr>
+		<w:t>%s</w:t>
+	</w:r>
+ `
 	//XMLHeadtableTDText ...
 	XMLHeadtableTDText = `<w:r>
 <w:rPr>
@@ -726,19 +754,6 @@ const (
 			</w:r>
 	</w:p>
 	`
-	//XMLMagicInlineFooter ...
-	// XMLMagicInlineFooter = `<w:p>
-	// 	<w:pPr>
-	// 		<w:tabs>
-	// 			<w:tab w:val="center" w:pos="1312"/>
-	// 		</w:tabs>
-	// 		<w:spacing w:line="360" w:line-rule="exact"/>
-	// 		<w:textAlignment w:val="auto"/>
-	// 	</w:pPr>
-	// 	<w:r>
-	// 			<w:t></w:t>
-	// 		</w:r>
-	// `
 
 	//XMLTableFooter ...
 	XMLTableFooter = `<aml:annotation aml:id="0" w:type="Word.Bookmark.End"/>

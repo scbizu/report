@@ -147,12 +147,16 @@ func main() {
 	titbody = [][]*report.TableTD{
 		{report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{report.NewText("1")})},
 	}
-	tithead := [][]interface{}{{report.NewText("th1")}, {report.NewText("th2")}, {report.NewText("th3")}}
+	th1 := report.NewText("th1")
+	th1.SetBold(true)
+	th1.SetCenter(true)
+	tithead := [][]interface{}{{th1}, {report.NewText("th2")}, {report.NewText("th3")}}
 	thw = []int{4587, 1793, 2000}
 	tdw = []int{4587, 1793, 2000}
 	trspan := []int{0}
 	tit = report.NewTable("table1", false, titbody, tithead, thw, trSpan, tdw)
 	thtext := report.NewText("1234567890-+")
+	thtext.SetCenter(true)
 	thtext.SetBold(true)
 	tableHead = [][]interface{}{{thtext}}
 	table = [][]*report.TableTD{
