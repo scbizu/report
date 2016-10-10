@@ -328,6 +328,7 @@ func (doc *Report) WriteTable(table *Table) error {
 			}
 			XMLTable.WriteString(td)
 			tds := 0
+
 			// vv.TData = append(vv.TData, "")
 			if inline {
 				XMLTable.WriteString(XMLTableTD2)
@@ -341,6 +342,9 @@ func (doc *Report) WriteTable(table *Table) error {
 
 				//if td is a table
 				if ok {
+					if inline {
+						XMLTable.WriteString(XMLIMGtail)
+					}
 					//end with table
 					used = true
 					tablestr, err := writeTableToBuffer(table)
@@ -365,16 +369,17 @@ func (doc *Report) WriteTable(table *Table) error {
 					}
 					//not end with table
 					used = false
-					var next bool
-					if tds < len(vv.TData)-1 {
-						_, next = vv.TData[tds+1].(*Table)
-					}
+					// var next bool
+					// if kk < len(vv.TData)-1 {
+					// 	_, next = vv.TData[tds+1].(*Table)
+					// }
 
 					if !inline {
 						XMLTable.WriteString(XMLIMGtail)
-					} else if inline && next {
-						XMLTable.WriteString(XMLIMGtail)
 					}
+					// else if inline && next {
+					// 	XMLTable.WriteString(XMLIMGtail)
+					// }
 				}
 				tds++
 			}
@@ -507,8 +512,8 @@ func writeTableToBuffer(table *Table) (string, error) {
 	thw := table.Thw
 	tdw := table.Tdw
 	XMLTable := bytes.Buffer{}
-	var used bool
-	used = false
+	var Bused bool
+	Bused = false
 	//handle TableHead :Split with TableBody
 	if tableHead != nil {
 		//表格中的表格为无边框形式
@@ -599,7 +604,7 @@ func writeTableToBuffer(table *Table) (string, error) {
 				//if td is a table
 				if ok {
 					//end with table
-					used = true
+					Bused = true
 					tablestr, err := writeTableToBuffer(table)
 					if err != nil {
 						return "", err
@@ -621,7 +626,7 @@ func writeTableToBuffer(table *Table) (string, error) {
 						XMLTable.WriteString(XMLHeadtableTDText)
 					}
 					//not end with table
-					used = false
+					Bused = false
 					var next bool
 					if tds < len(vv.TData)-1 {
 						_, next = vv.TData[tds+1].(*Table)
@@ -636,7 +641,7 @@ func writeTableToBuffer(table *Table) (string, error) {
 				tds++
 			}
 			//not end with table
-			if inline && !used {
+			if inline && !Bused {
 				XMLTable.WriteString(XMLIMGtail)
 				//reset inline flag
 				// inline = false
