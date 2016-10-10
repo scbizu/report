@@ -842,7 +842,7 @@ func NewText(words string) *Text {
 	text := &Text{}
 	text.Words = words
 	text.Color = "000000"
-	text.Size = "21"
+	text.Size = "19"
 	text.Isbold = false
 	text.IsCenter = false
 	return text
