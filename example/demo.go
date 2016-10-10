@@ -112,7 +112,7 @@ func main() {
 	cText := report.NewText("4.1.5: 漏洞信息")
 	// cText.SetSize("15")
 	doc.WriteTitle3(cText)
-	intableImage3 := report.NewImage("10.gif", "../images/move_down.gif", 50, 50, "table1")
+	// intableImage3 := report.NewImage("10.gif", "../images/move_down.gif", 50, 50, "table1")
 	titd0 := report.NewTableTD([]interface{}{report.NewText("请求方式")})
 	titd0.SetTableTDBG()
 	titd2 := report.NewTableTD([]interface{}{report.NewText("URL")})
@@ -130,16 +130,16 @@ func main() {
 	tdw = []int{1046, 5046, 1046, 5046, 1046, 5046, 1046, 5046}
 	trSpan = []int{0, 0}
 	tit := report.NewTable("", false, titbody, nil, thw, trSpan, tdw)
-	tableHead = [][]interface{}{{report.NewText("漏洞名称")}, {report.NewText("出现次数")}, {report.NewText("详情解决方法")}}
+	tableHead = [][]interface{}{{report.NewText("漏洞名称")}, {report.NewText("出现次数")}}
 	redFont := report.NewText("检测到目标URL存在SQL注入漏洞")
 	redFont.Setcolor("ef1515")
 
 	table = [][]*report.TableTD{
-		{report.NewTableTD([]interface{}{intableImage, redFont}), report.NewTableTD([]interface{}{report.NewText("1")}), report.NewTableTD([]interface{}{intableImage3})},
+		{report.NewTableTD([]interface{}{intableImage, redFont}), report.NewTableTD([]interface{}{report.NewText("1")})},
 		// BUG: 注意'%^'需要转义! 否则填充会有BUG...
-		{report.NewTableTD([]interface{}{`http://www.xjbtw.com/Link_Class.asp?class_id_int=5`, tit})}}
-	tdw = []int{4587, 1793, 2000, 8380}
-	thw = []int{4587, 1793, 2000}
+		{report.NewTableTD([]interface{}{tit})}}
+	tdw = []int{4587, 3793, 8380}
+	thw = []int{4587, 3793}
 	trSpan = []int{0, 3}
 	tableObj = report.NewTable("", true, table, tableHead, thw, trSpan, tdw)
 	doc.WriteTable(tableObj)

@@ -3032,7 +3032,7 @@
 </w:tc>
 <w:tc>
 	<w:tcPr>
-		<w:tcW w:w="1793" w:type="dxa"/>
+		<w:tcW w:w="3793" w:type="dxa"/>
 		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
 	</w:tcPr>
 <w:p>
@@ -3050,30 +3050,6 @@
 	<w:sz-cs w:val="21"/>
 </w:rPr>
 	<w:t>出现次数</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-	<w:tcPr>
-		<w:tcW w:w="2000" w:type="dxa"/>
-		<w:shd w:val="clear" w:color="auto" w:fill="D4D8DA"/>
-	</w:tcPr>
-<w:p>
-	<w:pPr>
-  	<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="276" w:line-rule="auto"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-<w:r>
-<w:rPr>
-	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
-</w:rPr>
-	<w:t>详情解决方法</w:t>
 </w:r>
 </w:p>
 
@@ -3121,7 +3097,7 @@
 </w:tc>
 <w:tc>
   <w:tcPr>
-	              <w:tcW w:w="1793" w:type="dxa"/>
+	              <w:tcW w:w="3793" w:type="dxa"/>
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="0"/>
   </w:tcPr>
@@ -3140,49 +3116,6 @@
 	<w:sz-cs w:val="21"/>
 </w:rPr>
 	<w:t>1</w:t>
-</w:r>
-</w:p>
-
-</w:tc>
-<w:tc>
-  <w:tcPr>
-	              <w:tcW w:w="2000" w:type="dxa"/>
-    <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-			<w:gridSpan w:val="0"/>
-  </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	<w:r>
-          <w:fldChar w:fldCharType="begin"/>
-        </w:r>
-        <w:r>
-          <w:instrText> HYPERLINK \l "table1" </w:instrText>
-        </w:r>
-        <w:r>
-          <w:fldChar w:fldCharType="separate"/>
-        </w:r>
-<w:r>
-		<w:pict>
-				<w:binData w:name="wordml://10.gif">R0lGODlhEAAQAPeDAIyhsP7+/vHz9dPe5qCxvtbg6JequPz9/SyEyMzV3CyEx/f5+o2hsSuDx8LN1ZSotrbEzfT2+Pb4+fP2+NTf5+Hn6vv8/dDZ3/L19t3j6Ku6xd7m7LjFzuzw8il/xCh/xLvH0KS0wSFyu+Lo7a28x8HM1PP198fS2SV4v669x6O0wPr7/LG/yePo67XCzNrh5v39/iqBxubs8d7k6SBvufL1+BhisNjf5Pn7/Ka2wtHc5ZiruZ6wvZ6xvpGltPX3+e7y9RZero6isdfh6JmsuaGyv/n6+4edrZutu+Dm6p2vvMbQ2Nzk66e3wvj6++vw8+fr7rTCzLjFzw9Rpd3l6+ru8CBwuvj5+vX3+CqBxdji6a69yP7//9ng5f7+/+nv84+jst/n7cHO2MnT2tTe5pSntevu8cjS2RVdrcfR2L/L0yuEx4mfrtjh5/H19+rw8+Dl6ubt8fL19+br7vj6+u/z9iJzvMvW3qS1wbnGz+ft8pOmtc3W3Zapt8HN1ZCltIacrCyFyP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAIMALAAAAAAQABAAAAjuAAcJHEiwYMELIQApLJLggEEBBABwyABlBggGfToQlGCAAAZBgrjgqDGChxAzA1n4kAASxoI6cTaQ+UOEziABR16AtBCoJ5MCA8QASjOIzwNBAYy46RmIwoAhGwzgiQBCw4FAChAgwNpgTaA3W5RU4KBhwpMGWTx8+OAhBpAFLpB0GWNATxgtKOxYoSFCzgpBBFTcqALoDlAKNoKg+XFAUAdAUeAMyrFDRwEqMqY48YK0yQMHAm4y6NHmywQLIK+kYCPlwsA5ZQD4yYChwok9YCAswUIwAgkACgEBCFEigQmDAVqogZDHwZkkAQYGBAA7</w:binData>
-					<v:shape id="_x0000_s1026" o:spt="75" alt="move_down.gif" type="#_x0000_t75" style="height:16pt;width:16pt;"
-					filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
-						<v:fill on="f" focussize="0,0"/>
-						<v:stroke on="f"/>
-						<v:imagedata src="wordml://10.gif" o:title="move_down.gif"/>
-						<o:lock v:ext="edit" aspectratio="t"/>
-						<w10:wrap type="none"/>
-						<w10:anchorlock/>
-					</v:shape>
-		</w:pict>
-</w:r>
-<w:r>
-<w:fldChar w:fldCharType="end"/>
 </w:r>
 </w:p>
 
