@@ -771,8 +771,8 @@ const (
 		</w:p>
 	</w:hdr>
 `
-	//XMLftr 加上页码
-	XMLftr = `<w:ftr w:type="odd">
+	//XMLftrPages 加上页码
+	XMLftrPages = `<w:ftr w:type="odd">
 	<w:p>
 		<w:pPr>
 			<w:pStyle w:val="a3"/>
@@ -840,6 +840,19 @@ const (
 	</w:p>
 </w:ftr>
 `
+	//XMLftrText ...
+	XMLftrText = `<w:ftr w:type="odd">
+<w:p>
+    <w:pPr>
+      	<w:pStyle w:val="a6"/>
+				<w:jc w:val="center"/>
+				<w:textAlignment w:val="center"/>
+    </w:pPr>
+    <w:r>
+        <w:t>%s</w:t>
+    </w:r>
+</w:p>
+</w:ftr>`
 	//XMLIMGTitle ..
 	XMLIMGTitle = `<w:p>
 `
