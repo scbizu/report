@@ -204,6 +204,17 @@ func (doc *Report) WriteTitle3WithGrayBg(text string) error {
 	return nil
 }
 
+//WriteTitle4 == 标题4的格式
+func (doc *Report) WriteTitle4(text *Text) error {
+	word := text.Words
+	Title4 := fmt.Sprintf(XMLTitle4, word)
+	_, err := doc.Doc.WriteString(Title4)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 //WriteText == 正文的格式
 func (doc *Report) WriteText(text *Text) error {
 	color := text.Color

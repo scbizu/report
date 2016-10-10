@@ -180,6 +180,28 @@ const (
 	        <w:sz-cs w:val="26"/>
 	      </w:rPr>
 	    </w:style>
+			<w:style w:type="paragraph" w:styleId="4">
+				<w:name w:val="heading 4"/>
+				<wx:uiName wx:val="标题 4"/>
+				<w:basedOn w:val="a"/>
+				<w:next w:val="a"/>
+				<w:link w:val="4Char"/>
+				<w:rsid w:val="0048166C"/>
+				<w:pPr>
+					<w:keepNext/>
+					<w:keepLines/>
+					<w:spacing w:before="280" w:after="290" w:line="376" w:line-rule="auto"/>
+					<w:outlineLvl w:val="3"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Cambria" w:h-ansi="Cambria"/>
+					<wx:font wx:val="Cambria"/>
+					<w:b/>
+					<w:b-cs/>
+					<w:sz w:val="28"/>
+					<w:sz-cs w:val="28"/>
+				</w:rPr>
+			</w:style>
 	    <w:style w:type="character" w:default="on" w:styleId="a0">
 	      <w:name w:val="Default Paragraph Font"/>
 	      <wx:uiName wx:val="默认段落字体"/>
@@ -472,6 +494,25 @@ const (
 	<w:r>
 		<w:t>%s</w:t>
 	</w:r>
+</w:p>
+`
+	//XMLTitle4 ...
+	XMLTitle4 = `<w:p>
+	<w:pPr>
+    <w:pStyle w:val="4"/>
+    <w:rPr>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+    </w:rPr>
+   </w:pPr>
+   <w:r>
+      <w:rPr>
+        <wx:font wx:val="宋体"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+      <w:t>%s</w:t>
+</w:r>
 </w:p>
 `
 	//XMLText == 正文

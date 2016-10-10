@@ -39,7 +39,7 @@ func main() {
 	tableObj := report.NewTable("", false, table, nil, nil, trSpan, tdw)
 	doc.WriteTable(tableObj)
 
-	doc.WriteTitle3(report.NewText("1.1 具有最多安全性问题的文件(TOP5)"))
+	doc.WriteTitle4(report.NewText("1.1 具有最多安全性问题的文件(TOP5)"))
 	tableHead := [][]interface{}{{report.NewText("URL")}, {report.NewText("漏洞数量")}}
 	table = [][]*report.TableTD{
 		{report.NewTableTD([]interface{}{report.NewText("http://www.xjbtw.com/Article_Class.asp")}), report.NewTableTD([]interface{}{report.NewText("13")})},
@@ -170,6 +170,8 @@ func main() {
 	doc.WriteBR()
 	doc.WriteBR()
 	doc.WriteTable(tableObj)
+	doc.WriteBR()
+	doc.WriteTitle4(report.NewText("th1"))
 	// ENDHEAD  and set page header or page footer
 	doc.WriteEndHead(false, "text", "", "hello world!")
 }
