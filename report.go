@@ -347,21 +347,20 @@ func (doc *Report) WriteTable(table *Table) error {
 			tds := 0
 
 			// vv.TData = append(vv.TData, "")
-			if inline {
-				XMLTable.WriteString(XMLTableTD2)
 
-			}
 			for _, vvv := range vv.TData {
+
 				table, ok := vvv.(*Table)
 				if !inline && !ok {
 					XMLTable.WriteString(XMLTableTD2)
 				}
+				if inline && !ok && tds == 0 {
+					XMLTable.WriteString(XMLTableTD2)
 
+				}
 				//if td is a table
 				if ok {
-					if inline {
-						XMLTable.WriteString(XMLIMGtail)
-					}
+
 					//end with table
 					used = true
 					tablestr, err := writeTableToBuffer(table)

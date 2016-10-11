@@ -491,8 +491,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>任务名称</w:t>
 </w:r>
@@ -516,8 +516,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>{{task_name}}</w:t>
 </w:r>
@@ -543,8 +543,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>扫描模板</w:t>
 </w:r>
@@ -568,8 +568,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>{{policy_name}}</w:t>
 </w:r>
@@ -595,8 +595,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>Web风险</w:t>
 </w:r>
@@ -643,8 +643,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>风险值:6.9</w:t>
 </w:r>
@@ -670,8 +670,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>域名统计</w:t>
 </w:r>
@@ -695,8 +695,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>已扫描域名数：1 </w:t>
 </w:r>
@@ -712,8 +712,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>非常危险域名：0</w:t>
 </w:r>
@@ -739,8 +739,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>信息统计</w:t>
 </w:r>
@@ -764,8 +764,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>已扫描的文件：213</w:t>
 </w:r>
@@ -781,8 +781,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>有漏洞的文件：72</w:t>
 </w:r>
@@ -798,8 +798,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>已扫描的链接：216</w:t>
 </w:r>
@@ -825,8 +825,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>时间统计</w:t>
 </w:r>
@@ -850,8 +850,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>开始：2011-11-09 15:51:00</w:t>
 </w:r>
@@ -867,8 +867,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>结束：2011-11-09 18:08:35</w:t>
 </w:r>
@@ -884,8 +884,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>耗时：2 小时17 分35 秒</w:t>
 </w:r>
@@ -946,8 +946,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>URL</w:t>
 </w:r>
@@ -970,8 +970,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>漏洞数量</w:t>
 </w:r>
@@ -997,8 +997,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 </w:r>
@@ -1022,8 +1022,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>13</w:t>
 </w:r>
@@ -1049,8 +1049,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 </w:r>
@@ -1074,8 +1074,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>8</w:t>
 </w:r>
@@ -1101,8 +1101,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
 </w:r>
@@ -1126,8 +1126,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>8</w:t>
 </w:r>
@@ -1153,8 +1153,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 </w:r>
@@ -1178,8 +1178,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>7</w:t>
 </w:r>
@@ -1205,8 +1205,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 </w:r>
@@ -1230,8 +1230,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>7</w:t>
 </w:r>
@@ -1286,8 +1286,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>URL</w:t>
 </w:r>
@@ -1310,8 +1310,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>访问时间</w:t>
 </w:r>
@@ -1337,8 +1337,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Article_Class.asp</w:t>
 </w:r>
@@ -1362,8 +1362,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>13</w:t>
 </w:r>
@@ -1389,8 +1389,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Article_ClassC.asp</w:t>
 </w:r>
@@ -1414,8 +1414,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>8</w:t>
 </w:r>
@@ -1441,8 +1441,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/video_xwlb.asp</w:t>
 </w:r>
@@ -1466,8 +1466,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>8</w:t>
 </w:r>
@@ -1493,8 +1493,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/video_ttbb.asp</w:t>
 </w:r>
@@ -1518,8 +1518,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>7</w:t>
 </w:r>
@@ -1545,8 +1545,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/imgchange.asp</w:t>
 </w:r>
@@ -1570,8 +1570,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>6</w:t>
 </w:r>
@@ -1666,8 +1666,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>目标</w:t>
 </w:r>
@@ -1690,8 +1690,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>紧急</w:t>
 </w:r>
@@ -1714,8 +1714,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>紧急</w:t>
 </w:r>
@@ -1738,8 +1738,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>中风险</w:t>
 </w:r>
@@ -1762,8 +1762,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>中风险</w:t>
 </w:r>
@@ -1786,8 +1786,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>中风险</w:t>
 </w:r>
@@ -1810,8 +1810,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>中风险</w:t>
 </w:r>
@@ -1851,8 +1851,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>192.168.168.250</w:t>
 </w:r>
@@ -1876,8 +1876,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>192.168.168.250</w:t>
 </w:r>
@@ -1901,8 +1901,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -1926,8 +1926,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -1951,8 +1951,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -1976,8 +1976,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2001,8 +2001,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2042,8 +2042,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>192.168.168.250</w:t>
 </w:r>
@@ -2067,8 +2067,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>192.168.168.250</w:t>
 </w:r>
@@ -2092,8 +2092,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2117,8 +2117,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2142,8 +2142,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>7</w:t>
 </w:r>
@@ -2167,8 +2167,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>10</w:t>
 </w:r>
@@ -2192,8 +2192,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>10</w:t>
 </w:r>
@@ -2263,8 +2263,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>分类名</w:t>
 </w:r>
@@ -2287,8 +2287,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>高风险</w:t>
 </w:r>
@@ -2311,8 +2311,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>中风险</w:t>
 </w:r>
@@ -2335,8 +2335,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>低风险</w:t>
 </w:r>
@@ -2359,8 +2359,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>总计</w:t>
 </w:r>
@@ -2386,8 +2386,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>逻辑攻击类型:功能滥用</w:t>
 </w:r>
@@ -2411,8 +2411,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2436,8 +2436,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2461,8 +2461,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2486,8 +2486,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2513,8 +2513,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>命令执行类型:SQL注入</w:t>
 </w:r>
@@ -2538,8 +2538,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2563,8 +2563,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -2588,8 +2588,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2613,8 +2613,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2640,8 +2640,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>信息泄露类型:资源位置可预测</w:t>
 </w:r>
@@ -2665,8 +2665,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2690,8 +2690,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2715,8 +2715,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>3</w:t>
 </w:r>
@@ -2740,8 +2740,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>3</w:t>
 </w:r>
@@ -2767,8 +2767,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>信息泄露类型:信息泄露</w:t>
 </w:r>
@@ -2792,8 +2792,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2817,8 +2817,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2842,8 +2842,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>3</w:t>
 </w:r>
@@ -2867,8 +2867,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>3</w:t>
 </w:r>
@@ -2894,8 +2894,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>其他</w:t>
 </w:r>
@@ -2919,8 +2919,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2944,8 +2944,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2969,8 +2969,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>0</w:t>
 </w:r>
@@ -2994,8 +2994,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -3050,8 +3050,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>漏洞名称</w:t>
 </w:r>
@@ -3074,8 +3074,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>出现次数</w:t>
 </w:r>
@@ -3115,8 +3115,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="ef1515"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>检测到目标URL存在SQL注入漏洞</w:t>
 </w:r>
@@ -3140,8 +3140,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -3156,15 +3156,6 @@
     <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
 			<w:gridSpan w:val="3"/>
   </w:tcPr>
-<w:p>
-	<w:pPr>
-		<w:tabs>
-			<w:tab w:val="center" w:pos="1312"/>
-		</w:tabs>
-		<w:spacing w:line="360" w:line-rule="exact"/>
-		<w:textAlignment w:val="center"/>
-	</w:pPr>
-	</w:p>
 <w:tbl>
 		<aml:annotation aml:id="0" w:type="Word.Bookmark.Start" w:name=""/>
 		<w:tblPr>
@@ -3196,8 +3187,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>请求方式</w:t>
 </w:r>
@@ -3220,8 +3211,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>GET</w:t>
 </w:r>
@@ -3246,8 +3237,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>URL</w:t>
 </w:r>
@@ -3270,8 +3261,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int=5</w:t>
 </w:r>
@@ -3296,8 +3287,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>问题参数</w:t>
 </w:r>
@@ -3320,8 +3311,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>class_id_int</w:t>
 </w:r>
@@ -3346,8 +3337,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>参考（验证）</w:t>
 </w:r>
@@ -3370,8 +3361,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>http://www.xjbtw.com/Link_Class.asp?class_id_int</w:t>
 </w:r>
@@ -3441,8 +3432,8 @@
 	<w:rPr>
 		<w:b/>
 		<w:color w:val="000000"/>
-		<w:sz w:val="21"/>
-		<w:sz-cs w:val="21"/>
+		<w:sz w:val="19"/>
+		<w:sz-cs w:val="19"/>
 	</w:rPr>
 		<w:t>1234567890-+</w:t>
 	</w:r>
@@ -3496,8 +3487,8 @@
 	<w:rPr>
 		<w:b/>
 		<w:color w:val="000000"/>
-		<w:sz w:val="21"/>
-		<w:sz-cs w:val="21"/>
+		<w:sz w:val="19"/>
+		<w:sz-cs w:val="19"/>
 	</w:rPr>
 		<w:t>th1</w:t>
 	</w:r>
@@ -3520,8 +3511,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>th2</w:t>
 </w:r>
@@ -3544,8 +3535,8 @@
 <w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>th3</w:t>
 </w:r>
@@ -3570,8 +3561,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -3594,8 +3585,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
@@ -3618,8 +3609,8 @@
 	<w:r>
 <w:rPr>
 	<w:color w:val="000000"/>
-	<w:sz w:val="21"/>
-	<w:sz-cs w:val="21"/>
+	<w:sz w:val="19"/>
+	<w:sz-cs w:val="19"/>
 </w:rPr>
 	<w:t>1</w:t>
 </w:r>
