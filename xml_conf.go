@@ -764,7 +764,11 @@ const (
 	</w:r>
  `
 	//XMLHeadtableTDText ...
-	XMLHeadtableTDText = `<w:r>
+	XMLHeadtableTDText = `<w:pPr>
+	<w:jc w:val="left"/>
+	<w:textAlignment w:val="center"/>
+		</w:pPr>
+<w:r>
 <w:rPr>
 	<w:color w:val="%s"/>
 	<w:sz w:val="%s"/>
