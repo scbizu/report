@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+	"strings"
 )
 
 //Report implement the os.File
@@ -455,6 +456,7 @@ func (doc *Report) WriteTable(table *Table) error {
 	}
 
 	//data fill in
+
 	tabledata := fmt.Sprintf(XMLTable.String(), rows...)
 
 	_, err := doc.Doc.WriteString(tabledata)
@@ -838,6 +840,7 @@ func (tb *Table) SetHeadCenter(center bool) {
 
 //NewText create word with default setting
 func NewText(words string) *Text {
+	words = wordescape(words)
 	text := &Text{}
 	text.Words = words
 	text.Color = "000000"
@@ -883,4 +886,9 @@ func (tbtd *TableTD) SetTableTDBG() {
 //CloseReport close file handle
 func (doc *Report) CloseReport() error {
 	return doc.Doc.Close()
+}
+
+//Solve  the  '%' cause (MISSING) crash problem
+func wordescape(str string) string {
+	return strings.Replace(str, "%", "&#37;", -1)
 }

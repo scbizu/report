@@ -770,6 +770,7 @@ const (
 		</w:pPr>
 <w:r>
 <w:rPr>
+  <w:rFonts w:hint="fareast"/>
 	<w:color w:val="%s"/>
 	<w:sz w:val="%s"/>
 	<w:sz-cs w:val="%s"/>
