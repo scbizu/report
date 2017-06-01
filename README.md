@@ -9,10 +9,12 @@ manually write doc(docx) by Word XML 2003
   * MS Office 2003 +
   * WPS
 
-## Doing :
+## How it Works :
 
-  * <del>Table in Table Style</del>
-  * <del>muti-line Table TD Style</del>
-  * <del>Hyperlink</del>
-  * <del>colorful Text</del>
-  * <del>custom  Text Size</del>   
+Firstly, the `.doc` file is a special `.xml` file if you open a doc with an editor like atom or vscode, so ,if you want to generate the doc file in the code side, you will just need to marshal your content in the doc's way ,it means that you should follow office's official OOXML guidebook .
+
+What the `report` do is that it will provide some useful SDKs to simplify your coding .
+
+You can learn more about it by checking `example` directory as well as clicking the `godoc` button.
+
+Thanks for watching it :)   
