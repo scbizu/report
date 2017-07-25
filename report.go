@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
-	"strings"
 )
 
 //Report implement the os.File
@@ -890,5 +889,5 @@ func (doc *Report) CloseReport() error {
 
 //Solve  the  '%' cause (MISSING) crash problem
 func wordescape(str string) string {
-	return strings.Replace(str, "%", "&#37;", -1)
+	return Escape(str)
 }
